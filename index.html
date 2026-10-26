@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yago dos Santos · Notícias do Dia</title>
+  <meta name="description" content="Portfólio com manchetes atualizadas automaticamente todos os dias.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">Olá, eu sou</p>
+      <h1>Yago dos Santos</h1>
+      <p class="bio">
+        Cria de <strong>São Mateus</strong>, estudante de <strong>Engenharia de Software</strong>
+        na <strong>UNICID</strong>. De dia, na correria da logística autônoma; à noite,
+        rolando no tatame do <strong>jiu-jitsu</strong>. Este site junta o que eu estudo
+        (HTML, CSS e Python) com o que eu curto acompanhar — e se atualiza sozinho toda
+        manhã, sem eu nem abrir o PC.
+      </p>
+      <ul class="tags">
+        <!-- Troque os links de Trabalho e Tatame pelos seus (LinkedIn, academia etc.) -->
+        <li><a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Mateus_(distrito_de_S%C3%A3o_Paulo)" target="_blank" rel="noopener">📍 São Mateus</a></li>
+        <li><a href="https://www.unicid.edu.br/" target="_blank" rel="noopener">🎓 UNICID</a></li>
+        <li><a href="https://www.linkedin.com/in/yago-dos-santos-20157a25a/" target="_blank" rel="noopener">💼 Trabalho</a></li>
+        <li><a href="https://cbjj.com.br/" target="_blank" rel="noopener">🥋 Tatame</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="news-head">
+      <h2>Notícias do dia</h2>
+      <p id="updated" class="muted">Carregando…</p>
+    </div>
+
+    <nav id="filters" class="filters" aria-label="Filtrar por tema"></nav>
+
+    <div id="news"></div>
+  </main>
+
+  <footer class="container muted">
+    Atualizado automaticamente por GitHub Actions · Feito com HTML, CSS e Python
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
