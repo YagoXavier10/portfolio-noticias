@@ -496,3 +496,79 @@ footer { padding: 48px 16px; font-size: .85rem; }
   text-decoration: none;
 }
 .athlete-medal:hover { background: var(--bg); }
+
+/* Panorama e painéis das conquistas */
+.src-chip { display: inline-flex; align-items: center; gap: 8px; }
+.src-chip[aria-pressed="false"] { opacity: .45; text-decoration: line-through; }
+.src-chip[aria-pressed="true"] { background: var(--surface) !important; color: var(--text) !important; border-color: var(--c) !important; }
+.dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: var(--c); flex-shrink: 0; }
+.ov-chart { display: flex; align-items: flex-end; gap: 10px; height: 280px; margin-top: 8px; }
+.ov-chart .season-bar { opacity: .75; }
+.ov-item { display: inline-flex; align-items: center; gap: 8px; color: var(--muted); }
+
+.fed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; }
+.fed-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  cursor: pointer;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--c);
+  border-radius: var(--radius);
+  padding: 16px;
+  transition: transform .15s ease, border-color .15s ease;
+}
+.fed-card:hover { transform: translateY(-2px); }
+.fed-card strong { font-family: "Space Grotesk", Inter, sans-serif; font-size: 2rem; line-height: 1.1; }
+.fed-name { font-weight: 700; }
+.fed-sub { color: var(--muted); font-size: .85rem; margin-bottom: 6px; }
+
+.leaderboard { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 6px; }
+.leader {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-decoration: none;
+}
+.leader:hover { border-color: var(--muted); }
+.leader-bar { display: block; height: 6px; margin-top: 6px; background: var(--border); border-radius: 99px; overflow: hidden; }
+.leader-bar i { display: block; height: 100%; background: #d4a514; border-radius: 99px; }
+
+.panel-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  margin: 48px 0 0;
+  padding: 10px 0;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  scrollbar-width: none;
+}
+.panel-tabs button {
+  flex-shrink: 0;
+  font: inherit;
+  font-weight: 700;
+  font-size: .9rem;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 16px;
+  background: var(--surface);
+  color: var(--muted);
+}
+.panel-tabs button[aria-selected="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.panel { scroll-margin-top: 70px; }
+.panel-tabs + .panel, .panel-tabs ~ .panel { margin-top: 24px; }
+@media (max-width: 600px) { .ov-chart { gap: 4px; height: 220px; } .ov-chart .season-col b { font-size: .75rem; } }

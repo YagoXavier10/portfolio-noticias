@@ -9,8 +9,8 @@ const el = (tag, cls, text) => {
 const MEDAL = { 1: "🥇", 2: "🥈", 3: "🥉" };
 const norm = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 
-const data = { cbjje: [], ibjjf: [] };
-const state = { src: "cbjje", q: "", year: "all", place: "all", limit: 15, open: new Set() };
+const data = { all: [], cbjje: [], ibjjf: [] };
+const state = { src: "all", q: "", year: "all", place: "all", circuit: "all", limit: 15, open: new Set() };
 
 function chipGroup(container, onChange) {
   container.addEventListener("click", (ev) => {
@@ -38,8 +38,9 @@ function fillYears() {
 function groupAthletes(items) {
   const map = new Map();
   items.forEach((m) => {
-    if (!map.has(m.athlete)) map.set(m.athlete, { name: m.athlete, medals: [], c: { 1: 0, 2: 0, 3: 0 } });
-    const a = map.get(m.athlete);
+    const key = norm(m.athlete);
+    if (!map.has(key)) map.set(key, { name: m.athlete, medals: [], c: { 1: 0, 2: 0, 3: 0 } });
+    const a = map.get(key);
     a.medals.push(m);
     a.c[m.place]++;
   });
@@ -88,6 +89,7 @@ function draw() {
   const items = data[state.src].filter((m) =>
     (state.year === "all" || m.year === +state.year) &&
     (state.place === "all" || m.place === +state.place) &&
+    (state.circuit === "all" || m.circuit === state.circuit) &&
     (!q || norm(`${m.athlete} ${m.event} ${m.cat}`).includes(q)));
   const athletes = groupAthletes(items);
   const c = { 1: 0, 2: 0, 3: 0 };
@@ -113,12 +115,14 @@ function setSource(src) {
   document.querySelectorAll("#source button").forEach((b) => b.setAttribute("aria-selected", b.dataset.src === src));
   const total = data[src].length;
   const people = new Set(data[src].map((m) => m.athlete)).size;
-  $("#hint").textContent = src === "cbjje"
-    ? `${people} atletas e ${total} medalhas na CBJJE / FESP (2020–2026). Toque em um atleta para ver as medalhas.`
-    : `${people} atletas e ${total} medalhas na IBJJF / CBJJ. Toque em um atleta para ver as medalhas.`;
+  const where = { all: "em todas as federações", cbjje: "na CBJJE, na FESP e em circuitos abertos (2019–2026)", ibjjf: "na IBJJF / CBJJ" }[src];
+  $("#hint").textContent = `${people} atletas e ${total} medalhas ${where}. Toque em um atleta para ver as medalhas.`;
   fillYears();
   $("#f-place").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.v === "all"));
+  $("#f-circuit").querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.v === "all"));
+  $("#f-circuit").hidden = src !== "cbjje";
   state.place = "all";
+  state.circuit = "all";
   draw();
 }
 
@@ -128,6 +132,7 @@ $("#source").addEventListener("click", (e) => {
 });
 chipGroup($("#f-year"), (b) => { state.year = b.dataset.v; state.limit = 15; draw(); });
 chipGroup($("#f-place"), (b) => { state.place = b.dataset.v; state.limit = 15; draw(); });
+chipGroup($("#f-circuit"), (b) => { state.circuit = b.dataset.v; state.limit = 15; draw(); });
 $("#q").addEventListener("input", (e) => { state.q = e.target.value; state.limit = 15; state.open.clear(); draw(); });
 $("#more").addEventListener("click", () => { state.limit += 30; draw(); });
 
@@ -137,7 +142,14 @@ Promise.all([
 ]).then(([a, c]) => {
   data.cbjje = a.cbjje;
   data.ibjjf = c.ibjjf;
-  setSource("cbjje");
+  data.all = [...data.cbjje, ...data.ibjjf];
+  // Link vindo do ranking de atletas: atletas.html?q=Nome
+  const q = new URLSearchParams(location.search).get("q");
+  if (q) {
+    $("#q").value = q;
+    state.q = q;
+  }
+  setSource("all");
 }).catch(() => {
   $("#summary").textContent = "Não foi possível carregar os atletas.";
 });

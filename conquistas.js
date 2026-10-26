@@ -112,6 +112,209 @@ function renderTeam(team) {
   draw(1);
 }
 
+// ---------- Panorama por ano (todas as fontes) ----------
+const SOURCES = [
+  { key: "cbjje", label: "CBJJE / FESP", color: "#b3121b", panel: "cbjje" },
+  { key: "open", label: "Circuitos abertos", color: "#e0634f", panel: "equipe" },
+  { key: "ibjjf", label: "IBJJF / CBJJ", color: "#2f6fde", panel: "ibjjf" },
+  { key: "fpjj", label: "FPJJ", color: "#1a9a5c", panel: "fpjj" },
+  { key: "adcc", label: "ADCC / Smoothcomp", color: "#d48a14", panel: "adcc" },
+];
+
+// Junta tudo em linhas {source, year, place, n}
+function allMedals(d, a) {
+  const rows = [];
+  a.cbjje.forEach((m) => rows.push({ source: m.circuit === "CBJJE / FESP" ? "cbjje" : "open", year: m.year, place: m.place, n: 1 }));
+  d.ibjjf.forEach((m) => rows.push({ source: "ibjjf", year: m.year, place: m.place, n: 1 }));
+  d.fpjj.forEach((f) => {
+    if (f.gold) rows.push({ source: "fpjj", year: f.year, place: 1, n: f.gold });
+    if (f.silver) rows.push({ source: "fpjj", year: f.year, place: 2, n: f.silver });
+  });
+  d.smoothcomp.forEach((s) => [[1, s.gold], [2, s.silver], [3, s.bronze]].forEach(([p, n]) => {
+    if (n) rows.push({ source: "adcc", year: s.year, place: p, n });
+  }));
+  return rows;
+}
+
+function renderOverview(rows) {
+  const on = new Set(SOURCES.map((s) => s.key));
+  let medal = "all";
+  const years = [...new Set(rows.map((r) => r.year))].filter((y) => y >= 2017).sort();
+  let selected = years[years.length - 1];
+
+  const srcBox = $("#ov-sources");
+  SOURCES.forEach((s) => {
+    const b = el("button", "src-chip");
+    b.setAttribute("aria-pressed", "true");
+    b.style.setProperty("--c", s.color);
+    b.append(el("i", "dot"), document.createTextNode(s.label));
+    b.addEventListener("click", () => {
+      on.has(s.key) ? on.delete(s.key) : on.add(s.key);
+      if (!on.size) on.add(s.key);
+      b.setAttribute("aria-pressed", on.has(s.key));
+      draw();
+    });
+    srcBox.append(b);
+  });
+  chipGroup($("#ov-medal"), (b) => { medal = b.dataset.m; draw(); });
+
+  const sum = (y, src) => rows
+    .filter((r) => r.year === y && r.source === src && (medal === "all" || r.place === +medal))
+    .reduce((n, r) => n + r.n, 0);
+
+  const detail = (y) => {
+    const box = $("#ov-detail");
+    box.replaceChildren(el("strong", "", `${y}`));
+    let total = 0;
+    SOURCES.filter((s) => on.has(s.key)).forEach((s) => {
+      const c = { 1: 0, 2: 0, 3: 0 };
+      rows.filter((r) => r.year === y && r.source === s.key).forEach((r) => (c[r.place] += r.n));
+      const n = c[1] + c[2] + c[3];
+      if (!n) return;
+      total += n;
+      const item = el("span", "ov-item");
+      item.style.setProperty("--c", s.color);
+      item.append(el("i", "dot"), el("span", "", s.label), medals(c[1], c[2], c[3]));
+      box.append(item);
+    });
+    box.children[0].textContent = `${y} · ${total} medalhas`;
+  };
+
+  const draw = () => {
+    const chart = $("#ov-chart");
+    chart.replaceChildren();
+    const totals = years.map((y) => SOURCES.filter((s) => on.has(s.key)).reduce((n, s) => n + sum(y, s.key), 0));
+    const max = Math.max(1, ...totals);
+    years.forEach((y, i) => {
+      const col = el("button", "season-col");
+      col.type = "button";
+      col.setAttribute("aria-pressed", y === selected);
+      col.setAttribute("aria-label", `${y}: ${totals[i]} medalhas`);
+      const bar = el("span", "season-bar");
+      bar.style.height = `${Math.max(2, (totals[i] / max) * 100)}%`;
+      SOURCES.filter((s) => on.has(s.key)).forEach((s) => {
+        const v = sum(y, s.key);
+        if (!v) return;
+        const seg = el("i", "seg");
+        seg.style.flexGrow = v;
+        seg.style.background = s.color;
+        bar.append(seg);
+      });
+      col.append(el("b", "", totals[i]), bar, el("span", "season-year", y));
+      const pick = () => {
+        selected = y;
+        chart.querySelectorAll(".season-col").forEach((c) => c.setAttribute("aria-pressed", c === col));
+        detail(y);
+      };
+      col.addEventListener("click", pick);
+      col.addEventListener("mouseenter", pick);
+      col.addEventListener("focus", pick);
+      chart.append(col);
+    });
+    detail(selected);
+  };
+  draw();
+}
+
+// ---------- Cartões por federação ----------
+function renderFedCards(rows, openPanel) {
+  const box = $("#fed-cards");
+  SOURCES.forEach((s) => {
+    const c = { 1: 0, 2: 0, 3: 0 };
+    rows.filter((r) => r.source === s.key).forEach((r) => (c[r.place] += r.n));
+    const total = c[1] + c[2] + c[3];
+    const b = el("button", "fed-card");
+    b.type = "button";
+    b.style.setProperty("--c", s.color);
+    b.append(el("span", "fed-name", s.label), el("strong", "", total), el("span", "fed-sub", "medalhas"), medals(c[1], c[2], s.key === "fpjj" ? "–" : c[3]));
+    b.addEventListener("click", () => openPanel(s.panel, true));
+    box.append(b);
+  });
+}
+
+// ---------- Atletas com mais ouros ----------
+function renderLeaders(a, d) {
+  const norm = (s) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
+  const map = new Map();
+  // Nomes abreviados (crianças) ficam fora: várias crianças podem ter a mesma abreviação
+  [...a.cbjje, ...d.ibjjf].filter((m) => !m.kids && !/^\p{L}\. /u.test(m.athlete)).forEach((m) => {
+    const k = norm(m.athlete);
+    if (!map.has(k)) map.set(k, { name: m.athlete, c: { 1: 0, 2: 0, 3: 0 } });
+    map.get(k).c[m.place]++;
+  });
+  const top = [...map.values()].sort((x, y) => y.c[1] - x.c[1] || y.c[2] - x.c[2] || y.c[3] - x.c[3]).slice(0, 10);
+  const max = top[0].c[1];
+  const list = $("#leaders");
+  top.forEach((p, i) => {
+    const li = el("li");
+    const link = el("a", "leader");
+    link.href = `atletas.html?q=${encodeURIComponent(p.name)}`;
+    const barWrap = el("span", "leader-bar");
+    const bar = el("i");
+    bar.style.width = `${(p.c[1] / max) * 100}%`;
+    barWrap.append(bar);
+    const main = el("span", "result-main");
+    main.append(el("strong", "", p.name), barWrap);
+    link.append(el("span", "athlete-rank", `${i + 1}º`), main, medals(p.c[1], p.c[2], p.c[3]));
+    li.append(link);
+    list.append(li);
+  });
+}
+
+// ---------- Painéis com abas ----------
+function setupPanels() {
+  const tabs = $("#panel-tabs");
+  const open = (name, scroll) => {
+    tabs.querySelectorAll("button").forEach((b) => b.setAttribute("aria-selected", b.dataset.panel === name));
+    document.querySelectorAll(".panel").forEach((p) => { p.hidden = p.dataset.panel !== name; });
+    if (scroll) tabs.scrollIntoView({ behavior: "smooth", block: "start" });
+    history.replaceState(null, "", `#${name}`);
+  };
+  tabs.addEventListener("click", (e) => {
+    const b = e.target.closest("button");
+    if (b) open(b.dataset.panel, false);
+  });
+  const first = location.hash.slice(1);
+  open([...tabs.querySelectorAll("button")].some((b) => b.dataset.panel === first) ? first : "equipe", false);
+  return open;
+}
+
+// ---------- FPJJ ----------
+function renderFpjj(rows) {
+  const list = $("#fpjj-list");
+  const draw = (maxPos) => {
+    list.replaceChildren();
+    rows.filter((r) => r.pos <= maxPos)
+      .sort((a, b) => a.pos - b.pos || b.year - a.year)
+      .forEach((r) => {
+        const a = el("a", "result");
+        a.href = r.url; a.target = "_blank"; a.rel = "noopener";
+        const main = el("span", "result-main");
+        main.append(el("strong", "", r.event), el("span", "", `${r.year} · ${r.division}`));
+        const right = r.gold === null
+          ? el("span", "tier", `${r.points} pts`)
+          : medals(r.gold, r.silver, "–");
+        a.append(el("span", "result-pos p" + Math.min(r.pos, 4), `${r.pos}º`), main, right);
+        list.append(a);
+      });
+  };
+  chipGroup($("#fpjj-filter"), (b) => draw(+b.dataset.p));
+  draw(3);
+}
+
+// ---------- Smoothcomp ----------
+function renderSmooth(rows) {
+  const list = $("#smooth-list");
+  rows.forEach((r) => {
+    const a = el("a", "result");
+    a.href = r.url; a.target = "_blank"; a.rel = "noopener";
+    const main = el("span", "result-main");
+    main.append(el("strong", "", r.event), el("span", "", `${r.year} · ${r.city}`));
+    a.append(el("span", "result-pos", r.year), main, medals(r.gold, r.silver, r.bronze));
+    list.append(a);
+  });
+}
+
 // ---------- Rankings ----------
 function renderRankings(rankings) {
   const box = $("#rank-list");
@@ -177,19 +380,32 @@ function renderIbjjf(items) {
   draw();
 }
 
-fetch("data/cohab-conquistas.json", { cache: "no-store" })
-  .then((r) => r.json())
-  .then((d) => {
-    const cbjje = d.seasons.reduce((n, s) => n + s.gold + s.silver + s.bronze, 0);
+Promise.all([
+  fetch("data/cohab-conquistas.json", { cache: "no-store" }).then((r) => r.json()),
+  fetch("data/cohab-atletas.json", { cache: "no-store" }).then((r) => r.json()),
+])
+  .then(([d, a]) => {
+    // Soma as medalhas de todas as fontes (SouCompetidor, IBJJF, FPJJ e Smoothcomp)
+    const sm = d.smoothcomp.reduce((n, s) => n + s.gold + s.silver + s.bronze, 0);
+    const smGold = d.smoothcomp.reduce((n, s) => n + s.gold, 0);
+    const fpG = d.fpjj.reduce((n, f) => n + (f.gold || 0), 0);
+    const fpS = d.fpjj.reduce((n, f) => n + (f.silver || 0), 0);
     const totals = {
       titles: d.team.filter((t) => t.pos === 1).length,
-      podiums: d.team.filter((t) => t.pos <= 3).length,
-      cbjje,
-      ibjjf: d.ibjjf.length,
+      podiums: d.team.filter((t) => t.pos <= 3).length + d.fpjj.filter((f) => f.pos <= 3).length,
+      medals: a.cbjje.length + d.ibjjf.length + fpG + fpS + sm,
+      golds: a.cbjje.filter((m) => m.place === 1).length + d.ibjjf.filter((m) => m.place === 1).length + fpG + smGold,
     };
     document.querySelectorAll("[data-count]").forEach((n) => countUp(n, totals[n.dataset.count]));
+    const rows = allMedals(d, a);
+    const openPanel = setupPanels();
+    renderOverview(rows);
+    renderFedCards(rows, openPanel);
+    renderLeaders(a, d);
     renderSeasons(d.seasons);
     renderTeam(d.team);
+    renderFpjj(d.fpjj);
+    renderSmooth(d.smoothcomp);
     renderRankings(d.rankings);
     renderIbjjf(d.ibjjf);
   })

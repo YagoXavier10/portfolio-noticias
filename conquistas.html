@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
   <header class="hero">
@@ -24,15 +24,50 @@
 
       <ul class="stats kpis-anim">
         <li><strong data-count="titles">0</strong><span>títulos por equipe (1º lugar geral)</span></li>
-        <li><strong data-count="podiums">0</strong><span>pódios por equipe</span></li>
-        <li><strong data-count="cbjje">0</strong><span>medalhas na CBJJE (2020–2026)</span></li>
-        <li><strong data-count="ibjjf">0</strong><span>medalhas na IBJJF / CBJJ</span></li>
+        <li><strong data-count="podiums">0</strong><span>pódios por equipe (inclui FPJJ)</span></li>
+        <li><strong data-count="medals">0</strong><span>medalhas encontradas em todas as federações</span></li>
+        <li><strong data-count="golds">0</strong><span>ouros</span></li>
       </ul>
     </div>
   </header>
 
   <main class="container">
     <section class="block wide">
+      <h2>Panorama por ano</h2>
+      <p class="muted">Todas as medalhas encontradas, somando as federações. Ligue ou desligue as fontes e toque em um ano para ver o detalhe.</p>
+      <div class="chips" id="ov-sources" role="group" aria-label="Fontes"></div>
+      <div class="chips" id="ov-medal" role="group" aria-label="Tipo de medalha">
+        <button data-m="all" aria-pressed="true">Todas</button>
+        <button data-m="1" aria-pressed="false">🥇 Ouro</button>
+        <button data-m="2" aria-pressed="false">🥈 Prata</button>
+        <button data-m="3" aria-pressed="false">🥉 Bronze</button>
+      </div>
+      <div class="ov-chart" id="ov-chart"></div>
+      <div class="ov-legend" id="ov-legend"></div>
+      <div class="season-detail" id="ov-detail" aria-live="polite"></div>
+    </section>
+
+    <section class="block wide">
+      <h2>Por federação</h2>
+      <p class="muted">Toque em uma federação para ver os detalhes logo abaixo.</p>
+      <div class="fed-grid" id="fed-cards"></div>
+    </section>
+
+    <section class="block wide">
+      <h2>Atletas com mais ouros</h2>
+      <p class="muted">Somando todas as federações, a partir da categoria juvenil (as crianças aparecem só na busca, com nome abreviado). Toque em um nome para ver todas as medalhas.</p>
+      <ol class="leaderboard" id="leaders"></ol>
+    </section>
+
+    <nav class="panel-tabs" id="panel-tabs" aria-label="Detalhes por federação">
+      <button data-panel="equipe" aria-selected="true">🏆 Por equipe</button>
+      <button data-panel="cbjje" aria-selected="false">CBJJE / FESP</button>
+      <button data-panel="fpjj" aria-selected="false">FPJJ</button>
+      <button data-panel="ibjjf" aria-selected="false">IBJJF</button>
+      <button data-panel="adcc" aria-selected="false">ADCC</button>
+      <button data-panel="idolos" aria-selected="false">Ídolos</button>
+    </nav>
+    <section class="block wide panel" data-panel="cbjje">
       <h2>Temporadas na CBJJE</h2>
       <p class="muted">Medalhas somadas no Ranking Nacional CBJJE (com e sem kimono). Toque ou passe o mouse em um ano para ver os detalhes.</p>
       <div class="chips" id="season-filter" role="group" aria-label="Tipo de medalha">
@@ -45,24 +80,41 @@
       <div class="season-detail" id="season-detail" aria-live="polite"></div>
     </section>
 
-    <section class="block wide">
+    <section class="block wide panel" data-panel="equipe">
       <h2>Classificação por equipe</h2>
-      <p class="muted">Campeonatos em que a Cohab terminou entre as melhores equipes na classificação geral.</p>
+      <p class="muted">Posição da Cohab na classificação geral de equipes de cada campeonato (SouCompetidor). Quando a equipe aparece com dois nomes no mesmo evento, os dois estão listados.</p>
       <div class="chips" id="team-filter" role="group" aria-label="Colocação">
         <button data-p="1" aria-pressed="true">🏆 Campeã</button>
         <button data-p="3" aria-pressed="false">Pódio (top 3)</button>
         <button data-p="5" aria-pressed="false">Top 5</button>
+        <button data-p="999" aria-pressed="false">Todos</button>
       </div>
       <div class="result-list" id="team-list"></div>
     </section>
 
-    <section class="block wide">
+    <section class="block wide panel" data-panel="fpjj">
+      <h2>Federação Paulista (FPJJ)</h2>
+      <p class="muted">Classificação por academia da “COHAB JJ TEAM” no Campeonato e no Circuito Paulista da FPJJ (2018–2023). A FPJJ publica só ouros, pratas e pontos.</p>
+      <div class="chips" id="fpjj-filter" role="group" aria-label="Colocação">
+        <button data-p="3" aria-pressed="true">Pódio (top 3)</button>
+        <button data-p="999" aria-pressed="false">Todos</button>
+      </div>
+      <div class="result-list" id="fpjj-list"></div>
+    </section>
+
+    <section class="block wide panel" data-panel="adcc">
+      <h2>ADCC e outros circuitos (Smoothcomp)</h2>
+      <p class="muted">Medalhas do perfil “COHAB TEAM” (Brasil) em eventos realizados no Brasil.</p>
+      <div class="result-list" id="smooth-list"></div>
+    </section>
+
+    <section class="block wide panel" data-panel="cbjje">
       <h2>Melhores posições em rankings</h2>
       <p class="muted">Rankings oficiais da CBJJE, da FESP (Estadual Paulista) e do circuito internacional BJJSport.</p>
       <div class="grid rank-grid" id="rank-list"></div>
     </section>
 
-    <section class="block wide">
+    <section class="block wide panel" data-panel="ibjjf">
       <h2>Medalhas na IBJJF / CBJJ</h2>
       <p class="muted">Atletas registrados como Cohab Team Brazilian Jiu-Jitsu no Mundial, Europeu, Pan, Brasileiro, Sul-Americano e Opens internacionais.</p>
 
@@ -82,7 +134,7 @@
       </div>
     </section>
 
-    <section class="block wide">
+    <section class="block wide panel" data-panel="idolos">
       <h2>Ídolos formados na Cohab</h2>
       <p class="muted">Títulos individuais. Muitos foram conquistados competindo pela TT Jiu-Jitsu ou pela Alliance, quando a Cohab era filiada a elas.</p>
       <div class="grid">
@@ -99,7 +151,8 @@
       <h2>Como os dados foram levantados</h2>
       <ul>
         <li>Varredura de todos os rankings e resultados publicados no <a href="https://soucompetidor.com.br/pt-br/ranking/lista-organizadores/" target="_blank" rel="noopener">SouCompetidor</a> (CBJJE, FESP, BJJSport e outros circuitos) e de todos os resultados oficiais da <a href="https://cbjj.com.br/events/3091/results" target="_blank" rel="noopener">IBJJF / CBJJ</a>, em outubro de 2026.</li>
-        <li>Foram considerados os nomes COHAB, COHAB TEAM, COHAB TEAM BRAZILIAN JJ, Cohab Team Brazilian Jiu-Jitsu e NASCI PARA VENCER. Equipes que parecem ser outras (como “Cohab City”) e a Cohab Chile ficaram de fora.</li>
+        <li>Também foram varridos os resultados por academia da <a href="https://www.fpjjcompetidor.com.br/resultados/" target="_blank" rel="noopener">Federação Paulista (FPJJ)</a> e o perfil da equipe no <a href="https://smoothcomp.com/en/club/4378" target="_blank" rel="noopener">Smoothcomp</a> (ADCC Brazil e outros).</li>
+        <li>Foram considerados os nomes COHAB, COHAB TEAM, COHAB ALLIANCE, COHAB TEAM BRAZILIAN JJ, Cohab Team Brazilian Jiu-Jitsu, COHAB JJ TEAM e NASCI PARA VENCER. Equipes que parecem ser outras (como “Cohab City”, “Miquinho Meninos da Cohab”, a Cohab do Amapá e a Cohab do Chile) ficaram de fora.</li>
         <li>Os resultados online da IBJJF começam por volta de 2014. Títulos anteriores aparecem em “Ídolos formados na Cohab”, com base em BJJ Heroes, FloGrappling, Elite Sports e na Prefeitura de São Paulo.</li>
       </ul>
     </section>
