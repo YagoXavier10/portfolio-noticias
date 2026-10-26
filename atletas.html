@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buscar atleta · Cohab Team</title>
+  <meta name="description" content="Busque atletas da Cohab Team e veja as medalhas na CBJJE e na IBJJF.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=8">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <a class="back" href="./">← Voltar para o início</a>
+      <p class="eyebrow">🥋 Nasci para vencer · desde 1998</p>
+      <h1>Cohab Team</h1>
+      <nav class="page-tabs" aria-label="Seções da Cohab Team">
+        <a href="cohab.html">História</a>
+        <a href="conquistas.html">Conquistas</a>
+        <a href="atletas.html" aria-current="page">Buscar atleta</a>
+      </nav>
+
+      <div class="source-switch" id="source" role="tablist" aria-label="Federação">
+        <button role="tab" data-src="cbjje" aria-selected="true">CBJJE / FESP</button>
+        <button role="tab" data-src="ibjjf" aria-selected="false">IBJJF / CBJJ</button>
+      </div>
+
+      <label class="big-search">
+        <span class="visually-hidden">Nome do atleta</span>
+        <input id="q" type="search" placeholder="Digite o nome do atleta…" autocomplete="off">
+      </label>
+      <p class="muted search-hint" id="hint"></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="chips" id="f-year" role="group" aria-label="Ano"></div>
+    <div class="chips" id="f-place" role="group" aria-label="Medalha">
+      <button data-v="all" aria-pressed="true">Todas</button>
+      <button data-v="1" aria-pressed="false">🥇 Ouro</button>
+      <button data-v="2" aria-pressed="false">🥈 Prata</button>
+      <button data-v="3" aria-pressed="false">🥉 Bronze</button>
+    </div>
+
+    <p class="explorer-summary" id="summary" aria-live="polite"></p>
+    <div class="athletes" id="list"></div>
+    <button class="more" id="more" hidden>Mostrar mais atletas</button>
+
+    <section class="block sources">
+      <h2>Sobre os dados</h2>
+      <ul>
+        <li><strong>CBJJE / FESP:</strong> medalhas que contaram pontos para a Cohab no Ranking Nacional CBJJE de 2020 a 2026, publicadas no <a href="https://soucompetidor.com.br/pt-br/ranking/lista-organizadores/" target="_blank" rel="noopener">SouCompetidor</a>.</li>
+        <li><strong>IBJJF / CBJJ:</strong> resultados oficiais com atletas registrados como Cohab Team Brazilian Jiu-Jitsu.</li>
+        <li>Atletas das categorias infantis aparecem com o nome abreviado, para proteger as crianças. Na busca, use a inicial e o sobrenome (ex.: “M. Souza”).</li>
+        <li>“Sozinho na categoria” indica medalha conquistada sem adversário na chave.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container muted">
+    <a href="conquistas.html">← Conquistas da Cohab Team</a>
+  </footer>
+
+  <script src="atletas.js"></script>
+</body>
+</html>

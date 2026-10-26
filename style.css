@@ -276,3 +276,223 @@ footer { padding: 48px 16px; font-size: .85rem; }
   font-weight: 700;
 }
 .lineage .lineage-dan { background: #0a0a0a; color: #fff; border-color: #b3121b; font-weight: 700; }
+
+/* Página Minha história */
+.chapter-tag { margin: 0 0 4px; color: var(--muted); font-weight: 500; font-size: .9rem; }
+.family { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); margin-top: 14px; }
+.family .card { gap: 4px; }
+.goals li::before { content: "🎯"; }
+
+.story-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 20px;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  border-bottom: 2px solid #b3121b;
+  padding-bottom: 2px;
+}
+.story-link:hover { color: #b3121b; }
+
+/* Abas da Cohab Team */
+.page-tabs { display: flex; gap: 4px; margin: 4px 0 24px; border-bottom: 1px solid var(--border); }
+.page-tabs a {
+  padding: 10px 16px;
+  color: var(--muted);
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -1px;
+}
+.page-tabs a:hover { color: var(--text); }
+.page-tabs a[aria-current="page"] { color: var(--text); border-bottom-color: #b3121b; }
+
+/* Página de conquistas */
+.block.wide { max-width: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+.chips button {
+  font: inherit;
+  font-size: .9rem;
+  cursor: pointer;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 6px 14px;
+}
+.chips button[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+
+.m { display: inline-block; min-width: 28px; text-align: center; border-radius: 6px; padding: 1px 6px; font-weight: 700; font-size: .82rem; }
+.m.g { background: #d4a51433; color: #b8890a; }
+.m.s { background: #9a9aa633; color: var(--muted); }
+.m.b { background: #c27a3a33; color: #b0652a; }
+.medal-row { display: inline-flex; gap: 4px; flex-shrink: 0; }
+
+.season-chart { display: flex; align-items: flex-end; gap: 10px; height: 260px; margin-top: 8px; }
+.season-col {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  color: var(--text);
+  font: inherit;
+}
+.season-col b { font-family: "Space Grotesk", Inter, sans-serif; font-size: 1rem; }
+.season-bar {
+  width: 100%;
+  max-width: 64px;
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  transition: height .4s ease, opacity .2s ease;
+  opacity: .55;
+}
+.season-col[aria-pressed="true"] .season-bar, .season-col:hover .season-bar { opacity: 1; }
+.seg { display: block; min-height: 2px; }
+.seg.gold { background: #d4a514; }
+.seg.silver { background: #a7a7b0; }
+.seg.bronze { background: #c27a3a; }
+.season-year { font-weight: 700; font-size: .9rem; }
+.season-rank { color: var(--muted); font-size: .78rem; }
+.season-detail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  margin-top: 16px;
+  padding: 14px 18px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.season-detail span:not(.m):not(.medal-row) { color: var(--muted); }
+.season-detail a { margin-left: auto; color: var(--text); font-weight: 500; }
+
+.result-list { display: flex; flex-direction: column; gap: 8px; }
+.result {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-decoration: none;
+  transition: border-color .15s ease;
+}
+.result:hover { border-color: var(--muted); }
+.result-pos { font-family: "Space Grotesk", Inter, sans-serif; font-weight: 700; font-size: 1.2rem; min-width: 36px; }
+.result-pos.medal { font-size: 1.4rem; }
+.result-main { flex: 1; min-width: 0; display: flex; flex-direction: column; }
+.result-main strong { font-weight: 500; }
+.result-main span { color: var(--muted); font-size: .85rem; }
+.tier { color: var(--muted); font-size: .8rem; border: 1px solid var(--border); border-radius: 999px; padding: 2px 10px; flex-shrink: 0; }
+.p1 { color: #b8890a; } .p2 { color: var(--muted); } .p3 { color: #b0652a; } .p4 { color: var(--text); }
+
+.rank-grid { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.rank-card { gap: 8px; }
+.rank-pos { font-family: "Space Grotesk", Inter, sans-serif; font-size: 2rem; font-weight: 700; line-height: 1; }
+
+.search {
+  width: 100%;
+  font: inherit;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+.explorer-summary { margin: 14px 0 10px; font-weight: 500; }
+.more {
+  margin-top: 12px;
+  font: inherit;
+  cursor: pointer;
+  background: none;
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 16px;
+}
+
+@media (max-width: 600px) {
+  .result { flex-wrap: wrap; row-gap: 6px; }
+  .result-main { flex: 1 1 calc(100% - 60px); }
+  .result .medal-row, .result .tier { margin-left: 50px; }
+  .season-chart { gap: 4px; }
+  .season-col b { font-size: .85rem; }
+}
+
+/* Busca de atletas */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.source-switch {
+  display: inline-flex;
+  padding: 4px;
+  gap: 4px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin-bottom: 14px;
+}
+.source-switch button {
+  font: inherit;
+  font-weight: 700;
+  font-size: .9rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 9px;
+  padding: 8px 14px;
+  background: none;
+  color: var(--muted);
+}
+.source-switch button[aria-selected="true"] { background: var(--accent); color: var(--accent-text); }
+.big-search input {
+  width: 100%;
+  font: inherit;
+  font-size: 1.15rem;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+.big-search input:focus { outline: none; border-color: #b3121b; }
+.search-hint { margin: 10px 0 0; font-size: .9rem; }
+
+.athletes { display: flex; flex-direction: column; gap: 8px; }
+.athlete { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+.athlete-head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background: none;
+  border: 0;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.athlete-rank { font-family: "Space Grotesk", Inter, sans-serif; font-weight: 700; color: var(--muted); min-width: 34px; }
+.chev { color: var(--muted); transition: transform .2s ease; }
+.athlete-head[aria-expanded="true"] .chev { transform: rotate(180deg); }
+.athlete-body { border-top: 1px solid var(--border); padding: 6px 8px 10px; }
+.athlete-medal {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.athlete-medal:hover { background: var(--bg); }

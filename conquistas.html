@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conquistas da Cohab Team · Yago dos Santos</title>
+  <meta name="description" content="Títulos, pódios e medalhas da Cohab Team nas federações de jiu-jitsu.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=8">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <a class="back" href="./">← Voltar para o início</a>
+      <p class="eyebrow">🥋 Nasci para vencer · desde 1998</p>
+      <h1>Cohab Team</h1>
+      <nav class="page-tabs" aria-label="Seções da Cohab Team">
+        <a href="cohab.html">História</a>
+        <a href="conquistas.html" aria-current="page">Conquistas</a>
+        <a href="atletas.html">Buscar atleta</a>
+      </nav>
+
+      <ul class="stats kpis-anim">
+        <li><strong data-count="titles">0</strong><span>títulos por equipe (1º lugar geral)</span></li>
+        <li><strong data-count="podiums">0</strong><span>pódios por equipe</span></li>
+        <li><strong data-count="cbjje">0</strong><span>medalhas na CBJJE (2020–2026)</span></li>
+        <li><strong data-count="ibjjf">0</strong><span>medalhas na IBJJF / CBJJ</span></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="block wide">
+      <h2>Temporadas na CBJJE</h2>
+      <p class="muted">Medalhas somadas no Ranking Nacional CBJJE (com e sem kimono). Toque ou passe o mouse em um ano para ver os detalhes.</p>
+      <div class="chips" id="season-filter" role="group" aria-label="Tipo de medalha">
+        <button data-m="all" aria-pressed="true">Todas</button>
+        <button data-m="gold" aria-pressed="false">🥇 Ouro</button>
+        <button data-m="silver" aria-pressed="false">🥈 Prata</button>
+        <button data-m="bronze" aria-pressed="false">🥉 Bronze</button>
+      </div>
+      <div class="season-chart" id="season-chart"></div>
+      <div class="season-detail" id="season-detail" aria-live="polite"></div>
+    </section>
+
+    <section class="block wide">
+      <h2>Classificação por equipe</h2>
+      <p class="muted">Campeonatos em que a Cohab terminou entre as melhores equipes na classificação geral.</p>
+      <div class="chips" id="team-filter" role="group" aria-label="Colocação">
+        <button data-p="1" aria-pressed="true">🏆 Campeã</button>
+        <button data-p="3" aria-pressed="false">Pódio (top 3)</button>
+        <button data-p="5" aria-pressed="false">Top 5</button>
+      </div>
+      <div class="result-list" id="team-list"></div>
+    </section>
+
+    <section class="block wide">
+      <h2>Melhores posições em rankings</h2>
+      <p class="muted">Rankings oficiais da CBJJE, da FESP (Estadual Paulista) e do circuito internacional BJJSport.</p>
+      <div class="grid rank-grid" id="rank-list"></div>
+    </section>
+
+    <section class="block wide">
+      <h2>Medalhas na IBJJF / CBJJ</h2>
+      <p class="muted">Atletas registrados como Cohab Team Brazilian Jiu-Jitsu no Mundial, Europeu, Pan, Brasileiro, Sul-Americano e Opens internacionais.</p>
+
+      <div class="explorer">
+        <div class="chips" id="ib-year" role="group" aria-label="Ano"></div>
+        <div class="chips" id="ib-place" role="group" aria-label="Medalha">
+          <button data-v="all" aria-pressed="true">Todas</button>
+          <button data-v="1" aria-pressed="false">🥇 Ouro</button>
+          <button data-v="2" aria-pressed="false">🥈 Prata</button>
+          <button data-v="3" aria-pressed="false">🥉 Bronze</button>
+        </div>
+        <div class="chips" id="ib-tier" role="group" aria-label="Campeonato"></div>
+        <input class="search" id="ib-search" type="search" placeholder="Buscar atleta, campeonato ou faixa…" aria-label="Buscar">
+        <p class="explorer-summary" id="ib-summary" aria-live="polite"></p>
+        <div class="result-list" id="ib-list"></div>
+        <button class="more" id="ib-more" hidden>Mostrar mais</button>
+      </div>
+    </section>
+
+    <section class="block wide">
+      <h2>Ídolos formados na Cohab</h2>
+      <p class="muted">Títulos individuais. Muitos foram conquistados competindo pela TT Jiu-Jitsu ou pela Alliance, quando a Cohab era filiada a elas.</p>
+      <div class="grid">
+        <div class="card"><h4>Sérgio Moraes</h4><span class="meta">Campeão Mundial IBJJF faixa preta (2008, 2009 e 2011) e faixa marrom (2006). 3º no Pan 2010, vice do TUF Brasil e lutador do UFC.</span></div>
+        <div class="card"><h4>Guilherme Augusto</h4><span class="meta">Campeão Brasileiro CBJJ em 2014, 2015, 2016 e 2017, campeão do Pan IBJJF 2020 e do Mundial CBJJE 2018.</span></div>
+        <div class="card"><h4>Diogo Almeida</h4><span class="meta">Campeão brasileiro em 2006, Brasileiro CBJJ faixa marrom em 2009, SP Open IBJJF 2012 e Mundial CBJJE 2013.</span></div>
+        <div class="card"><h4>Dimitrius Souza</h4><span class="meta">Campeão do Pan IBJJF faixa preta em 2022, com títulos brasileiros, sul-americano e medalha no Mundial.</span></div>
+        <div class="card"><h4>Paulinho Baraúna</h4><span class="meta">4× campeão mundial, segundo a Prefeitura de São Paulo (2013).</span></div>
+        <div class="card"><h4>Mestre Dan</h4><span class="meta">Campeão da FORD e da Copa de Ouro no boxe. Voto de Júbilo da Câmara Municipal de SP em 2026.</span></div>
+      </div>
+    </section>
+
+    <section class="block sources">
+      <h2>Como os dados foram levantados</h2>
+      <ul>
+        <li>Varredura de todos os rankings e resultados publicados no <a href="https://soucompetidor.com.br/pt-br/ranking/lista-organizadores/" target="_blank" rel="noopener">SouCompetidor</a> (CBJJE, FESP, BJJSport e outros circuitos) e de todos os resultados oficiais da <a href="https://cbjj.com.br/events/3091/results" target="_blank" rel="noopener">IBJJF / CBJJ</a>, em outubro de 2026.</li>
+        <li>Foram considerados os nomes COHAB, COHAB TEAM, COHAB TEAM BRAZILIAN JJ, Cohab Team Brazilian Jiu-Jitsu e NASCI PARA VENCER. Equipes que parecem ser outras (como “Cohab City”) e a Cohab Chile ficaram de fora.</li>
+        <li>Os resultados online da IBJJF começam por volta de 2014. Títulos anteriores aparecem em “Ídolos formados na Cohab”, com base em BJJ Heroes, FloGrappling, Elite Sports e na Prefeitura de São Paulo.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="container muted">
+    <a href="cohab.html">← História da Cohab Team</a>
+  </footer>
+
+  <script src="conquistas.js"></script>
+</body>
+</html>
