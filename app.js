@@ -3,6 +3,15 @@ const newsEl = document.getElementById("news");
 const filtersEl = document.getElementById("filters");
 const updatedEl = document.getElementById("updated");
 
+// Links fixos exibidos no topo de alguns temas
+const TOPIC_LINKS = {
+  "Campeonatos de Jiu-Jitsu SP": [
+    ["Federação Paulista (FPJJ)", "https://fpjj.com.br"],
+    ["Calendário CBJJ", "https://cbjj.com.br/events/calendar"],
+    ["Calendário IBJJF", "https://ibjjf.com/events/calendar"],
+  ],
+};
+
 const fmtDate = (iso, opts) =>
   new Date(iso).toLocaleString("pt-BR", opts);
 
@@ -39,7 +48,21 @@ function render(topics, active) {
     grid.className = "grid";
     if (articles.length) grid.append(...articles.map(card));
     else grid.textContent = "Nenhuma notícia hoje.";
-    section.append(h, grid);
+    section.append(h);
+    if (TOPIC_LINKS[name]) {
+      const links = document.createElement("div");
+      links.className = "topic-links";
+      for (const [label, url] of TOPIC_LINKS[name]) {
+        const a = document.createElement("a");
+        a.href = url;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = label + " ↗";
+        links.append(a);
+      }
+      section.append(links);
+    }
+    section.append(grid);
     newsEl.append(section);
   }
 }

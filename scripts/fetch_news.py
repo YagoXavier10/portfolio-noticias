@@ -16,22 +16,33 @@ import requests
 
 # Edite aqui os temas e as buscas de cada um
 TOPICS = {
-    "Ciência de Dados": '"ciência de dados" OR "machine learning" OR "inteligência artificial"',
+    "Inteligência Artificial": '"inteligência artificial" OR OpenAI OR Anthropic OR "IA generativa" OR ChatGPT',
+    "Ciência de Dados": '"ciência de dados" OR "machine learning" OR "análise de dados"',
     "Corinthians": "Corinthians",
     "Motores": "motores OR automobilismo OR \"Fórmula 1\"",
     "Tecnologia": "tecnologia",
+    "Política": '"política brasileira" OR Congresso OR Planalto OR STF',
+    "Economia Brasileira": '"economia brasileira" OR Selic OR inflação OR IPCA OR PIB OR Copom',
+    "Fintechs": 'fintech OR fintechs OR Nubank OR Pix OR "open finance" OR "banco digital"',
     "Jiu-Jitsu": '"jiu-jitsu" OR "jiu jitsu" OR CBJJ OR IBJJF',
+    # when:21d amplia a janela, porque saem menos notícias de campeonatos locais
+    "Campeonatos de Jiu-Jitsu SP": '("jiu-jitsu" OR "jiu jitsu") (campeonato OR copa OR open OR torneio OR "paulista" OR FPJJ) ("São Paulo" OR paulista) when:21d',
 }
+
+# Temas que mostram mais notícias que o padrão
+LIMITS = {"Campeonatos de Jiu-Jitsu SP": 10}
 
 MAX_PER_TOPIC = 6
 OUTPUT = Path(__file__).resolve().parent.parent / "data" / "news.json"
 HEADERS = {"User-Agent": "news-portfolio/1.0 (+https://pages.github.com)"}
 
 
-def from_google_news(query):
+def from_google_news(query, limit):
+    if "when:" not in query:
+        query += " when:2d"
     url = (
         "https://news.google.com/rss/search?q="
-        + quote_plus(query + " when:2d")
+        + quote_plus(query)
         + "&hl=pt-BR&gl=BR&ceid=BR:pt-419"
     )
     resp = requests.get(url, headers=HEADERS, timeout=20)
@@ -39,7 +50,7 @@ def from_google_news(query):
     root = ET.fromstring(resp.content)
 
     articles = []
-    for item in root.findall("./channel/item")[:MAX_PER_TOPIC]:
+    for item in root.findall("./channel/item")[:limit]:
         title = item.findtext("title", "").strip()
         source = item.findtext("source", "").strip()
         # O Google News coloca " - Fonte" no fim do título
@@ -57,14 +68,14 @@ def from_google_news(query):
     return articles
 
 
-def from_newsapi(query, key):
+def from_newsapi(query, key, limit):
     resp = requests.get(
         "https://newsapi.org/v2/everything",
         params={
-            "q": query,
+            "q": query.split(" when:")[0],
             "language": "pt",
             "sortBy": "publishedAt",
-            "pageSize": MAX_PER_TOPIC,
+            "pageSize": limit,
         },
         headers={**HEADERS, "X-Api-Key": key},
         timeout=20,
@@ -91,7 +102,8 @@ def main():
     topics = {}
     for name, query in TOPICS.items():
         try:
-            articles = from_newsapi(query, key) if key else from_google_news(query)
+            limit = LIMITS.get(name, MAX_PER_TOPIC)
+            articles = from_newsapi(query, key, limit) if key else from_google_news(query, limit)
         except Exception as exc:  # mantém as notícias antigas se um tema falhar
             print(f"[aviso] {name}: {exc}")
             articles = previous.get(name, [])
