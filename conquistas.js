@@ -24,11 +24,13 @@ function countUp(node, value) {
   if (reduce) { node.textContent = value; return; }
   const start = performance.now();
   const step = (t) => {
-    const p = Math.min(1, (t - start) / 1200);
+    const p = Math.min(1, Math.max(0, (t - start) / 1200));
     node.textContent = Math.round(value * (1 - Math.pow(1 - p, 3)));
     if (p < 1) requestAnimationFrame(step);
   };
   requestAnimationFrame(step);
+  // Garante o número final mesmo se a aba estiver em segundo plano (sem animação)
+  setTimeout(() => { node.textContent = value; }, 1500);
 }
 
 function medals(g, s, b) {
