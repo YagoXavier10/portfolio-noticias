@@ -433,6 +433,16 @@
   },
   {
    "year": 2024,
+   "pos": 23,
+   "event": "X e XI Jiu-Jitsu para Todos Pro Mais",
+   "name": "NASCI PARA VENCER",
+   "gold": 4,
+   "silver": 2,
+   "bronze": 3,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2245-x-e-xi-jiu-jitsu-para-todos-pro-mais-2024-edicao/"
+  },
+  {
+   "year": 2024,
    "pos": 24,
    "event": "Premium Cup BJJ",
    "name": "COHAB",
@@ -440,6 +450,36 @@
    "silver": 0,
    "bronze": 0,
    "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2000-premium-cup-bjj-13-edicao/"
+  },
+  {
+   "year": 2024,
+   "pos": 28,
+   "event": "Jiu-Jitsu para Todos FELFA-SP",
+   "name": "COHAB TEAM",
+   "gold": 3,
+   "silver": 3,
+   "bronze": 2,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2082-jiu-jitsu-para-todos-felfa-sp-pro-mais-edicao/"
+  },
+  {
+   "year": 2024,
+   "pos": 30,
+   "event": "X e XI Jiu-Jitsu para Todos Pro Mais",
+   "name": "COHAB TEAM",
+   "gold": 1,
+   "silver": 5,
+   "bronze": 6,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2245-x-e-xi-jiu-jitsu-para-todos-pro-mais-2024-edicao/"
+  },
+  {
+   "year": 2024,
+   "pos": 33,
+   "event": "XII Jiu-Jitsu para Todos FELFA-SP",
+   "name": "NASCI PARA VENCER",
+   "gold": 2,
+   "silver": 3,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2229-xii-jiu-jitsu-para-todos-felfa-sp-2024-edicao/"
   },
   {
    "year": 2026,
@@ -462,6 +502,36 @@
    "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p1980-prime-experience-jiu-jitsu-copa-arnold-especial-edicao/"
   },
   {
+   "year": 2024,
+   "pos": 34,
+   "event": "Copa Open Jiu-Jitsu para Todos",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 5,
+   "bronze": 3,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2126-copa-open-jiu-jitsu-para-todos-9-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 36,
+   "event": "Copa Open Jiu-Jitsu 2025 · Jiu-Jitsu para Todos",
+   "name": "NASCI PARA VENCER",
+   "gold": 3,
+   "silver": 1,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2342-copa-open-jiu-jitsu-2025-jiu-jitsu-para-todos-1-etapa/"
+  },
+  {
+   "year": 2025,
+   "pos": 36,
+   "event": "4º Brasil Open BJJ",
+   "name": "COHAB TEAM",
+   "gold": 3,
+   "silver": 1,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2515-4o-brasil-open-bjj-4-etapa/"
+  },
+  {
    "year": 2022,
    "pos": 36,
    "event": "Copa Arnold de Jiu-Jitsu",
@@ -480,6 +550,136 @@
    "silver": 1,
    "bronze": 0,
    "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2655-bad-boy-open-pro-de-jiu-jitsu-2026-edicao/"
+  },
+  {
+   "year": 2024,
+   "pos": 37,
+   "event": "Projeto São Paulo Jiu-Jitsu para Todos",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 3,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2101-projeto-sao-paulo-jiu-jitsu-para-todos-8-edicao/"
+  },
+  {
+   "year": 2024,
+   "pos": 37,
+   "event": "Jiu-Jitsu para Todos FELFA-SP",
+   "name": "NASCI PARA VENCER",
+   "gold": 2,
+   "silver": 3,
+   "bronze": 3,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2139-jiu-jitsu-para-todos-felfa-sp-vii-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 38,
+   "event": "6º Legends BJJ Brasil",
+   "name": "COHAB",
+   "gold": 2,
+   "silver": 3,
+   "bronze": 3,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2790-6o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 38,
+   "event": "4º Brasil Open BJJ",
+   "name": "NASCI PARA VENCER",
+   "gold": 3,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2515-4o-brasil-open-bjj-4-etapa/"
+  },
+  {
+   "year": 2024,
+   "pos": 38,
+   "event": "Jiu-Jitsu para Todos FELFA-SP",
+   "name": "NASCI PARA VENCER",
+   "gold": 2,
+   "silver": 3,
+   "bronze": 2,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2082-jiu-jitsu-para-todos-felfa-sp-pro-mais-edicao/"
+  },
+  {
+   "year": 2024,
+   "pos": 38,
+   "event": "Jiu-Jitsu para Todos FELFA-SP",
+   "name": "COHAB TEAM",
+   "gold": 3,
+   "silver": 0,
+   "bronze": 5,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2139-jiu-jitsu-para-todos-felfa-sp-vii-edicao/"
+  },
+  {
+   "year": 2023,
+   "pos": 39,
+   "event": "Jiu-Jitsu para Todos FELFA-SP",
+   "name": "MO CUISHILE COHAB TEAM JIU JITSU",
+   "gold": 1,
+   "silver": 3,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p1919-jiu-jitsu-para-todos-felfa-sp-3a-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 41,
+   "event": "6º Legends BJJ Brasil",
+   "name": "COHAB TEAM",
+   "gold": 3,
+   "silver": 1,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2790-6o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 43,
+   "event": "4º Brasil Open BJJ",
+   "name": "COHAB",
+   "gold": 2,
+   "silver": 1,
+   "bronze": 2,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2515-4o-brasil-open-bjj-4-etapa/"
+  },
+  {
+   "year": 2025,
+   "pos": 43,
+   "event": "Legends BJJ Brasil",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 2,
+   "bronze": 4,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2551-legends-bjj-brasil-1-etapa/"
+  },
+  {
+   "year": 2024,
+   "pos": 43,
+   "event": "Jiu-Jitsu para Todos FELFA-SP",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 3,
+   "bronze": 2,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2081-jiu-jitsu-para-todos-felfa-sp-v-edicao/"
+  },
+  {
+   "year": 2024,
+   "pos": 51,
+   "event": "Jiu-Jitsu para Todos FELFA-SP",
+   "name": "COHAB TEAM",
+   "gold": 2,
+   "silver": 0,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2043-jiu-jitsu-para-todos-felfa-sp-iv-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 52,
+   "event": "9º Brasil Open BJJ",
+   "name": "COHAB TAMOIO",
+   "gold": 2,
+   "silver": 0,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2806-9o-brasil-open-bjj-2026-edicao/"
   },
   {
    "year": 2025,
@@ -502,6 +702,56 @@
    "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2121-prime-experience-jiu-jitsu-2024-edicao/"
   },
   {
+   "year": 2025,
+   "pos": 55,
+   "event": "Legends BJJ Brasil",
+   "name": "COHAB TEAM",
+   "gold": 1,
+   "silver": 2,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2566-legends-bjj-brasil-4-etapa/"
+  },
+  {
+   "year": 2024,
+   "pos": 55,
+   "event": "Jiu-Jitsu para Todos FELFA-SP",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 1,
+   "bronze": 2,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2043-jiu-jitsu-para-todos-felfa-sp-iv-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 56,
+   "event": "Legends BJJ Brasil",
+   "name": "COHAB TEAM",
+   "gold": 2,
+   "silver": 0,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2551-legends-bjj-brasil-1-etapa/"
+  },
+  {
+   "year": 2025,
+   "pos": 56,
+   "event": "5º Brasil Open BJJ",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2561-5o-brasil-open-bjj-5-etapa/"
+  },
+  {
+   "year": 2025,
+   "pos": 57,
+   "event": "5º Brasil Open BJJ",
+   "name": "COHAB",
+   "gold": 0,
+   "silver": 2,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2561-5o-brasil-open-bjj-5-etapa/"
+  },
+  {
    "year": 2024,
    "pos": 58,
    "event": "Prime Experience Jiu-Jitsu",
@@ -510,12 +760,322 @@
    "silver": 0,
    "bronze": 2,
    "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2121-prime-experience-jiu-jitsu-2024-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 59,
+   "event": "Legends BJJ Brasil",
+   "name": "COHAB TEAM",
+   "gold": 0,
+   "silver": 4,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2552-legends-bjj-brasil-2-etapa/"
+  },
+  {
+   "year": 2025,
+   "pos": 60,
+   "event": "3º Brasil Open BJJ",
+   "name": "COHAB",
+   "gold": 0,
+   "silver": 2,
+   "bronze": 3,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2516-3o-brasil-open-bjj-3-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 62,
+   "event": "8º Legends BJJ Brasil",
+   "name": "COHAB TEAM",
+   "gold": 2,
+   "silver": 1,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2796-8o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2022,
+   "pos": 63,
+   "event": "Copa Arnold de Jiu-Jitsu",
+   "name": "COHAB",
+   "gold": 0,
+   "silver": 1,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p1156-copa-arnold-de-jiu-jitsu-viii-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 65,
+   "event": "9º Brasil Open BJJ",
+   "name": "COHAB",
+   "gold": 1,
+   "silver": 1,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2806-9o-brasil-open-bjj-2026-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 65,
+   "event": "Legends BJJ Brasil",
+   "name": "COHAB",
+   "gold": 1,
+   "silver": 1,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2551-legends-bjj-brasil-1-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 66,
+   "event": "8º Brasil Open BJJ",
+   "name": "COHAB TEAM F4",
+   "gold": 1,
+   "silver": 1,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2773-8o-brasil-open-bjj-2026-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 71,
+   "event": "Projeto São Paulo Jiu-Jitsu para Todos 2025",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2373-projeto-sao-paulo-jiu-jitsu-para-todos-2025-1-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 72,
+   "event": "5º Legends BJJ Brasil",
+   "name": "COHAB TEAM",
+   "gold": 1,
+   "silver": 1,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2739-5o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 75,
+   "event": "5º Legends BJJ Brasil",
+   "name": "COHAB",
+   "gold": 1,
+   "silver": 1,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2739-5o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 75,
+   "event": "Prime Experience Jiu-Jitsu - Copa Arnold",
+   "name": "COHAB",
+   "gold": 0,
+   "silver": 1,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2262-prime-experience-jiu-jitsu-especial-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 76,
+   "event": "8º Brasil Open BJJ",
+   "name": "COHAB",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2773-8o-brasil-open-bjj-2026-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 77,
+   "event": "Jiu-Jitsu para Todos / Asas de Jiu-Jitsu",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2453-jiu-jitsu-para-todos-asas-de-jiu-jitsu-4a-etapa/"
+  },
+  {
+   "year": 2025,
+   "pos": 81,
+   "event": "Legends BJJ Brasil",
+   "name": "COHAB TEAM",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2553-legends-bjj-brasil-3-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 84,
+   "event": "8º Brasil Open BJJ",
+   "name": "COHAB TEAM",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2773-8o-brasil-open-bjj-2026-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 86,
+   "event": "Legends BJJ Brasil",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2566-legends-bjj-brasil-4-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 87,
+   "event": "Projeto Esportivo Jiu-Jitsu para Todos",
+   "name": "COHAB TEAM F4",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2680-projeto-esportivo-jiu-jitsu-para-todos-1-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 97,
+   "event": "8º Legends BJJ Brasil",
+   "name": "COHAB TAMOIO",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2796-8o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 103,
+   "event": "8º Legends BJJ Brasil",
+   "name": "COHAB TEAM F4",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2796-8o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 106,
+   "event": "Copa Open Jiu-Jitsu 2025 · Jiu-Jitsu para Todos",
+   "name": "NASCI PARA VENCER",
+   "gold": 1,
+   "silver": 0,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2382-copa-open-jiu-jitsu-2025-jiu-jitsu-para-todos-2-etapa/"
+  },
+  {
+   "year": 2024,
+   "pos": 108,
+   "event": "Jiu-Jitsu para Todos FELFA-SP",
+   "name": "MO CUISHILE COHAB TEAM JIU JITSU",
+   "gold": 0,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2043-jiu-jitsu-para-todos-felfa-sp-iv-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 124,
+   "event": "Legends BJJ Brasil",
+   "name": "NASCI PARA VENCER",
+   "gold": 0,
+   "silver": 1,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2553-legends-bjj-brasil-3-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 129,
+   "event": "Projeto Esportivo Jiu-Jitsu para Todos",
+   "name": "COHAB",
+   "gold": 0,
+   "silver": 2,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2680-projeto-esportivo-jiu-jitsu-para-todos-1-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 129,
+   "event": "Projeto Esportivo Jiu-Jitsu para Todos",
+   "name": "NASCI PARA VENCER",
+   "gold": 0,
+   "silver": 2,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2680-projeto-esportivo-jiu-jitsu-para-todos-1-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 141,
+   "event": "5º Legends BJJ Brasil",
+   "name": "NASCI PARA VENCER",
+   "gold": 0,
+   "silver": 1,
+   "bronze": 0,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2739-5o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 145,
+   "event": "8º Legends BJJ Brasil",
+   "name": "COHAB",
+   "gold": 0,
+   "silver": 1,
+   "bronze": 2,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2796-8o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2025,
+   "pos": 151,
+   "event": "Legends BJJ Brasil",
+   "name": "NASCI PARA VENCER",
+   "gold": 0,
+   "silver": 1,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2552-legends-bjj-brasil-2-etapa/"
+  },
+  {
+   "year": 2025,
+   "pos": 154,
+   "event": "Legends BJJ Brasil",
+   "name": "COHAB II",
+   "gold": 0,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2551-legends-bjj-brasil-1-etapa/"
+  },
+  {
+   "year": 2026,
+   "pos": 165,
+   "event": "Projeto Esportivo Jiu-Jitsu para Todos",
+   "name": "COHAB TEAM",
+   "gold": 0,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2680-projeto-esportivo-jiu-jitsu-para-todos-1-etapa/"
+  },
+  {
+   "year": 2025,
+   "pos": 177,
+   "event": "Legends BJJ Brasil",
+   "name": "COHAB II",
+   "gold": 0,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2553-legends-bjj-brasil-3-etapa/"
+  },
+  {
+   "year": 2025,
+   "pos": 180,
+   "event": "Legends BJJ Brasil",
+   "name": "COHAB TEAM F4",
+   "gold": 0,
+   "silver": 0,
+   "bronze": 1,
+   "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2552-legends-bjj-brasil-2-etapa/"
   }
  ],
  "fpjj": [
   {
    "year": 2022,
-   "event": "Circuito Paulista 2022 final",
+   "event": "Circuito Paulista 2022 (final)",
    "division": "Mirim a Juvenil Masculino e Feminino",
    "pos": 2,
    "gold": null,
@@ -705,7 +1265,7 @@
   },
   {
    "year": 2022,
-   "event": "Circuito Paulista 2022 final",
+   "event": "Circuito Paulista 2022 (final)",
    "division": "Adulto Masculino e Feminino",
    "pos": 12,
    "gold": null,
@@ -785,7 +1345,7 @@
   },
   {
    "year": 2022,
-   "event": "Circuito Paulista 2022 final",
+   "event": "Circuito Paulista 2022 (final)",
    "division": "Master 1 a 6 Masculino e Feminino",
    "pos": 14,
    "gold": null,
@@ -928,8 +1488,8 @@
   {
    "year": 2020,
    "gold": 9,
-   "silver": 2,
-   "bronze": 4,
+   "silver": 5,
+   "bronze": 5,
    "rank": 87,
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/426/1"
   },
@@ -945,31 +1505,31 @@
    "year": 2022,
    "gold": 30,
    "silver": 14,
-   "bronze": 20,
+   "bronze": 21,
    "rank": 43,
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/628/1"
   },
   {
    "year": 2023,
    "gold": 38,
-   "silver": 22,
-   "bronze": 42,
+   "silver": 23,
+   "bronze": 44,
    "rank": 34,
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/859/1"
   },
   {
    "year": 2024,
-   "gold": 43,
-   "silver": 24,
-   "bronze": 21,
+   "gold": 51,
+   "silver": 29,
+   "bronze": 31,
    "rank": 33,
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1077/1"
   },
   {
    "year": 2025,
-   "gold": 70,
-   "silver": 44,
-   "bronze": 18,
+   "gold": 82,
+   "silver": 51,
+   "bronze": 33,
    "rank": 25,
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1497/1"
   },
@@ -984,12 +1544,12 @@
  ],
  "rankings": [
   {
-   "label": "Nacional CBJJE 2026 · Juvenil Gi",
+   "label": "Estadual Paulista 2026 · Juvenil Gi",
    "pos": 1,
    "gold": 5,
    "silver": 1,
    "bronze": 1,
-   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1792/1"
+   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1814/1"
   },
   {
    "label": "Internacional BJJSport 2026 · Juvenil Gi",
@@ -1000,12 +1560,28 @@
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1803/1"
   },
   {
-   "label": "Estadual Paulista 2026 · Juvenil Gi",
+   "label": "Nacional CBJJE 2026 · Juvenil Gi",
    "pos": 1,
    "gold": 5,
    "silver": 1,
    "bronze": 1,
-   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1814/1"
+   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1792/1"
+  },
+  {
+   "label": "Estadual Paulista 2026 · Juvenil NoGi",
+   "pos": 5,
+   "gold": 1,
+   "silver": 1,
+   "bronze": 5,
+   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1815/1"
+  },
+  {
+   "label": "Internacional BJJSport 2026 · Juvenil NoGi",
+   "pos": 5,
+   "gold": 1,
+   "silver": 1,
+   "bronze": 5,
+   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1804/1"
   },
   {
    "label": "Nacional CBJJE 2026 · Juvenil NoGi",
@@ -1016,20 +1592,36 @@
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1793/1"
   },
   {
-   "label": "Nacional CBJJE 2026 · Geral",
-   "pos": 6,
-   "gold": 20,
-   "silver": 10,
-   "bronze": 17,
-   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1796/1"
-  },
-  {
-   "label": "Estadual Paulista 2026 · Geral",
+   "label": "Estadual Paulista 2026 · Geral (Gi + NoGi)",
    "pos": 6,
    "gold": 20,
    "silver": 10,
    "bronze": 17,
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1818/1"
+  },
+  {
+   "label": "Estadual Paulista 2026 · Geral Gi",
+   "pos": 6,
+   "gold": 12,
+   "silver": 6,
+   "bronze": 6,
+   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1808/1"
+  },
+  {
+   "label": "Internacional BJJSport 2026 · Geral (Gi + NoGi)",
+   "pos": 6,
+   "gold": 12,
+   "silver": 6,
+   "bronze": 6,
+   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1807/1"
+  },
+  {
+   "label": "Internacional BJJSport 2026 · Geral Gi",
+   "pos": 6,
+   "gold": 12,
+   "silver": 6,
+   "bronze": 6,
+   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1797/1"
   },
   {
    "label": "Nacional CBJJE 2025 · Kids Gi",
@@ -1040,44 +1632,12 @@
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1495/1"
   },
   {
-   "label": "Nacional CBJJE 2026 · Kids Gi",
-   "pos": 7,
-   "gold": 5,
-   "silver": 3,
-   "bronze": 3,
-   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1794/1"
-  },
-  {
-   "label": "Estadual Paulista 2025 · Kids Gi",
-   "pos": 9,
-   "gold": 16,
-   "silver": 9,
-   "bronze": 0,
-   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1506/1"
-  },
-  {
-   "label": "Internacional BJJSport 2025 · Kids Gi",
-   "pos": 10,
-   "gold": 24,
-   "silver": 16,
-   "bronze": 21,
-   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1417/1"
-  },
-  {
-   "label": "Nacional CBJJE 2023 · Master NoGi",
-   "pos": 16,
-   "gold": 10,
-   "silver": 3,
-   "bronze": 7,
-   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/852/1"
-  },
-  {
-   "label": "Nacional CBJJE 2026 · Adulto NoGi",
-   "pos": 16,
-   "gold": 4,
-   "silver": 1,
-   "bronze": 3,
-   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1791/1"
+   "label": "Nacional CBJJE 2026 · Geral (Gi + NoGi)",
+   "pos": 6,
+   "gold": 20,
+   "silver": 10,
+   "bronze": 17,
+   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1796/1"
   }
  ],
  "ibjjf": [
@@ -1102,7 +1662,7 @@
   {
    "year": 2026,
    "place": 1,
-   "event": "Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026",
+   "event": "Resultados Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026 Resultado final 17/out/2026 18:30:55 (UTC-03:00) Brasilia Resulta",
    "tier": "Open internacional",
    "cat": "Feminino / Juvenil / Branca / Pluma",
    "athlete": "I. Galdino",
@@ -1111,7 +1671,7 @@
   {
    "year": 2026,
    "place": 1,
-   "event": "Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026",
+   "event": "Resultados Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026 Resultado final 17/out/2026 18:30:55 (UTC-03:00) Brasilia Resulta",
    "tier": "Open internacional",
    "cat": "Feminino / Juvenil / Azul / Pena",
    "athlete": "M. Souza",
@@ -1120,7 +1680,7 @@
   {
    "year": 2026,
    "place": 1,
-   "event": "Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026",
+   "event": "Resultados Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026 Resultado final 17/out/2026 18:30:55 (UTC-03:00) Brasilia Resulta",
    "tier": "Open internacional",
    "cat": "Feminino / Adulto / Azul / Pluma",
    "athlete": "Izabelly Costa da Silva",
@@ -1174,7 +1734,7 @@
   {
    "year": 2026,
    "place": 2,
-   "event": "Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026",
+   "event": "Resultados Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026 Resultado final 17/out/2026 18:30:55 (UTC-03:00) Brasilia Resulta",
    "tier": "Open internacional",
    "cat": "Feminino / Juvenil / Azul / Absoluto Leve",
    "athlete": "M. Souza",
@@ -1264,7 +1824,7 @@
   {
    "year": 2026,
    "place": 3,
-   "event": "Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026",
+   "event": "Resultados Rio Spring International Open IBJJF Jiu-Jitsu Championship 2026 Resultado final 17/out/2026 18:30:55 (UTC-03:00) Brasilia Resulta",
    "tier": "Open internacional",
    "cat": "Feminino / Adulto / Azul / Absoluto",
    "athlete": "Izabelly Costa da Silva",
@@ -2471,7 +3031,7 @@
  "smoothcomp": [
   {
    "year": 2026,
-   "event": "Seletiva Nacional GAMMA Brasil",
+   "event": "Seletiva Nacional GAMMA Brasil 2026",
    "city": "Niterói/RJ",
    "gold": 0,
    "silver": 1,
@@ -2480,7 +3040,7 @@
   },
   {
    "year": 2025,
-   "event": "ADCC Brazil Open · São Paulo (agosto)",
+   "event": "ADCC Brazil Open - São Paulo",
    "city": "São Paulo",
    "gold": 2,
    "silver": 5,
@@ -2489,46 +3049,39 @@
   },
   {
    "year": 2025,
-   "event": "ADCC Brazil Open · São Paulo (fevereiro)",
-   "city": "São Paulo",
+   "event": "ADCC Brazil Open - São Paulo",
+   "city": "SAO PAULO",
    "gold": 0,
    "silver": 2,
    "bronze": 1,
-   "url": "https://adcc.smoothcomp.com/en/event/19790"
+   "url": "https://smoothcomp.com/en/event/19790"
   },
   {
    "year": 2024,
-   "event": "ADCC Brazil Open · Balneário Camboriú 2ª edição",
-   "city": "Balneário Camboriú",
+   "event": "ADCC Brazil Open - Balneário Camboriú 2nd Edition",
+   "city": "BALNEARIO CAMBORIÚ",
    "gold": 1,
    "silver": 1,
    "bronze": 1,
-   "url": "https://adcc.smoothcomp.com/en/event/19511/results"
+   "url": "https://smoothcomp.com/en/event/19511"
   },
   {
    "year": 2024,
-   "event": "ADCC Brazil Open · São Paulo 3ª edição",
-   "city": "São Paulo",
+   "event": "ADCC Brazil Open - São Paulo 3rd Edition",
+   "city": "SAO PAULO",
    "gold": 1,
    "silver": 1,
    "bronze": 0,
-   "url": "https://adcc.smoothcomp.com/en/event/17278"
+   "url": "https://smoothcomp.com/en/event/17278"
   },
   {
    "year": 2024,
-   "event": "Brasileiro de Jiu-Jitsu CBSJJ",
-   "city": "Goiânia",
+   "event": "BRASILEIRO DE JIU-JITSU CBSJJ 2024",
+   "city": "GOIANIA",
    "gold": 1,
    "silver": 0,
    "bronze": 0,
    "url": "https://smoothcomp.com/en/event/17176"
   }
- ],
- "pending": [
-  "IBJJF: Hermann Kohlitz (Sydney International Open IBJJF Jiu-Jitsu Championship 2017, 2º) registrado só como “Cohab”",
-  "IBJJF: Diego Esteban Cisternas Reyes (Floripa Fall International Open IBJJF Jiu-Jitsu No-Gi Championship 2024, 2º) registrado só como “Cohab”",
-  "Smoothcomp: o perfil “COHAB TEAM” (Brasil) também tem medalhas em Toronto, Dublin, Neu-Ulm, Miami e no Chile (8 medalhas). Podem ser de atletas da Cohab do Chile; ficaram fora.",
-  "“COHAB” no Amapá (Copa Strikezone, Amapaense, Prime Experience 2018–2019): parece outra equipe ou filial; ficou fora.",
-  "AJP (Abu Dhabi Jiu-Jitsu Pro): o clube “Cohab Brazilian Jiu-Jitsu” está registrado, mas a página de estatísticas pede verificação anti-robô."
  ]
 }

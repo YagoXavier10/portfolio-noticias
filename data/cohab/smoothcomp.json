@@ -1,0 +1,184 @@
+[
+{
+"id": 31448,
+"title": "Seletiva Nacional GAMMA Brasil 2026",
+"cover_image": "https://smoothcomp.com/pictures/t/9834913-gsu1/seletiva-nacional-gamma-brasil-2026.jpg",
+"start_date": "2026-06-20T12:00:00+00:00",
+"city": "Niterói/RJ",
+"medals": {
+"gold": 0,
+"silver": 1,
+"bronze": 0
+},
+"wins": 1
+},
+{
+"id": 28478,
+"title": "ADCC CANADA OPEN TORONTO 2026",
+"cover_image": "https://smoothcomp.com/pictures/t/9791095-m1am/adcc-canada-open-toronto-2026.jpg",
+"start_date": "2026-02-14T14:00:00+00:00",
+"city": "Toronto, Ontario",
+"medals": {
+"gold": 1,
+"silver": 0,
+"bronze": 0
+},
+"wins": 2
+},
+{
+"id": 21742,
+"title": "ADCC Brazil Open - São Paulo",
+"cover_image": "https://smoothcomp.com/pictures/t/9784599-c2uk/adcc-brazil-open-sao-paulo-2025.jpg",
+"start_date": "2025-08-23T12:00:00+00:00",
+"city": "São Paulo",
+"medals": {
+"gold": 2,
+"silver": 5,
+"bronze": 2
+},
+"wins": 16
+},
+{
+"id": 19790,
+"title": "ADCC Brazil Open - São Paulo",
+"cover_image": "https://smoothcomp.com/pictures/t/9779196-2nah/adcc-brazil-open-sao-paulo-2025.png",
+"start_date": "2025-02-15T12:00:00+00:00",
+"city": "SAO PAULO",
+"medals": {
+"gold": 0,
+"silver": 2,
+"bronze": 1
+},
+"wins": 4
+},
+{
+"id": 19511,
+"title": "ADCC Brazil Open - Balneário Camboriú 2nd Edition",
+"cover_image": "https://smoothcomp.com/pictures/t/9784987-ftpd/adcc-brazil-open-balneario-camboriu-2nd-edition-2024.png",
+"start_date": "2024-11-23T12:00:00+00:00",
+"city": "BALNEARIO CAMBORIÚ",
+"medals": {
+"gold": 1,
+"silver": 1,
+"bronze": 1
+},
+"wins": 3
+},
+{
+"id": 15617,
+"title": "ADCC West European Open 2024",
+"cover_image": "https://smoothcomp.com/pictures/t/9793030-kh8l/adcc-west-european-open-2024.jpg",
+"start_date": "2024-09-14T08:00:00+00:00",
+"city": "Neu-Ulm",
+"medals": {
+"gold": 1,
+"silver": 0,
+"bronze": 0
+},
+"wins": 2
+},
+{
+"id": 18109,
+"title": "The Shamrock Cup 2024",
+"cover_image": "https://smoothcomp.com/pictures/t/9819226-x96d/the-shamrock-cup-2024.jpg",
+"start_date": "2024-09-08T08:00:00+00:00",
+"city": "Dublin",
+"medals": {
+"gold": 2,
+"silver": 0,
+"bronze": 0
+},
+"wins": 0
+},
+{
+"id": 17278,
+"title": "ADCC Brazil Open - São Paulo 3rd Edition",
+"cover_image": "https://smoothcomp.com/pictures/t/9779195-7yau/adcc-brazil-open-sao-paulo-3rd-edition-2024.jpg",
+"start_date": "2024-09-07T12:00:00+00:00",
+"city": "SAO PAULO",
+"medals": {
+"gold": 1,
+"silver": 1,
+"bronze": 0
+},
+"wins": 2
+},
+{
+"id": 17791,
+"title": "Jiu-Jitsu Fest 2024 | Santiago Vol. III",
+"cover_image": "https://smoothcomp.com/pictures/t/9835040-epl4/jiu-jitsu-fest-2024-santiago-vol-iii.jpg",
+"start_date": "2024-08-17T13:00:00+00:00",
+"city": "Santiago",
+"medals": {
+"gold": 0,
+"silver": 1,
+"bronze": 0
+},
+"wins": 1
+},
+{
+"id": 17176,
+"title": "BRASILEIRO DE JIU-JITSU CBSJJ 2024",
+"cover_image": "https://smoothcomp.com/pictures/t/9799850-8iv9/brasileiro-de-jiu-jitsu-cbsjj-2024.jpg",
+"start_date": "2024-06-09T12:00:00+00:00",
+"city": "GOIANIA",
+"medals": {
+"gold": 1,
+"silver": 0,
+"bronze": 0
+},
+"wins": 1
+},
+{
+"id": 13930,
+"title": "LCBJJ - Open Chile 2023 - Diciembre - Viña del Mar",
+"cover_image": "https://smoothcomp.com/pictures/t/9819394-entj/lcbjj-open-chile-2023-diciembre-vina-del-mar.jpg",
+"start_date": "2023-12-09T12:30:00+00:00",
+"city": "Viña del Mar",
+"medals": {
+"gold": 2,
+"silver": 1,
+"bronze": 0
+},
+"wins": 5
+},
+{
+"id": 13064,
+"title": "LCBJJ - Open Invierno - Chile 2023",
+"cover_image": "https://smoothcomp.com/pictures/t/9846542-8foy/open-invierno-2023.jpg",
+"start_date": "2023-09-09T12:00:00+00:00",
+"city": "Viña del Mar",
+"medals": {
+"gold": 0,
+"silver": 0,
+"bronze": 0
+},
+"wins": 0
+},
+{
+"id": 11607,
+"title": "ADCC Brazil Open - Sao Paulo",
+"cover_image": "https://smoothcomp.com/pictures/t/9779192-rruh/adcc-sao-paulo-open-2023.jpg",
+"start_date": "2023-07-16T12:00:00+00:00",
+"city": "SAO PAULO",
+"medals": {
+"gold": 0,
+"silver": 0,
+"bronze": 0
+},
+"wins": 0
+},
+{
+"id": 7344,
+"title": "NEWBREED MIAMI SUMMER CHAMPIONSHIP",
+"cover_image": "https://smoothcomp.com/pictures/t/9789138-tkyc/newbreed-miami-summer-championship-2022.jpg",
+"start_date": "2022-07-23T13:00:00+00:00",
+"city": "Miami, Florida",
+"medals": {
+"gold": 0,
+"silver": 0,
+"bronze": 1
+},
+"wins": 1
+}
+]

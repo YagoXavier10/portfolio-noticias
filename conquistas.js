@@ -397,6 +397,8 @@ Promise.all([
       golds: a.cbjje.filter((m) => m.place === 1).length + d.ibjjf.filter((m) => m.place === 1).length + fpG + smGold,
     };
     document.querySelectorAll("[data-count]").forEach((n) => countUp(n, totals[n.dataset.count]));
+    const [y, mo, dd] = d.updated.split("-");
+    $("#updated-at").textContent = `Dados atualizados automaticamente toda segunda-feira · última atualização em ${dd}/${mo}/${y}`;
     const rows = allMedals(d, a);
     const openPanel = setupPanels();
     renderOverview(rows);

@@ -8,7 +8,9 @@ Fintechs, Jiu-Jitsu e Campeonatos de Jiu-Jitsu em SP**.
 
 - `scripts/fetch_news.py` — Python + `requests`: busca as notícias e salva em `data/news.json`
 - `index.html` / `style.css` / `app.js` — a página (apresentação, redes sociais e cartões com filtro por tema)
-- `cohab.html` — página sobre a Cohab Team, equipe de jiu-jitsu de Itaquera
+- `cohab.html`, `conquistas.html`, `atletas.html` — história, conquistas e busca de atletas da Cohab Team
+- `scripts/update_cohab.py` — busca conquistas novas da Cohab (CBJJE/FESP, IBJJF, FPJJ, Smoothcomp); dados brutos em `data/cohab/`
+- `.github/workflows/update-cohab.yml` — roda o script toda segunda-feira às 06:00 (Brasília)
 - `.github/workflows/update-news.yml` — roda o script todo dia às 07:00 (Brasília) e faz o commit
 
 ## Rodar localmente

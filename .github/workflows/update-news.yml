@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: commits-do-robo   # não roda junto com o workflow da Cohab
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -34,4 +38,5 @@ jobs:
           git add data/news.json
           git diff --staged --quiet && echo "Sem novidades" && exit 0
           git commit -m "📰 Notícias de $(TZ=America/Sao_Paulo date +'%d/%m/%Y')"
+          git pull --rebase
           git push
