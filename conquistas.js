@@ -51,12 +51,14 @@ function renderSeasons(seasons) {
     const total = s.gold + s.silver + s.bronze;
     detail.append(
       el("strong", "", `Temporada ${s.year}${s.year === 2026 ? " (até agosto)" : ""}`),
-      el("span", "", `${total} medalhas · ${s.rank}º no ranking nacional`),
+      el("span", "", s.meucombate
+        ? `${total} medalhas · ranking anual da CBJJE ainda não publicado`
+        : `${total} medalhas · ${s.rank}º no ranking nacional`),
       medals(s.gold, s.silver, s.bronze),
     );
     const a = el("a", "", "Ver ranking ↗");
     a.href = s.url; a.target = "_blank"; a.rel = "noopener";
-    detail.append(a);
+    if (s.url) detail.append(a);
   };
 
   const draw = () => {
@@ -76,7 +78,7 @@ function renderSeasons(seasons) {
         seg.style.flexGrow = s[k];
         bar.append(seg);
       });
-      col.append(el("b", "", val(s)), bar, el("span", "season-year", s.year), el("span", "season-rank", `${s.rank}º`));
+      col.append(el("b", "", val(s)), bar, el("span", "season-year", s.year), el("span", "season-rank", s.meucombate ? "em andamento" : `${s.rank}º`));
       const pick = () => {
         selected = s.year;
         chart.querySelectorAll(".season-col").forEach((c) => c.setAttribute("aria-pressed", c === col));
@@ -106,6 +108,7 @@ function renderTeam(team) {
         a.href = t.url; a.target = "_blank"; a.rel = "noopener";
         const main = el("span", "result-main");
         main.append(el("strong", "", t.event), el("span", "", `${t.year} · ${t.name}`));
+        if (t.note) main.append(el("span", "note-line", `🏆 ${t.note}`));
         a.append(el("span", "result-pos p" + Math.min(t.pos, 4), `${t.pos}º`), main, medals(t.gold, t.silver, t.bronze));
         list.append(a);
       });

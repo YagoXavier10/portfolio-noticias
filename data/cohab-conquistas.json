@@ -22,6 +22,50 @@
    "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2773-8o-brasil-open-bjj-2026-edicao/"
   },
   {
+   "year": 2026,
+   "pos": 1,
+   "event": "BJJ Internacional CBJJE",
+   "name": "COHAB TEAM BRAZILIAN JJ",
+   "gold": 43,
+   "silver": 15,
+   "bronze": 8,
+   "note": "Campeã também em: Geral Gi, Geral Nogi, Adulto NOGI, Master Gi, Master NOGI",
+   "url": "https://www.meucombate.com.br/cbjje/evento/93/resultados/"
+  },
+  {
+   "year": 2026,
+   "pos": 1,
+   "event": "Internacional SP Open CBJJE",
+   "name": "COHAB TEAM BRAZILIAN JJ",
+   "gold": 49,
+   "silver": 19,
+   "bronze": 14,
+   "note": "Campeã também em: Geral Gi, Geral Nogi, Adulto NOGI, Master Gi, Master NOGI, Juvenil GI, Juvenil NOGI, Kids NOGI",
+   "url": "https://www.meucombate.com.br/cbjje/evento/92/resultados/"
+  },
+  {
+   "year": 2026,
+   "pos": 1,
+   "event": "BJJ Nacional CBJJE",
+   "name": "COHAB TEAM BRAZILIAN JJ",
+   "gold": 44,
+   "silver": 16,
+   "bronze": 10,
+   "note": "Campeã também em: Gi, Nogi, Master Gi, Master Nogi, Juvenil Gi, Juvenil Nogi, Kids Nogi",
+   "url": "https://www.meucombate.com.br/cbjje/evento/89/resultados/"
+  },
+  {
+   "year": 2026,
+   "pos": 1,
+   "event": "Pan-Americano CBJJE",
+   "name": "COHAB TEAM BRAZILIAN JJ",
+   "gold": 32,
+   "silver": 13,
+   "bronze": 16,
+   "note": "Campeã também em: Gi, Nogi, Master Nogi, Juvenil Gi, Juvenil Nogi",
+   "url": "https://www.meucombate.com.br/cbjje/evento/94/resultados/"
+  },
+  {
    "year": 2025,
    "pos": 1,
    "event": "Jiu-Jitsu para Todos / Asas de Jiu-Jitsu",
@@ -50,6 +94,17 @@
    "silver": 31,
    "bronze": 35,
    "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p1741-1o-jiu-jitsu-para-todos-felfa-sp-2023-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 2,
+   "event": "Estadual São Paulo de Jiu-Jitsu",
+   "name": "COHAB TEAM BRAZILIAN JJ",
+   "gold": 37,
+   "silver": 25,
+   "bronze": 12,
+   "note": "Campeã também em: Nogi, Juvenil Gi, Juvenil Nogi, Kids Gi, Kids Nogi",
+   "url": "https://www.meucombate.com.br/cbjje/evento/79/resultados/"
   },
   {
    "year": 2026,
@@ -260,6 +315,17 @@
    "silver": 6,
    "bronze": 5,
    "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p2796-8o-legends-bjj-brasil-2026-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 7,
+   "event": "Brasileiro de Jiu-Jitsu CBJJE",
+   "name": "COHAB TEAM BRAZILIAN JJ",
+   "gold": 22,
+   "silver": 13,
+   "bronze": 17,
+   "note": "Campeã também em: Juvenil Nogi",
+   "url": "https://www.meucombate.com.br/cbjje/evento/88/resultados/"
   },
   {
    "year": 2025,
@@ -1535,11 +1601,12 @@
   },
   {
    "year": 2026,
-   "gold": 20,
-   "silver": 10,
-   "bronze": 17,
+   "gold": 247,
+   "silver": 111,
+   "bronze": 94,
    "rank": 6,
-   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1796/1"
+   "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1796/1",
+   "meucombate": true
   }
  ],
  "rankings": [

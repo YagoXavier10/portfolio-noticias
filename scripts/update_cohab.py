@@ -5,6 +5,7 @@ Fontes:
   - IBJJF / CBJJ: resultados oficiais por categoria
   - FPJJ: resultados por academia (Campeonato e Circuito Paulista)
   - Smoothcomp: perfil da COHAB TEAM (ADCC Brazil e outros)
+  - Meu Combate: campeonatos da CBJJE a partir de 2026 (equipe e pódio de cada categoria)
 
 Os dados brutos ficam em data/cohab/ e o script só procura o que é novo.
 Saída: data/cohab-conquistas.json e data/cohab-atletas.json.
@@ -258,6 +259,78 @@ def update_smoothcomp(state):
     print(f"Smoothcomp: {len(events)} eventos")
 
 
+# --------------------------------------------------------------- Meu Combate
+# A partir de 2026 a CBJJE publica vários campeonatos no Meu Combate (meucombate.com.br)
+MC = "https://api.meucombate.com.br"
+
+
+def mc(path):
+    try:
+        return json.loads(get(MC + path) or "null")
+    except json.JSONDecodeError:
+        return None
+
+
+def is_cohab(name):
+    return bool(name) and bool(re.search(r"cohab|nasci p", name, re.I)) and not NOT_COHAB.search(name)
+
+
+def update_meucombate():
+    events = []
+    for status in ("finalized", "active"):
+        page = 1
+        while page:
+            d = mc(f"/api:0VrKOQzz/events/events?page={page}&filter_status_events={status}") or {}
+            events += d.get("items", [])
+            page = d.get("nextPage")
+    if not events:
+        print("[aviso] Meu Combate: lista de eventos vazia; mantendo os dados antigos")
+        return
+    old = load("meucombate.json", {})
+    out = {}
+    base = "/api:uxixvP46/event/%7Bid%7D/ranking_result"
+    for e in events:
+        eid = e["events_id"]
+        divisions = mc(f"{base}/division_list?events_id={eid}") or []
+        if not divisions:
+            continue
+        teams = []
+        for d in divisions:
+            page = 1
+            while page and page < 30:
+                r = mc(f"{base}?per_page=50&page={page}&events_id={eid}&entity_type=academies&divisions_id={d['id']}") or {}
+                for it in r.get("items", []):
+                    if is_cohab(it.get("name")):
+                        t = it.get("tiebreaker_data") or {}
+                        teams.append({"division": d["name"], "pos": it["position"], "team": it["name"],
+                                      "gold": t.get("gold", 0), "silver": t.get("silver", 0), "bronze": t.get("bronze", 0)})
+                page = r.get("nextPage")
+        medals, page = [], 1
+        while page:
+            r = mc(f"{base}?per_page=50&page={page}&events_id={eid}&entity_type=category") or {}
+            for c in r.get("items", []):
+                for a in c.get("brackets_ranking_points_athletes") or []:
+                    if is_cohab(a.get("teams_name")) or is_cohab(a.get("academies_name")):
+                        medals.append({
+                            "place": a["position"], "athlete": a["name"], "team": a.get("teams_name") or a.get("academies_name"),
+                            "gender": c.get("gender"), "gi_nogi": c.get("gi_nogi"), "absolute": c.get("absolute"),
+                            "weight": c.get("weight_name"),
+                            "age": ", ".join(x["ages_name"] for x in c.get("categories_ages") or []),
+                            "belt": ", ".join(x["belts_name"] for x in c.get("categories_belts") or [])})
+            page = r.get("nextPage")
+        if not teams and not medals and str(eid) in old:  # falha momentânea: mantém o que já tinha
+            out[str(eid)] = old[str(eid)]
+            continue
+        out[str(eid)] = {"id": eid, "name": e["events_name"], "org": e.get("organizations_slug") or "",
+                         "first_day": e["events_first_day"], "city": e.get("cities_name") or "",
+                         "state": e.get("states_acronym") or "", "teams": teams, "medals": medals}
+    for k, v in old.items():
+        out.setdefault(k, v)
+    save("meucombate.json", out)
+    print(f"Meu Combate: {sum(len(v['medals']) for v in out.values())} medalhas em "
+          f"{sum(1 for v in out.values() if v['medals'])} eventos")
+
+
 # ------------------------------------------------------------ dados do site
 SMALL = {"de", "da", "do", "das", "dos", "e", "a", "o", "para"}
 KEEP = {"CBJJE", "BJJ", "GI", "FESP", "II", "III", "IV", "V", "VII", "XII", "XI", "X", "XX", "SP", "FELFA-SP", "ECJJ",
@@ -343,6 +416,20 @@ def build():
             "cat": " / ".join(title_case(p) for p in r["cat"].split("/")),
             "athlete": short_name(r["athlete"]) if kids else full_name(r["athlete"]), "kids": kids, "alone": r["alone"],
             "url": f"{SC}/pt-br/ranking/ranking-idade/{r['rid']}/1"})
+    # medalhas por atleta (Meu Combate: CBJJE a partir de 2026)
+    meucombate = load("meucombate.json", {})
+    for ev in meucombate.values():
+        year = int(date.fromtimestamp(ev["first_day"] / 1000).year)
+        url = f"https://www.meucombate.com.br/{ev['org'].split('_')[0] or 'cbjje'}/evento/{ev['id']}/resultados/"
+        for m in ev["medals"]:
+            kids = bool(re.search(r"mirim|infantil|infanto|pr[ée]-mirim", m["age"], re.I))
+            parts = ["Masculino" if m["gender"] == "masc" else "Feminino", m["age"],
+                     "NoGi" if m["gi_nogi"] == "nogi" else "Gi", m["belt"], "Absoluto" if m["absolute"] else m["weight"]]
+            sc_medals.append({
+                "year": year, "place": m["place"], "event": title_case(ev["name"]),
+                "circuit": "CBJJE / FESP" if "cbjje" in ev["org"] else "Circuitos abertos",
+                "cat": " / ".join(p for p in parts if p), "athlete": short_name(m["athlete"].upper()) if kids else full_name(m["athlete"]),
+                "kids": kids, "alone": False, "url": url})
     sc_medals.sort(key=lambda x: (-x["year"], x["place"], x["athlete"]))
 
     # classificação por equipe em cada campeonato
@@ -361,6 +448,19 @@ def build():
                          "event": title_case(re.sub(r"^P\d+-", "", names.get(code, r["title"].split("-RANKING")[0]))),
                          "name": h["team"], "gold": h["ouro"], "silver": h["prata"], "bronze": h["bronze"],
                          "url": f"{SC}/pt-br/eventos/resultados/{slug}/" if slug else f"{SC}/pt-br/ranking/ranking-idade/{r['id']}/1"})
+    # Meu Combate: posição na classificação Geral e as divisões em que a Cohab foi campeã
+    for ev in meucombate.values():
+        geral = [t for t in ev["teams"] if t["division"].lower().startswith("geral") and "gi" not in t["division"].lower()[5:]]
+        geral = geral or [t for t in ev["teams"] if t["division"].lower().startswith("geral")]
+        if not geral:
+            continue
+        g = min(geral, key=lambda t: t["pos"])
+        wins = [t["division"] for t in ev["teams"] if t["pos"] == 1 and t is not g]
+        team.append({"year": int(date.fromtimestamp(ev["first_day"] / 1000).year), "pos": g["pos"],
+                     "event": title_case(ev["name"]), "name": g["team"], "gold": g["gold"], "silver": g["silver"],
+                     "bronze": g["bronze"],
+                     "note": ("Campeã também em: " + ", ".join(wins)) if wins else "",
+                     "url": f"https://www.meucombate.com.br/{ev['org'].split('_')[0] or 'cbjje'}/evento/{ev['id']}/resultados/"})
     team.sort(key=lambda t: (t["pos"], -t["year"]))
 
     # temporadas da CBJJE (Ranking Nacional geral, com e sem kimono)
@@ -383,6 +483,15 @@ def build():
                                        "url": f"{SC}/pt-br/ranking/ranking-idade/{r['id']}/1"})
             s["gold"] += h["ouro"]; s["silver"] += h["prata"]; s["bronze"] += h["bronze"]
             s["rank"] = min(s["rank"], h["pos"])
+    # campeonatos da CBJJE publicados no Meu Combate entram na temporada do ano
+    for ev in meucombate.values():
+        if "cbjje" not in ev["org"] or not ev["medals"]:
+            continue
+        y = int(date.fromtimestamp(ev["first_day"] / 1000).year)
+        s = seasons.setdefault(y, {"year": y, "gold": 0, "silver": 0, "bronze": 0, "rank": 999, "url": ""})
+        c = Counter(m["place"] for m in ev["medals"])
+        s["gold"] += c[1]; s["silver"] += c[2]; s["bronze"] += c[3]
+        s["meucombate"] = True
 
     # melhores posições em rankings oficiais (duas últimas temporadas)
     best = []
@@ -475,7 +584,7 @@ def main():
                 step(state)
             except Exception as exc:  # uma fonte fora do ar não derruba as outras
                 print(f"[aviso] {step.__name__}: {exc}")
-        for step in (update_fpjj, lambda: update_smoothcomp(state)):
+        for step in (update_fpjj, lambda: update_smoothcomp(state), update_meucombate):
             try:
                 step()
             except Exception as exc:

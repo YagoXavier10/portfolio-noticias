@@ -572,3 +572,4 @@ footer { padding: 48px 16px; font-size: .85rem; }
 .panel { scroll-margin-top: 70px; }
 .panel-tabs + .panel, .panel-tabs ~ .panel { margin-top: 24px; }
 @media (max-width: 600px) { .ov-chart { gap: 4px; height: 220px; } .ov-chart .season-col b { font-size: .75rem; } }
+.result-main .note-line { color: #b8890a; font-size: .8rem; margin-top: 2px; }
