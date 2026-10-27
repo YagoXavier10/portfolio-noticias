@@ -2529,7 +2529,9 @@
 "slug": "p2241-copa-origens-de-jiu-jitsu-4-edicao"
 },
 "p2242": {
-"slug": "p2242-sul-americano-kids-de-jiu-jitsu-cbjje-2025-edicao"
+"slug": "p2242-sul-americano-kids-de-jiu-jitsu-cbjje-2025-edicao",
+"city": "SAO PAULO-SP",
+"year": 2025
 },
 "p2243": {
 "slug": "p2243-copa-dos-campeoes-bjj-2024-ano"
@@ -2696,7 +2698,9 @@
 "year": 2025
 },
 "p2302": {
-"slug": "p2302-bjj-internacional-kids-cbjje-2025-edicao"
+"slug": "p2302-bjj-internacional-kids-cbjje-2025-edicao",
+"city": "SAO PAULO-SP",
+"year": 2025
 },
 "p2303": {
 "slug": "p2303-bjj-nacional-cbjje-juvenil-adulto-e-master-2025-edicao",
@@ -3938,5 +3942,7 @@
 "p1024": {},
 "p1072": {},
 "p1114": {},
-"p1646": {}
+"p1646": {},
+"p0987": {},
+"p1083": {}
 }
