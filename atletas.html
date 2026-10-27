@@ -8,9 +8,19 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="style.css?v=16">
+  <script>try{var t=localStorage.getItem("tema");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
+  <nav class="site-nav" aria-label="Navegação do site">
+    <div class="container">
+      <a class="site-logo" href="./">Yago<span>.</span></a>
+      <a href="./">Início</a>
+      <a href="historia.html">Minha história</a>
+      <a href="cohab.html" aria-current="page">Cohab Team</a>
+      <a href="noticias.html">Notícias</a>
+    </div>
+  </nav>
   <header class="hero">
     <div class="container">
       <a class="back" href="./">← Voltar para o início</a>
@@ -20,6 +30,7 @@
         <a href="cohab.html">História</a>
         <a href="conquistas.html">Conquistas</a>
         <a href="atletas.html" aria-current="page">Buscar atleta</a>
+        <a href="quiz.html">Quiz</a>
       </nav>
 
       <div class="source-switch" id="source" role="tablist" aria-label="Federação">
@@ -70,6 +81,7 @@
   </footer>
 
   <script src="atletas.js"></script>
-  <script src="chat.js?v=1" defer></script>
+  <script src="chat.js?v=3" defer></script>
+  <script src="fx.js?v=2" defer></script>
 </body>
 </html>

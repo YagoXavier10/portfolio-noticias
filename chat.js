@@ -116,8 +116,12 @@
       },
     },
     {
+      keys: ["quiz", "jogo", "jogar", "brincadeira", "teste"],
+      answer: () => `Tem um ${link("quiz.html", "Quiz da Cohab")}: 5 perguntas rápidas sobre a equipe e uma faixa no final. Será que você chega na preta? 🥋`,
+    },
+    {
       keys: ["noticia", "noticias", "temas", "manchete"],
-      answer: () => "A página inicial mostra notícias do dia sobre IA, Ciência de Dados, Corinthians, Motores, Tecnologia, Política, Economia, Fintechs, Jiu-Jitsu e campeonatos de jiu-jitsu em SP. Elas se atualizam sozinhas toda manhã.",
+      answer: () => `A aba ${link("noticias.html", "Notícias")} mostra as manchetes do dia sobre IA, Ciência de Dados, Corinthians, Motores, Tecnologia, Política, Economia, Fintechs, Jiu-Jitsu e campeonatos de jiu-jitsu em SP. Elas se atualizam sozinhas toda manhã.`,
     },
     {
       keys: ["contato", "instagram", "linkedin", "github", "rede social", "redes sociais", "falar com"],

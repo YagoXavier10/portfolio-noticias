@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notícias do dia · Yago dos Santos</title>
+  <meta name="description" content="Manchetes atualizadas automaticamente todos os dias: IA, tecnologia, Corinthians, motores, economia, jiu-jitsu e mais.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=16">
+  <script>try{var t=localStorage.getItem("tema");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Navegação do site">
+    <div class="container">
+      <a class="site-logo" href="./">Yago<span>.</span></a>
+      <a href="./">Início</a>
+      <a href="historia.html">Minha história</a>
+      <a href="cohab.html">Cohab Team</a>
+      <a href="noticias.html" aria-current="page">Notícias</a>
+    </div>
+  </nav>
+
+  <header class="hero news-hero">
+    <div class="container">
+      <p class="eyebrow">📰 Atualizado sozinho toda manhã</p>
+      <h1>Notícias do dia</h1>
+      <p class="bio">As manchetes dos assuntos que eu acompanho, buscadas automaticamente todo dia às 7h.</p>
+      <p id="updated" class="muted">Carregando…</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <input class="search news-search" id="news-search" type="search" placeholder="Buscar nas manchetes de hoje…" aria-label="Buscar nas manchetes">
+    <nav id="filters" class="filters" aria-label="Filtrar por tema"></nav>
+    <div id="news"></div>
+  </main>
+
+  <footer class="container muted">
+    Atualizado automaticamente por GitHub Actions · Feito com HTML, CSS e Python
+  </footer>
+
+  <script src="app.js?v=3"></script>
+  <script src="chat.js?v=3" defer></script>
+  <script src="fx.js?v=2" defer></script>
+</body>
+</html>

@@ -3,14 +3,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yago dos Santos · Notícias do Dia</title>
-  <meta name="description" content="Portfólio com manchetes atualizadas automaticamente todos os dias.">
+  <title>Yago dos Santos · Portfólio</title>
+  <meta name="description" content="Portfólio do Yago dos Santos: história, Cohab Team e notícias atualizadas automaticamente.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="style.css?v=16">
+  <script>try{var t=localStorage.getItem("tema");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
 <body>
+  <nav class="site-nav" aria-label="Navegação do site">
+    <div class="container">
+      <a class="site-logo" href="./">Yago<span>.</span></a>
+      <a href="./" aria-current="page">Início</a>
+      <a href="historia.html">Minha história</a>
+      <a href="cohab.html">Cohab Team</a>
+      <a href="noticias.html">Notícias</a>
+    </div>
+  </nav>
   <header class="hero">
     <div class="container">
       <p class="eyebrow">Olá, eu sou</p>
@@ -83,17 +93,16 @@
       <h2>Notícias do dia</h2>
       <p id="updated" class="muted">Carregando…</p>
     </div>
-
-    <nav id="filters" class="filters" aria-label="Filtrar por tema"></nav>
-
-    <div id="news"></div>
+    <div class="grid teaser-grid" id="news-teaser"></div>
+    <a class="button news-more" href="noticias.html">Ver todas as notícias →</a>
   </main>
 
   <footer class="container muted">
     Atualizado automaticamente por GitHub Actions · Feito com HTML, CSS e Python
   </footer>
 
-  <script src="app.js"></script>
-  <script src="chat.js?v=1" defer></script>
+  <script src="app.js?v=2"></script>
+  <script src="chat.js?v=3" defer></script>
+  <script src="fx.js?v=2" defer></script>
 </body>
 </html>

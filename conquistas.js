@@ -110,6 +110,22 @@ function renderTeam(team) {
         main.append(el("strong", "", t.event), el("span", "", `${t.year} · ${t.name}`));
         if (t.note) main.append(el("span", "note-line", `🏆 ${t.note}`));
         a.append(el("span", "result-pos p" + Math.min(t.pos, 4), `${t.pos}º`), main, medals(t.gold, t.silver, t.bronze));
+        if (t.pos <= 3) {
+          const share = el("button", "share-btn", "Compartilhar");
+          share.type = "button";
+          share.setAttribute("aria-label", `Compartilhar: ${t.event}`);
+          share.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            const place = t.pos === 1 ? "campeã geral 🏆" : `${t.pos}º lugar geral`;
+            window.siteShare?.({
+              title: `Cohab Team · ${t.event}`,
+              text: `A Cohab Team foi ${place} no ${t.event} ${t.year}, com ${t.gold} ouros! 🥋`,
+              url: location.href.split("#")[0] + "#equipe",
+            });
+          });
+          a.append(share);
+        }
         list.append(a);
       });
   };
