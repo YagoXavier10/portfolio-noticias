@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-11-02",
  "team": [
   {
    "year": 2026,
@@ -346,6 +346,17 @@
    "silver": 8,
    "bronze": 6,
    "url": "https://soucompetidor.com.br/pt-br/eventos/resultados/p1741-1o-jiu-jitsu-para-todos-felfa-sp-2023-edicao/"
+  },
+  {
+   "year": 2026,
+   "pos": 8,
+   "event": "Mundial NoGi CBJJE",
+   "name": "COHAB TEAM BRAZILIAN JJ",
+   "gold": 8,
+   "silver": 4,
+   "bronze": 11,
+   "note": "",
+   "url": "https://www.meucombate.com.br/cbjje/evento/100/resultados/"
   },
   {
    "year": 2025,
@@ -1601,9 +1612,9 @@
   },
   {
    "year": 2026,
-   "gold": 247,
-   "silver": 111,
-   "bronze": 94,
+   "gold": 255,
+   "silver": 115,
+   "bronze": 105,
    "rank": 6,
    "url": "https://soucompetidor.com.br/pt-br/ranking/ranking-idade/1796/1",
    "meucombate": true
