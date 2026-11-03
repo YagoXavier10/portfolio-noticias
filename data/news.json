@@ -1,51 +1,69 @@
 {
-  "updated_at": "2026-11-02T20:02:39+00:00",
+  "updated_at": "2026-11-03T17:37:24+00:00",
   "source": "Google News",
   "topics": {
     "Inteligência Artificial": [
       {
-        "title": "Como os Fundadores de Startups Temem e Dependem da Anthropic",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CTjNrdjVhZTU5ZTRNcWk3S3g4NGdrdDVFZURENWVCbFlFTXRzNEJoa3Nwc1dCU0ZkVlFGOENpOHpkX1hIUHFrWlZSVkNVQzBjc0pZa0xNdE9BYVEzZUQtNEZjd2MtRUpyRGxCci1LNHF4a0sybnM3Z3dxMmNhekk?oc=5",
-        "source": "Forbes Brasil",
-        "published": "2026-11-02T16:48:25+00:00"
+        "title": "OpenAI vai ‘aposentar’ ChatGPT Classic no começo de 2027; veja o que muda",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWHdUMDd3Y1JiUnlQRDRtVEFocW82elplVlJDalk4eVdSSXVGNUxHLUVxVFNucjhaWDQ2VHJFVXBLNGl6aGM2VzlrVGd3ZVNoRTZxVUZ5UXM2eFlZNDN2bEFEQ3dOVzJMNGd2XzJSVHQxY2NObUMteWI0Z0J2S0Y4YjN6Z1hSdG94TzZjdWVlckpDakp2R095enFYTFg1eWpjNWxHbFFPd3YxLWVnQ2U2RW5aTGdEejFtQ3pHTF9fSHZ2d9IBxwFBVV95cUxOblYtejB5LXR1bEF3d0hBdzI1YWZCdzcwWExackFKalRIZkJnVEVqRU1UZE1HQ25QT0J5cS0zUGFfUVZibUs2OVB3S2pDZTFhT0poMGZXWTRMd0tFZDdRY2hHTGZ3cWhsT3FfamVSUkJEcVJfQlUwbHEtcExDM1JrZ1BERWFhcFhvUjFaVUNVOXNYWEJkVHpxZ3l5LVBHOS02VUdIVkhCZHMxR1RmcHpQV1ZmS01kRVZMcnJranVpcmlqUy1LbktR?oc=5",
+        "source": "Estadão",
+        "published": "2026-11-03T14:00:00+00:00"
       },
       {
-        "title": "Prejuízo trimestral da Anthropic diminui e receita dispara antes de IPO",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTTZ1Q2d0LU9reU8zSmVyY1FZYk1MUVR4Y0UwOXdOOG1JX1o4bExaajFEY1NaN21yVFNEREg4dnktUW9FLVdaUjBNa2pnR1hRdHliOExkd1ZFa1p0Yl9ZZERpbUM5OFhuTUx4ZC03YzdUcUhmbzF3SXRnd0l5dEJseEF2Vnc3WDZXcmxUam5YbUxjUWRsNDRPbXhOSUJ6NHlqQXJoajdYQUJ6VEttMHY2bzdiREY4NlNFeEthZVg3QWg3TFVLY3hN0gHWAUFVX3lxTE5ZS196VFJvaktVUU5LZjhNSEh3RU9SaGFqTkM4elpZUzZmRzB3LV9OV1lMUnlzcmZHN1ZVcmVFQWZWbHh0TkctcnVvT2F4X2VMaDhyUXZGanBFR01YQWRuTklsSER4ZWhMS21KTzFPNXAzYjRuQkt6OWJPWFpGdzZBNWhRdzl4OVUxYS1LelNYUGNrTy1aekhKWGwyWGdDZm9lYWFEZnc0RG9UWDZSUm5XaHB5eldRMEtFVEs0UUxIUldOeUFSc2FfT0pqb0djT294OGpJWEE?oc=5",
-        "source": "Valor Econômico",
-        "published": "2026-11-02T15:37:04+00:00"
+        "title": "Anthropic adota estrutura inédita para proteger sua missão de IA",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOUGo0YUxiTUxCY1JJbDNMRnczUjcwbU1ZOHZSYURZVkRhZ1VCekhZZXBjQU1lVHE0LXBUSVFPOU1DRTBlcENvdUpQWkN6eDVMeDkyeG1IU1BNVmhYM1BFU3llRmNwZVh6NWJQTzBTTlNHTGMtOUY4SEk2djh0MWtEenVJNnRRRVdPY2tkUURUb0RLM25RdXpYX2ktMW9FOXdhZjl4anBrTFdrQUZ6YmVsMnhOWHZWSThydXVGQlFqakgyUHRJeVZmVHhmd3l2QQ?oc=5",
+        "source": "CNN Brasil",
+        "published": "2026-11-03T16:09:38+00:00"
       },
       {
-        "title": "Receita da Anthropic dispara para US$ 17 bi e alimenta expectativas para IPO recorde",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeDdrRjJRRWJjcW1TWkdGcVFtdnNqM3R0U3JQRm9wV04ybE9xR3h0a183WE8wM3VHaEcwT203Nm44M3FOVEtPZkhBQ1ViVkhQYUdobmZLdm5nOWZ6WEpJOHoxazlzZy1GU0dtS283bzRjbTNUakc0UV9WMzNoQUVhcXo5QV9nSXNSc2FJMl9jaGJUbG92SHBqQ2tjMzIzRGdXS2dIVWhsRS1pVWFpUEFCYUEyTzlNWnAyVmFmQmFndGrSAdQBQVVfeXFMUEFIZFVSQ0ZvQms3R0MwQnhmWTA5WjlmamFrVFBPb2Y2cTNQeThMQzJHM0dYUXVaNXdlbU9RVTRoaWprbGR6bnZPT0NBN09PVEZWemR5cnRqZ0diSGgzMTJyekd6SXcxdHdpdFktaXRjRHVybFFpZkdJNllrOVJtRDhDUzc2RkY3S0VKQXZ3RTE2T2V3Y21ma3BzNTBzWlhnYmJ5UzdSeGFIbVNhazRoUngxMVZoMHdKczdNeHhGTjYwWU9jOXMtenFySU9KNjNSTTZTcDQ?oc=5",
-        "source": "Bloomberg Línea Brasil",
-        "published": "2026-11-02T17:18:26+00:00"
+        "title": "Inteligência Artificial é 'tsunami lento' que ameaça empregos em economias avançadas, alerta presidente do FMI",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPOWlrN0VjdFYzRE5tLUZOT0ZqOFRnMFNoT005blZZZ19WQjJSckRwVUpnRGdoOWQtUTJjNERoQmV5NHJCMGhLTnhQVUNScEYzOEZka2dxMHNzcDZiX0FwLWw0bk9lQWJkazJTN282SUhOZTYwa28wbmdrelFocFU1SlVaQ2ZwM2xIRVVuckJtU1V5MGlYNVVWT09vMklManhRdGtzMlZaSVQ2ZTdwc0dIcExYMFdtWkQ3cG91bkxmWkRXOEFGUlB3V1doQWV1dWR4bU1LMER2WGJKUmdvWmF2dXVNbHRFOElpS1g3WEJkZ21jNmhORjZkR2pn0gGIAkFVX3lxTFBlMzUyNXRYZnNHNGJqZkxIcmFwX3U5eUdSYUI4N3V4N1NhdXNNclp1YWhaOTVaY2xaejJiZURCVWJSOTktNUhJRmxtV0FkN3VOYmhzRFBkeWxNeEhoMFRldDYwS25DR2ZZWGtEVTJoZkUwQXdrb0RhMzUyaXlBZThncEdXU0VfTFhMSVBkTHYwcGFMVVJ2NXdxd2R5eWN3enBnQ2dsY3R1ZnJCX1NvSnY0SURlLWhjOFZneEpmUUNzbFZKYUUyR2FyYXFRMHVldXNCaENIYXdLUW5MS3ZiZElvTUZlRFFoNnZCc1d3aXc4QmQxZEZVbnR5dHRZTXBNSVMxdGswQnAxWQ?oc=5",
+        "source": "O GLOBO",
+        "published": "2026-11-03T13:19:22+00:00"
       },
       {
-        "title": "Anthropic revela receita de US$ 17 bi no terceiro trimestre",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaHdCa3AxUDVZa2hZZzV6TFp3Zmh2UTdsYTRHWXBoeUdqSWRhTW52bDNGSndJSFBvQkNQcE9RZUM1TU1sbmFJc3I3Wk5uMU5zcWhLXzRoN0xXcnhHbE9hOV9KdGVxNEs5MzR4N3RxYjVoY0RObHYtakx6TkJyQ0E5ekJ5Qy1iRi1ZT2ZUMi0wUk9SSnJWZE5RaWJ3V2lOUjEwUVZDci1pNG1tTlZ1MnlHSnN3ODU3cEFPbG5lVERUZw?oc=5",
-        "source": "UOL Notícias",
-        "published": "2026-11-02T17:02:42+00:00"
+        "title": "TJSC debate o uso da inteligência artificial para construir uma Justiça mais humana",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcVh1Si1nZk9iQVd2Q2JxY2RjOS1seDEwdE1UMXlnLUR2Tld0MHJoVEJ1VV92ZXVmdEdlNTdraW1yRkVNWXFQS01FT3g2dTc4OWlqc1phSXJrSlhDa3Jvb1NaUmJ1d3JiU3lOblZBWEFZanYyX1JLN3BCbWpCcF9SU3FBcm5RS3p6dWZMOEVsTks5aktTT3JfWmtTajlxbVFubndFM3VDNXZpWDlNZ0NiRENkbDB0RkJlTGZza1lOUzQtc2VPdk5OU2poTFlKbUJV?oc=5",
+        "source": "Tribunal de Justiça de Santa Catarina",
+        "published": "2026-11-03T17:27:00+00:00"
       },
       {
-        "title": "Anthropic se compromete a gastar quase US$ 1 trilhão à medida que megaIPO se aproxima",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNR0hmOUVSV2s2SlZDdlN5VU5DQnJOV1dqX0gzVk5BUjlmX0ZSTFlpbU5FUmRYOThkalBFekFfZ2c5SERIWU9UbTFvRk1FUVpKWDVFc2VySXlzOU1GTmpFUnVDSjZDdEZmdWpVd2lLMzNNcWswNnVDRkV6ekpnX1NQTG9YVEpVY2hoOU9USmRhV1VJWGpXWUs3Y1E2eGNTUm9fR0JqNDNfVGJxVm9vUnN1QXdKRVh3c3I5cWRpVNIBwgFBVV95cUxNTkoyRVdVSndoT2J5RDdoYlVDQzRiZnZOcU1vS1Y4Sk42UFowMTNraGdSTEtLU1RjTHdKQjRNdmtzWDAxX0NLbWRrMjB0alNkcUF6VUJzTGJKaXRsMmxVUHMtUDA3N05MOW92dm1yOTV0NmJtdWhtLU9McHFtWHY2LVY3ZTNlVVp2NERoWDRuNGFyYmNsUllic29TR21zLURYbXBaRE16TDk1X1k0SlFFYjg5MXZUZEFJb0lndkJVLXFYZw?oc=5",
-        "source": "InvestNews",
-        "published": "2026-11-02T16:50:44+00:00"
+        "title": "Summit Press 2026 debate a Inteligência Artificial na rotina das redações",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaU5DaUNpUDZJU2dsYUFzWTJHWnI1MUk0cUkzYWVzOF9hMHVvTElBUU9TM1A3Yk91UlQyV0JTLWwwOWo4OC01TTBqRUpRTkwzekpxeEtndzgzNm5yVnhTSTI0NWR6NWN0bDU1YnkzTDJMZDVpVmthV1FYMFVfU2I5amZlX0tjUUp1Qk0tSm9aUHppWWc4aGdhU1VhWGRyMk9kZW1GOXd3Rk40djlkSUtmTXV2MA?oc=5",
+        "source": "Notícias - Canção Nova",
+        "published": "2026-11-03T16:16:41+00:00"
       },
       {
-        "title": "Estatal de petróleo dos Emirados Árabes faz parceria com OpenAI para uso em operações",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMDZyX1NFSmk0V29oM2R0NU5USUdUVjg4SXpvUUdTaE1EMXNrRG8zaEhfQUVJMDdIZVU4TTB0ZTIyQkxuUWRKLXNCVGd1cGVSRFN1WHhYTUVDLW1ySFdnbmVUSXJvVlVRWC1uckZ1OWFwaWk4cWNVaV9NZWFZUTVubUZFdzE5NDVNLXM0YU9JcEtkX2NDTUM3eGdoeDdBM2ZaMkxMNFVlaDRDNms0TkFEcl91cF85OVRrR3FScUZKa3lRd9IBxwFBVV95cUxQb3ozWVBQMUQzaFlBemhSdlNzU2s1MUJONk1qQVJKMUFPVVotcVJkODZFT29xZmVQSDU0WHJlaFpKTTVGalhtTXlQU01aN0dnN1lKLXNrd2NrbERKLXg1b2lkODdBVXV5YWpqT25Takd4Z2ZWMGdGTF9QYk11VFZTN252Nkh1V2NETTFpQWNfSHdEaXc5M1pjekpkNV85S2d3WEVLS1RtWkJOVEFlcTY2RW4yLXJlaEJYTTRyYTZiQ2luclFJV0Z3?oc=5",
-        "source": "InfoMoney",
-        "published": "2026-11-02T18:40:06+00:00"
+        "title": "Zoox apresenta o próximo capítulo da inteligência artificial nas empresas",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNemwwSkh0eVFzYzhlTDd5THdsdUpkV2pQVFVkZ1M2OEFPeWYxbHBZQUdYTHR5YnQ4S1ZhSHJvRDd2S0xwaEE4eGZEZ2tXVmVSZUhpVTBoRVNtSWdBLUdVN1o2RENPa0F2NDJ4anJzR3dWMWU2NWNnUmpzQ3psNks5cm1uQW9sUDFOeGFBUWhWNWpVRUxLTmw4SDhGRnVPQ2g1UE1vUWhzZ1pnY1YwdDR2UEdjYkdxc2VPTm5yYjNVaEJLcXhpV3hTUElSSko?oc=5",
+        "source": "NeoFeed",
+        "published": "2026-11-03T10:52:00+00:00"
       }
     ],
     "Ciência de Dados": [
       {
-        "title": "Inscrições para graduações EAD em IA, Ciência de Dados e Software terminam dia 5",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaDJoZVBvazBZbEhnZVlSZWNIVmNZTjdfR1BzQmRMdDA0TXFOeXRKTWQzNm9iWlZ4dUhQODRpam9pX1NtNDRaZGVsa1BKNHF6X2ZwTURmeXZKT0VOU1BWSW5TVUZiRFV6VUdXUjJxV3NxVHJzTk95ZUpYZ0dhQk56Q0l3T3NMdmE4dkYwLTNnSjJEQkpsNnVnVHNGY1BwYm9DRDBSZ2E0RkVRem9RT0RkSENoX2pHMTJUN3EyblZn?oc=5",
-        "source": "Hora Brasil",
-        "published": "2026-11-02T15:10:20+00:00"
+        "title": "Ciência de Dados no SUS: formação para gestores públicos",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQTMwb1hRenJ2Y05HTTBLdVZlODFUcnpoXzRxMEtYbXdybDE0NXhGUWY3bFRDVDJ1eTJTaXJUanJ0MmJWUUZKbXhZdmllNTJFS21TZTJINU9mUUQtSld0VHZCQWF6NGpvTkI5QzFpbE1FSC1GMnNGcVE5VXkxalR2c25Mb1d4WVBDU0VTSUVvRFU5LUZGS1E?oc=5",
+        "source": "Saúde Business",
+        "published": "2026-11-03T10:55:00+00:00"
+      },
+      {
+        "title": "FICO apoia o CQCS Inovação 2026 na categoria Inovação + e destaca o potencial da análise de dados",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT0VQTnNzalJZSzRZWlhCQmtkQ2xyWTRNOGdIMmFlWlUtV0kxaTBmNFJKaEM4cF9EbXltNHBSNWVFUEpHbFFVRk4zZHVZX1NrQmxOVkY3U1NFN2h4cnpJbE5YTzdvUjFmbWpYUU1Cb1BfOTg1Uk5hNTFJYlBubC1RSU5SNGVSclZtX2N1emc0VFR5cDBYU2NqMEVqNXRaZW00ZVRYeS1LeVFKOTZ2T3dyQUVHMllnQnl3UUNNc0w4SllVdw?oc=5",
+        "source": "CQCS",
+        "published": "2026-11-03T05:45:56+00:00"
+      },
+      {
+        "title": "Quem vai regular a IA? Setor injeta milhões de dólares em 36 disputas eleitorais pelo Congresso dos EUA",
+        "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNQWd6Mjl3ZW84U2ZuSzZ3aHRGQlZOTEYtREhSaHBISUswdFVnQzhLcGpTdmlBc0JxRF9GUVBIOTR1WmhqT3RzTWp6N19OWVY5YnZZUExnT1FCclJkZzhTdEZJbng1Vl9LU2w3UFFUX3VFc0ZTVzB0dzRLVWdOak9wT3lfNUdzc1dqamFkeEJ1bVBwM0ZJVUdqQjF5XzBOZWd0WWFsYkNrRXp3ZjV4SGdDZWR0Z2FHVnRRWG90YnFwdUZubW9hMGcxQmRoWktHVE8wR1Y5c05DakRZMXZzU0FBbXFVNzR6dEdYQVpXTkw4bWljUFZJTDMwWEJxT3FlMEpMQll6bEw0NzhSQ0RKQ3FOQjhma3NTb0VORVpr0gGbAkFVX3lxTE1BZ3oyOXdlbzhTZm5LNndodEZCVk5MRi1ESFJocEhJSzB0VWdDOEtwalN2aUFzQnFEX0ZRUEg5NHVaaGpPdHNNano3X05ZVjlidllQTGdPUUJyUmRnOFN0RklueDVWX0tTbDdQUVRfdUVzRlNXMHR3NEtVZ05qT3BPeV81R3NzV2pqYWR4QnVtUHAzRklVR2pCMXlfME5lZ3RZYWxiQ2tFendmNXhIZ0NlZHRnYUdWdFFYb3RicXB1Rm5tb2EwZzFCZGhaS0dUTzBHVjlzTkNqRFkxdnNTQUFtcVU3NHp0R1hBWldOTDhtaWNQVklMMzBYQnFPcWUwSkxCWXpsTDQ3OFJDREpDcU5COGZrc1NvRU5FWms?oc=5",
+        "source": "Época Negócios",
+        "published": "2026-11-03T13:45:13+00:00"
+      },
+      {
+        "title": "Inteligência artificial no mercado imobiliário: como a tecnologia ajuda a prever a demanda e atender clientes",
+        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNVpmdWU0Z2xEd25CWG5tVjk5dUhaVGptdHVHNkRYRGZKZ2pXVzNvUHhGTUlNTjdMb0x2RzVkdU1vOXBSOGJkTlhlanYyUUVGaV85QTQyOXZkYnJFU194Tm52c0R5VzlRZ3NwNmhOWGpvQ0ZaUTBISV9kcmt5OFNSZVAyNHE4WWZDZjUweFBvRGhtbnJqeDVDRTg4d0lUbjNCM1JPLUROSUxaX29VazljZ29DT2Fmd2hzQnJ6b3hIOGVXM1h1N2RHTU5zM0R4Nm9DQTV4Q1ExMzU4QjJES1BvTDc2Zy1aNDl0SkhF?oc=5",
+        "source": "Rádio Itatiaia",
+        "published": "2026-11-03T14:00:20+00:00"
       },
       {
         "title": "Ferramenta on-line facilita a análise de dados genéticos complexos",
@@ -54,28 +72,10 @@
         "published": "2026-11-02T09:14:31+00:00"
       },
       {
-        "title": "Concurso CGU: veja os requisitos das vagas em 2026",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVXFJZ2NkZWV4MmdsZWh2U2JQMlhlQW92YTlBWkU4MmVYMlQycXlKYjlsbnpZZ0ZKLTNEeGlGMEt3c1Q2d3UtQTJjMjJmTGppallmZFpqRlp4bU1WMmJFdVpkTFRFUXJ6X1N0UlBhMlJmdnpUUFRrRjE2OEpuSkdHNQ?oc=5",
-        "source": "Blog Gran Cursos Online",
-        "published": "2026-11-02T17:01:06+00:00"
-      },
-      {
-        "title": "Concurso SEFAZ SP: o que faz um Analista em Planejamento, Orçamento e Finanças Públicas (APOFP)?",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxON1d4RGpSWkhGOXFBSHRMMkROUHFnMWlIZkRCbU14d0RZTTJFYXlOYk54UXRBUjdzMEdPbDNJWkwtcTBPaG4tWGE5aGs2c19ENkVSR1BaVGJwZVdnNWJNTm82bWNDaDR1SDE3bWxqam10dklqRjk5dGlEb0IxME1rNjhmVXM5N19yN3p2RzZoNjBVY3diR0tBUXoyVFY1WFlwdTlmek1feVJ4M1M4ZmpCU3hIS2diUGV6UkVOaFg2djhoekxkV2tN?oc=5",
-        "source": "Magistrar",
-        "published": "2026-11-02T13:00:00+00:00"
-      },
-      {
-        "title": "Idosos mais ativos têm volume cerebral preservado em áreas de memória e raciocínio, diz estudo",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQzhrNXRfMTRHZG9fa1VaU2d6UzV3Nkk1OWtRV05uZWs5Yy1wZExZSzRjZXl5UTNtWmJvdXVRTFdPcjVERnBYREdPTldzTE1LU0NkdlB4NDlUSzNYQmdyQnZ2SHV0VHdmT3Y2VXVUOWJIU2NkR3lPYU5LbmdqX0xPWG5Nc3NESUE4MkxVLVFKYWpybk9lMFY2RWF3MWdHbzVBQlRTWUNtcE5PZzFaME5zaUEzMktzbTQ3TUI4RjhXMV9YRkZTQjltWjhweWp2QQ?oc=5",
-        "source": "Batatais 24h",
-        "published": "2026-11-02T06:02:16+00:00"
-      },
-      {
-        "title": "NeoSoul (DNA) Fornece Análise de Sentimento Impulsionada por IA para Participantes do Mercado Cripto",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeUZlZC1SVUpuTUlrWnQ4djBVcm1XdV9FZ0pwd0tfSDdiODE5RVV6WmhKeHM0eERhblc3S2hDd2JhdWRyck5SRFB6ckVEUzFfa0hSQUYwd05DRnpob2xwc3diV0FibVhuVHNzX0xxQ0tOWURLTlg3Ump0MElVdlgxYzFFV0wzYXlTaXVHT0NLMENqZw?oc=5",
-        "source": "OneBullEx",
-        "published": "2026-11-02T06:43:11+00:00"
+        "title": "Inscrições para graduações EAD em IA, Ciência de Dados e Software terminam dia 5",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaDJoZVBvazBZbEhnZVlSZWNIVmNZTjdfR1BzQmRMdDA0TXFOeXRKTWQzNm9iWlZ4dUhQODRpam9pX1NtNDRaZGVsa1BKNHF6X2ZwTURmeXZKT0VOU1BWSW5TVUZiRFV6VUdXUjJxV3NxVHJzTk95ZUpYZ0dhQk56Q0l3T3NMdmE4dkYwLTNnSjJEQkpsNnVnVHNGY1BwYm9DRDBSZ2E0RkVRem9RT0RkSENoX2pHMTJUN3EyblZn?oc=5",
+        "source": "Hora Brasil",
+        "published": "2026-11-02T15:10:20+00:00"
       }
     ],
     "Corinthians": [
@@ -83,265 +83,265 @@
         "title": "Ao vivo: São Paulo x Corinthians | Rodada 34 | Campeonato Brasileiro",
         "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ3RWY2ZNSURGSmFkUzcxVTZWdk1NUF9ody0tdGJRNlp5b0h6OHhQdjhkbWgwV1dza25mYVlteVRvX2JwLVFjQ3ZxUjV4Y2wtLWozdzFpbW5iUDVwbGVaN290U24zOVNnRUxkMUFsTHpqaEZSMVJORHQ1WnRaOU4zUFRiRUh1RVpNR0JVZF8yR1loX1dMMzVDQkxqUQ?oc=5",
         "source": "ge",
-        "published": "2026-11-02T17:17:53+00:00"
+        "published": "2026-11-03T17:29:43+00:00"
       },
       {
-        "title": "Seedorf fora do banco em São Paulo x Corinthians? O que sabemos sobre pedido de licença negada do técnico",
-        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOQTUtdUQ4anRCTFp0SGhmQktZMnpSV2thZ0pITHdmVDNRdnV3SUZjdlFJZ2MtZDVrOXh2b1otZldMVXZHTW5ZVXRXclpfaUxqQWVFRWludlBzSGpCZXBZaUJxbmwxclNOTzJtQ2htXzNHaFFYbGk2MGpxNEpyUGNKclBYN3pJdnI1Ul9uYWRZR0M4Qlp5Vl9IY0NHVUdSbmhrbzZ6bHVOanN3OC1icjVJbE5PQWU4NjRFZVQ5QnFBNXk2dlBPR1lNTUVQcUJZbG5fS3RDaGlmNWd4RkdOcWRDeXFlN01LTWhmMmFaVXAtNEJyUkdOR0NGTHRpWG5mZw?oc=5",
+        "title": "São Paulo x Corinthians: onde assistir ao vivo, horário, palpite e prováveis escalações do jogo do Brasileirão",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNMG1hOXpMVFJWRlNnaVZWNVllelJFSUJXMHVhb3FLOGlCd0FjYnVBTmxRUXdKRlFWY3RRNGNRTHIxRjVwbENyUFRSYlNZRl80VkpzNFpENlJpM0pKZ1U0dWRKNlFfSno5WkR6U0ZVNGNXd2g1R1U1SGhSWDVXeER1NTctWnRhV09BQ1N3LTdyQW93T2M1OG9HU0syLUxNd0pzUHQ2RjJueF9kZU1oWVJKSHB0WHdBcWRnblhZb2sxQm1XbDl0YnpKWHlRMXQwOWVJVG9sM0t6Z0hrUXVnb05VMmtrRDBpR0s4OHJFQnlHb19lYjlQSGpV?oc=5",
         "source": "ESPN Brasil",
-        "published": "2026-11-02T19:10:27+00:00"
+        "published": "2026-11-03T14:43:00+00:00"
       },
       {
-        "title": "Memphis treina no Corinthians e deve ter chance de se redimir em clássico com o São Paulo",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbXhBanVlNkpRT05fTWplRzR6TzdaQlRjUmdQQ2pyVGg3aV9BakRaOFZhU1ptSTIxS3kwazdSXzVkX3ptRjhGaGhLUXVrUDhXVWxOUHRfc3hCX2dLem0xZFVFci1pWGRuc1llSVl4Y3ZBWjIwZzk2N1FXdmdlaVMzRWFqSjBNdU5PaFNrVE15SUNfTWgtOWdqWThfMHUwN2Fxbm5CVkhWMS1aM3B2LXZMWjc4OVhpR0JyR3VucGh4bWpSdXpvVERocmY3RTd5VDBKRHp0bi16VdIB3AFBVV95cUxNSFJzS2RsTUtibk45S2VUWEhtR2xYanhBSlhENy1mNFNqU2g3YjBKNUpMbktxRDZ2OUZ5Mk5mM19kYkdralItM05NTkJzZXdnYUtRR0huZ3J5VXlUS2t0WXJzZHFVNlNjVl8tMmE3ODVCNTl3ZlpvcV82V1hWUUphNGppQW1tS0ZGUjZNTzJxdjhWX3pad09TLUdfOGFXR1B6bVhiYjQ1Mm5hUG5PeTVEdTNubENxZzNtdklDb3JDODVCVWgwQ2VSNG1mQnNyUExoNHZiZTVIcDBHRWhJ?oc=5",
-        "source": "Estadão",
-        "published": "2026-11-02T18:47:00+00:00"
+        "title": "São Paulo x Corinthians: onde assistir, horário e escalações",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcFZpakk5SWJpQlpvVWgtN2c2OUdQNXNyOFhlZHQxZ0VhTDJKYUVOaHlmQjNVWTNENnQwV2FTVmk2Vk5TQW5kdkZLSXNEbHlqZG1ELVBTVnFSY3F6Y2ZLeV9rN2s2cVBXc2NQNFJLNGVUcjZRamc1RXBEYVEzSExseHpLS2M0WWZhY0xpV2xuNVhUUVplRHdCclpCNHU2QVNTWTBZVw?oc=5",
+        "source": "LANCE!",
+        "published": "2026-11-03T14:38:47+00:00"
       },
       {
-        "title": "Conmebol nega licença de Seedorf, técnico do Corinthians; entenda",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZ0VvSXdwU2NYZm01QTZxdllSckE5R1dMeFFfT1FIWk9IYzlCWllKaU5hVlozQUFzWlZjMm02UFVlcjE3ampPazluWUhobFo5RkZkcVV2aGFKYVVwcVVmdUFWUXRZbURpNmVncjJqWmZpMWNVSElEbEZ5VnRvQU9paGZtRnBITWhuUUd6bmcteXhLeVRWSnViSlUzMGpGOFZESWxGeE5sU2x1RC1mV3k0bFhGcWlpcGc1dE94RmtGZw?oc=5",
+        "title": "São Paulo x Corinthians: veja onde assistir ao clássico pelo Brasileirão",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbVBKX25nanV5RlNFWUMxbjE0RW1neHZUMW0yS0drMnE1SFVIaHgtYXZ3d1RFYW8wVnNzM2Nxbk1mdUJsa3J0Y0ZwcDJPTzFDR0REMEtpTC1LQzNHbWlJZWdfcFJQTXZXZk1zby1KU2kwYkxWRmZJeUdoTm80V1pIa1g1WEVZSlJUVnNtQzBiRDd4bzF4a25QT1RWYkJkQXZSTXpRVTgwaDlyRml4MkdPNjlmR0xaZGdqbDRaN3piYUotQU1PMDE5VXVLYTlPX2pHWXcw0gHYAUFVX3lxTE9neDB2VDNaeUNkU3FGb19wYUlHTFJWX0NyQnloeThXZ0lTTm4xMS1vbVNWXzJQeUdBdVpNb2ZzR2VkT05Id3VCN19fd2NMQ0xLOWhjRXJRRl9KNHhfN2o2VVY0Z3c2T05oZTd0NWxBcURCanpaVXhSYl9MX3NQMEppbzNPVkxLQmxHYTQ0SW4tLU95M3h6S2IxOUUyWEpiUUM0cGxMUFFaWW5zY3F0cG4wc3NTTl9hZno2WWNjYzdoczlTVEpON09JQkdwNkk1eWRSSk92ZEFLWg?oc=5",
+        "source": "Gazeta Esportiva",
+        "published": "2026-11-03T09:00:00+00:00"
+      },
+      {
+        "title": "AO VIVO: Memphis, Yuri Alberto e Seedorf concedem coletiva no Corinthians",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQlJCdG5Tb2hkXzJtSURpZVJaZ0tjOEtndnE3cXZtVVVtblN3YnAwZk5hOHR3WWhfZHlsbktvSzVKN3JIVHNLTEk5c1A0Yzd3WUFsMHV4UmNfU1BtRFhvQ0xrVVlqWlpfUjBqbHdJd2dQTTJYalUwVTF3eXBkODZpQ0lQQmZHbFlkUFpMckFFZngyY00zMlhjdDdXOFBTUVJ3ZmoxODJ2dGZtUWVzejJhVzU0dWYwbGV1VUdzR1E3dUpnWThDNFhEZmVR?oc=5",
         "source": "CNN Brasil",
-        "published": "2026-11-02T18:57:11+00:00"
+        "published": "2026-11-03T16:52:07+00:00"
       },
       {
-        "title": "Corinthians: Bidu detalha pressão e diz que time não está 'de brincadeira'",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVWR2WER5d1g4QlFNMXk1eGpueDltQmJGeTVuOFhONzZ4bTlDM3hXNzRrWXdKUUo4YmxtYlA0Vjd6UFZYd0JRYUthV21OVWxNTWx3elB2bUFTWGVxeFRNNDVNcHBLM0xjeU1TZW1IYW5DbXFEM0NWQkZSTFItOEtHXzUxN3lKeFl2WVV5SkMxTHRmblJ4YUlBNmJRMXh1RWN0SzFTbmpuM3pweFQweVl4QW5aZVd0NXgzVHh4dUpfNlJkdnNrQmpHWjRsQ1FqUVBBdnJHNWhrUDVVSU0?oc=5",
+        "title": "Sub-17 do Corinthians surpreende até internamente e pode ganhar título hoje",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRzRsdWtVcVFGVktHRXBhOXVYU3g3YjRHa1BVNWM1WnViT2JjeWNhRlFLbUI2emFSWjhYcHZDUmotM3lTRVhlVFhxY1dQSEtiOUFLejV2RzhScjdYTmVQZnJuR24zX2RsSzZJOVNtSVFRYmk2OUVTdlhzdmFGNDVTTjZwd0tpN1E5Xy1HbTg1QVdQekRlRE5ZcmNaQXRNcVZTZHhxRnhiQzhQaUotQ0lYUEZUT2xUY2hjREt5VXE5SUNaMkp1SERnTjFQakN3MjRmSXJmUjRrRjc0ZEdKenFz?oc=5",
         "source": "UOL",
-        "published": "2026-11-02T17:38:47+00:00"
-      },
-      {
-        "title": "Corinthians tem entrave com a Conmebol para regularização de licença de Seedorf",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQc3BaNW1BR0ZiYnBwX0JscmxIWFRyaDdON2EwYmJMU2xhdDM2SEdmaXNqMEdvWWEySWtSTXNDUWltbnFrSW5TcFBMR2drb0dyNFhsT0YwRGRmQ3hlWmRYRFVhU3VMU2h0QWJueUwxbEpHZmViVE9ULUV0U0ZSMFJ1TmUyV2hmRjVsS0FxYi1CTkplUmdfbUNwQURSZE80NXQyMFJSWnhUX1dZbkFrVGlSZTB0REg4UEQtZ09yN3pOM2U1djhwVFFIM0JQMTEzRFRXcXQ3V9IBxAFBVV95cUxQbHlFVGg0REdsZ0d3OHRTQ1F5cWdvRm1vSEd6OU5ZWjB3MW5yemFKeXpraTlCWUJ1MlhPTXJ6UEFYWjhGNUM5QkszVFBpbzduT25DdThLd25XOEZvUTRUVkF3Q3JOQU1uMWpVNlFrb2k0XzRaX2hUeU13SHdsSDJuclhvVXFKX2F6LUdOMFhlODBQcE1tYUY0N2JuSWxBUElidV9fUEtBdXg5cWhDU3ZvTGRYN0Q3RjJXcVJFdW44VmNldG5Q?oc=5",
-        "source": "Meu Timão",
-        "published": "2026-11-02T17:07:21+00:00"
+        "published": "2026-11-03T13:30:00+00:00"
       }
     ],
     "Motores": [
       {
-        "title": "Apesar de tensão, Fórmula 1 mantém corridas no Oriente Médio",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbDNwQW5sa2xIQ1Bmb1VFdk5LSHJoNUxtVnNHUEU4UWtzZDJ5ZzEwbW4xZVdxVDd1ay03SFBnN1NYbTNrWl9pTEpBV2ZSV2V4V0hHbGZiLXZNc0c4WE1SNDJpUDVyV3JDQ0EtVktDYTdnbFhUX1VTbVpORFFFSzBwdUtpSlRWRUp0Q0NjUVFidE1PWW9YVEtHX0ZkeDBJekF3Z1puWE13YWxpZmd2LS1uZFV3?oc=5",
-        "source": "CNN Brasil",
-        "published": "2026-11-02T19:30:57+00:00"
+        "title": "Heineken 0.0 e Carnan unem moda e automobilismo em coleção",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWGdWRGV5V1ppalJBOC1CdlQzQWIwdU1RZnlzTVBaYzJpeFBqTkJFR1AyaFpwcktPRXlhNzV5UUg5dFljV2Zuc3ZKTVdTSFUzVm9Vb0laRjZsdUNUT2t4ZWUzWDFZMmJpMEtQekUwelZJU1U3T0dKNDQyWWtuOEhTVklnSzNCOVQwdXJCdlMwLW4yRUhaNHRMQngwRUluWkh6?oc=5",
+        "source": "Meio e Mensagem",
+        "published": "2026-11-03T13:00:00+00:00"
       },
       {
-        "title": "Brasileiro pode estrear na Fórmula 1 no GP de São Paulo, em Interlagos",
-        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQbThBWnA2UmhPeWtJNDUwVFphZFhsaVdZckNWaGNLcjZ4d2VuUWNyWTVaRUhma19FY3JpRV9CRTczcG5PSmZ1Zlg3NlBGNmd6akp2Y0NVQnpaZUFkYXc1WlFlQ3NhYVJCc0hYMXM4ZkdxNWNwalhZcHhRYTFqZ3E4NTJGSUJ6SUdDcUwtMFZSNktfaTB2aWFEdmlEcEVaNXhrSlByTkNVOGxZeG01cHltUm9ua2J0NTJmeTBqa3gxVEl5d2ExYUtqajlka2tfQ19Jc2VmYS1zcThnTTVhTGtpOHg1Ty1nVVMyWk41MF8zSXpfRHZkdXBrdlJQOG15VnBN?oc=5",
+        "title": "Mastercard e McLaren abrem espaço temático no Brás para conectar Fórmula 1 a PMEs",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRl8wWlFBNVdQbjh6RG5FdVM1YU5NVUo1RWxZOWxfbjk3cGxlaUJscEh6T09pV0pOUzVLR2Q2UmRGYTdVdHAzZW5KbDZ4UW5CWHhvaTJXcTd1TXRXaF9oU242eU5zRkJVSXdXU0pEb1d5VXlqdlNqWEVpU21pZkJMV01sS3d4QWc1Vk9WZzhUeVhhM3dpT2RFWDZDc1ZQa2YzLUc3VG83ZXExMm9zV3pvNTRxeEpCRnhIeC1MRTRISzhtQWNBdzZQNEhwb2FQRTBHVjdxVG53?oc=5",
+        "source": "Valor Econômico",
+        "published": "2026-11-03T16:47:20+00:00"
+      },
+      {
+        "title": "F1: Mercedes deve abandonar câmara dupla nos motores a partir de 2027",
+        "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPdy1RUTd0MnJDdjV6RHU4c3BqUERJODRmMDNaRFpmMnI2NUNNVFM1cWpiZm1TWEZtdnhEMXJqTGtLUVlZVjk5b2dUTlVXdjByMzRURHBHd1ZJMzhadWJBNFZKMXQ4WTBIZUFnMlA1NkFwUjJiWmVxWnZVbU12T3hmRjFfYVRwQ2FJV2FOQ3M3emxBVjNsMnJsUUZDaUQ5ZVp4RENRalQxbWd2bHltaXhFc0JrVDY1cGZZQ1RnM0dibGFTRndrWUdmaDRGT0E3M2FwVXBqWmdpTEdsaXpIbmc5WW5BR1ZZN3FEUmNNbURlaWVzNWRRSzZ2VHJobUV3TkRk?oc=5",
+        "source": "Terra",
+        "published": "2026-11-03T14:12:00+00:00"
+      },
+      {
+        "title": "O que explica o fenômeno Antonelli? Podcast analisa a ascensão do mais jovem campeão da Fórmula 1",
+        "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNT3FBTXhfdllVS1JYOVo4dFlKMmxCYkJnWWhCWlZyV0Z1UnZWVWQ0WFdSTDE3MlotQlN5c2ZkdkV1TXdGUWpaYkJkbXlncWVFSTdoUTRyNDczUnE3QzhQV3NPeDFiOUZnOTVfRUNzUEpaX2lFX2dsNGsyN051ZGw2bnZEUFQ0bUJaZWRKWlFLc2FxWndPeXVibTl0U043UXpWN2w1Um1hbF9fYVIwSW5RQWI2YXJLRFZWUGpjX1NibXRCbU5XcmtLWWVTZ3hKaG9BM01RNFl6MDUyNVVXcldDbEp4dkt3ZklsQ2FDZkNheW53cS1oMVQxZXFaU3FJZnVZaGJic2RveVhVWTJrMmlMZFBRUXVONjdZU1lzb01OUUN4S0lw?oc=5",
         "source": "GZH",
-        "published": "2026-11-02T17:32:20+00:00"
+        "published": "2026-11-03T15:22:05+00:00"
       },
       {
-        "title": "Relembre os últimos dez pilotos campeões da Fórmula 1",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSFdFZUVjN2RHR1JsbVpFUGUycnhxT2RYM1h4VUlTeEstdGwtOEpMd3NtamdjUFFHbmZVR3VrejRWelk0c1Utb0pzTTFmYkZ6dHVBWF9HdWRBSXNGa1IwbGVPWXpKOTBuVE9jV0FYSmM1bkh6LTlfMllkLW5zX0I4cWtsMW5ESXNObURxRmRsZllMZw?oc=5",
-        "source": "VEJA",
-        "published": "2026-11-02T15:03:56+00:00"
+        "title": "Fórmula 1 - Guia do GP de São Paulo de 2026 em Interlagos: horários, portões e como chegar",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9WblFsQXRQVE4ybm9aNzRfbVNEYnZqNUItbUo3ZG5yLU1WY19hYVNPVW9Gem9XNlp2dmIzZWVJQzFBR0Y2VEpudDc1WmFUTTB2aTNES0xSVTUtTXdJYkQ4bzdwM2ExYTdnbWVr?oc=5",
+        "source": "Motor1.com Brasil",
+        "published": "2026-11-03T17:07:00+00:00"
       },
       {
-        "title": "Um título e um recorde para a história da Fórmula 1",
-        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNUFNwVm1RejJRZnVJc1dxU3dGMGc3ZHhzaE5TVFZER3g4YmxPMHpvcW1LNWpVeFVDNVl5NTNLZTZFVjJKRWJaWlNESU92V0JER3dnYjFWV29CN21rbi1TRDI1NmhQR1pTSGNlbkhXQmFLcXBKVkhTcHFMMTlrUGJMUFJKY01Vbk1wNVNjS2Rfc2U?oc=5",
-        "source": "GP São Paulo",
-        "published": "2026-11-02T16:44:05+00:00"
-      },
-      {
-        "title": "Análise: Kimi Antonelli garante título da Fórmula 1 no melhor estilo de seu ídolo, Ayrton Senna",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQYXNQUV83NGo5UVMyaTJvRXBNOXhFM1c2OUw3eWdrLXJiNHRONFROdGczU3FpWlVmQTZUclJxakxZWUVSd29kbDVWMUtHX2IzS0ViNVdPYUhjY3RCUklXUl9nVlVxMEx3OG1VWWY5c2xRSkM0OHVvcnptby1nY0ZIZ3d4LXR5ZGFybFBfY3RuT3R6Q1NZV0JBMXF1NGhnSHJFeE1CbzNxdE1SNXRXV0p3cElxTnZPV3FacklYZFVZQThPSW1FblpvbHhYNEZzbEdxVmtDaF9YTmxnSTNRUUdkdzhoeWUxdUc1cTE40gH6AUFVX3lxTE4zZXhiNWZtQW9xWVIwSTJzN3JVbFBUSkRaQTdLWGIxNWhCUjVUOVRwNTdLV1hrZTk0NWRhU1RxZEh4QTlBU3FOTHQyS21zMG9waEhOZUdVNzVJaHJlckd1WFBnY2ZRc0txdUJOMERGNkUxeUV3Y090OFkwbnE1YnBocXhqUGhETmVzMVhzVWx2OHMzckpvQ1lGbFN0S2tBSy1qN2tfWmVqRGxuSDhVTVJxempPNjV3enBOT21fa0p3a2R6elFfb2htbGU1blhfUlNlZUF6VkszSnp2cGhVeHo2WGtsVklBZHhENzZ4Vi1nWFptdmdBZ3RoMVE?oc=5",
-        "source": "ge",
-        "published": "2026-11-02T17:00:00+00:00"
-      },
-      {
-        "title": "São Paulo recebe GP de Interlagos da Fórmula 1; veja as datas",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5vTzJVNWNFTlFvY1dWcWFYNk9sYVd0T3hyVU1aN0tzdFp3eDJHRTlDcmNyZGZ1LURPNUtsSWlCY1hkV0l5MExSUUZ0NEladlFtRWNfODV2cE9UMVRicDMtME9fNEZfTVJBc0RZUDRPZGRDMVNDb2tCYmt4dWlBQQ?oc=5",
-        "source": "Portal ABC do ABC",
-        "published": "2026-11-02T18:59:10+00:00"
+        "title": "Fórmula 1: como uma reforma a transformou em mina de ouro",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5aSTZ3U21jZ0V4YkhEYVdpYVA1ZThhRUZEM0NPVmZQTmt3TXpMNzRMa1NLbEhldEYwNHp1LXFHQkFFZlZLQUlyQ0duR0dsVDh2MHA3SkdMbk9vTXc4VEE5OTByMVNONlhCclBWSGY0c2hZLW1iaHfSAXtBVV95cUxOT20tYkt2VnNOR1hlTExURnpWX0xGMEJSUnNwX1prd01JcllsTUNCWnkzR1F4akotN3FQODdiTnFidDl6R3U1a2VCTTFERXEwX2lvRENpbFNjRlp5d0tiVnpKbkdZOWl3cktFY2tLUERlVDVEbjI3WG1EWk0?oc=5",
+        "source": "InvestNews",
+        "published": "2026-11-03T08:00:00+00:00"
       }
     ],
     "Tecnologia": [
       {
-        "title": "REC'n'Play 2026 será palco de tecnologia e criatividade em Recife",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM0NTV3A4SkJ1S3lsb2I3WXM2cHhxSHFBT0UwUXBkOW5MN2hXUmoyY0ZEX2otNk5HcW1Nal9KLXdUdmFfMF9pdjAxN3phcG9KS3dIUVZBMlI0YXR2WUlTZ0RzSTNSUHBmRzhDbW9jd2hpdXJfOGQ5Z0NnYkxzMkRiOXlVMnVkSWN2cTR0c05aNlhlTnZCdHkzYllSRkFNR0J5d3pGR1RzTE5Pczl6Ri0xRXlZY3JOOV9qTzM3UQ?oc=5",
-        "source": "Agência Brasil",
-        "published": "2026-11-02T14:19:00+00:00"
+        "title": "Estudantes desenvolvem tecnologia para o trânsito com orientação da Prefeitura",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUzlQZzFLS0lYUlRvU3VVRVBoeVplY3NRYUtxSU9VeWxxSTJoRzF1VzlZQWsxNzF1Ny1Wa2xKN0JJVWhUM2xBMGotWkJRRXh3NnNyZV9SZVd5VWRLOW83UGF5TVpHU2RMaVpsZGF3bmhuNUR4VnRfbUtsM3NPbnlUaXRaSDltWE9lRmp1UFhrdVpKNkVvX0xSako1R3dsdnZ3aEJEd1FTQTE?oc=5",
+        "source": "Prefeitura de Tubarão",
+        "published": "2026-11-03T13:47:58+00:00"
       },
       {
-        "title": "Estado de SP ganha quatro Faculdades de Tecnologia (Fatec) e uma Escola Técnica (Etec)",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTmNvckM5eFRrbVd5SlN3TjFNeEp1ZFBXbUdya1IzTFh5X1p5cHBEQjhsSW44WU43bEpPcDRMNGhiWXhBcFd0Nk01MEJpRWNrdnNuQVRKeFlacl9qZHNVZWNJZVAxRWVnbEg4Z3liWVBvSm9DcXVDTGRKazF2RFJDSUtKbVhUcUhsRldfbXFPaXdDTVFNOVM0M1UydzZvS3h4UFdzTDlpZG5udUlRem9kQzJZRQ?oc=5",
-        "source": "agenciasp.sp.gov.br",
-        "published": "2026-11-02T10:09:41+00:00"
+        "title": "Com tecnologia brasileira, VYDENCE reforça marca e estratégia de expansão global",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQNUx6LUJsOUd1T1h2T1ZZcGc5cXlrOHc4dnkza2hYajVlQmdiUEdvYVJKc0hhNmlybGFXNkdqV29EMFpySU1ISTFIUmdOYkNQSlJ0dXVBazZhS3BzOUc4ZlNuSEtRRDlsU283bHdUcXlZOGJvZHNNaFJmUldSd0hPSk9NMUZyUEdOZ1BVSEJhcUpGWGRMb0pEaU5yTkl3VUpBTHd2Tko5Q3B0Z1RkWE10NG4xcXJBcWRYTElKLTU4ZkR1R2pZWjU4N1RPdW5jVElGeTE1U09ncTZleHBFNEV0UG9yaXBINk1ZTmfSAfgBQVVfeXFMT0ZsdDlPbUllNUFrWXlTaEMyWVFpdHlRYU9zWm8wWllDUTVBLWxUYlAtYmJ0UHV5elM4a3RscXUwR1JLalYzYXhGTnpkR1k2d1hDYmc4YTRaa2VBamJlcmlXc1c2MmYySUNRaUx2REphWEVENWsxdlZiV2s2aV9sS1BuYnRmU2JVSnl3eHFka3J1Ry1NX29wamJqVUlfNzRvMUlURXlDUHNkWUdhRGxMMmFNS19OSllyY2RIYjNEWTltZmVMOHkxVldmVnNWUjlUWjktaTVwVzlVeVplZkRDeURZVEN5NHhKM1dtSzVSTHRlSHUzM1otTFk?oc=5",
+        "source": "Valor Econômico",
+        "published": "2026-11-03T17:14:25+00:00"
       },
       {
-        "title": "CG Tech Day: especialistas abordam IA e mercado de trabalho em tecnologia – CGNotícias",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUWxmQTdVTVgwcUI5bVdPNzBSelozSHBRbHY3NGFlZVRFSXlBME02WVhfVTA1SG5uSk5nNGQwYTNWRThwem9ONzYwbWxzcjUzQTNoZm5USkMyQS0zV2h5VFRlb0Z2SVNnQ1lIdW1BSUFKaVdvdTJ5Y2FtdkhUN0FvZ0JobzV0Z0JNcGx3Z1ZScndhQjFmQVpMYWwtS1RrckNmNFVFWDdfZER4b2JhdDZoNDBpNXlZY0k3cy0zQmZXZUxHa2hS?oc=5",
-        "source": "Prefeitura de Campo Grande",
-        "published": "2026-11-02T12:14:00+00:00"
+        "title": "Erin Brockovich critica gigantes da tecnologia e cobra Sam Altman: 'Tem um ser humano aí dentro?'",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNjAxM2wwZmdRcFp5SjNXVE5lSnlYMG05R01TY2VUSk0yd1pCN2NTSDYtU1Q4TXNNVWZ2UDFsd0tLaEJ6enlMcEQydFQ1WlhPX3VtWjB3WFVLaUFnR3NNTUNoN21pSkNQSjBSSTRYbEFYdVdlVGhJZ0JOMnlSaG5YVHJHREdxajU2ZEZSblFlVEQ0UDJxTWdKcGZkX1RXUi1XYzJqY1FGZGxaYVVqV2ZPcF95SFNsRzg5TlpHQW5XNFBYcXJIRVhnTjE1M3B2Wno5a1NPdG9TbkktWUk?oc=5",
+        "source": "UOL",
+        "published": "2026-11-03T14:22:56+00:00"
       },
       {
-        "title": "Bayer licencia tecnologia de fixação biológica de nitrogênio",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVFRVSC1oenJMa0x3bW1hZzM1Rm5aSEtPNU1CUGxMT1N0YlJTR1ZZc1JCYURTSmw2QkJuNFA3aUdjM2EzSkcxaUdFTkd4SjVKN0RZd1NpWEVha050ckw2cGFxcnBDWjBQdUhiRnlaaXhWZFM5QzdlQ3NLM1RsNWhTZ05RZWprMkhKY210d25FQjVTOGtuck9RVFZMXzVYLXFGa0E?oc=5",
-        "source": "Revista Cultivar",
-        "published": "2026-11-02T18:55:00+00:00"
+        "title": "Prêmio TOTVS Brasil Que Faz 2026 Reconhece 16 Empresas Que Transformaram Tecnologia em Resultado",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONlNyNW1oREJPYmV5MGEwd25yMkk0RWNNMk9UYlhaYkc3XzdIc003TllraGlNNkIxUFA0d1UtZGYwR25OS2dwaWFIblQ2TWFTS1I1RmJ6N2I2QmJzYThZR1Q4RDNwQmRmS2k4Qnhoci1ycDVaV19WQks1MnJEbkx4NWRQd1dtdDZGWTNVQ0hQdGJfbl9lQmV5OFg1TFhiWU41WFFQbjZGNUF0b3hMSzhBeVZQR2pPUGxtaDlaNTYtS0w2TGpxdUhId1gzdUxFYW85RUZRWWt3?oc=5",
+        "source": "Forbes Brasil",
+        "published": "2026-11-03T14:34:52+00:00"
       },
       {
-        "title": "Mundo Senai transforma sala de aula em experiência real de profissão, tecnologia e futuro",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWEs1akp5a0QzekRGMENBVlNyQUVfb0wyejE1QzA0UHpFbGUyTzNKblJZV0tkOHJmOUdBWWVzYmdZMi1ET1V0c29UOVhQUkdxaDJ0NVlKSUpUTTRmcWk4dC1wWDFLTmplSzNDbFJUMkZWOXl6RloxY0s0RHJuZzV3U1ZZcUZRSnVzaEx6blVVR1hudE5kbUtubjd3Y195MlBQVmllWEJXNXNETWYtM1NzelE5elB5N0JGT24zRE9GUVVlNURoQmfSAcYBQVVfeXFMT0lDcTZsay1BaGxhcmtmWXlremNkRk10U09JMXpSLUs1V2tZcDBLV0tORDBUdTZiQ004V1hMOU9ZSjNzQU9UanlZZmNOQXJ1OUJxQ0pmRmpOM0NLOWNtRU9ReVZoQXNac2JRUTNzQmpad0FwMFNNbVY3T25YTGFPRXBaSGdmVkFpRC1wcVYtV0hYVmJmbHB1UXI5N0VRTkh6VnNCS3hCSlZOVUdXMkFqNWtkdklmQlNQOW4yVmIzRmNTZzhsa29B?oc=5",
-        "source": "diariodigital.com.br",
-        "published": "2026-11-02T15:05:00+00:00"
+        "title": "Copastur investe R$ 130 milhões em tecnologia e anuncia nova solução de IA",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNb0N1Y2UyLUpPdDFiN3dPcVBqakNqNUpvSzYzT0JnQ0x2UjlYaGJnZzV3MWNxZHhIMmV5dGJVRUdfbV9hd1d6c2h6SVZnbVVxNlFnWS02cE1vRi1qY2VqMEk5YV81VDdPQ2RKYkVuU3dZeGdHT2kyWkZyV2h0aVYxMzVJekxkS0VxR01vMHVXSm9BYmg4aXcyempqSE52RUthM1RqX0NZLUQ0UFV4N243SVA5RFRXOVBMSlQ1VzBkeVhqUTRVN054bDdsX0x6THh3ZkllMUVnRHVzN1dtQ3ZjMQ?oc=5",
+        "source": "Panrotas",
+        "published": "2026-11-03T14:43:00+00:00"
       },
       {
-        "title": "Mercado de tecnologia prevê abertura de 98 mil vagas até 2027 em SC e faz alerta para falta de profissionais qualificados",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQZy1GZDYyV1Y1S1p3ZThHVW1uU2VRaWRSa2F5bC1mNS1JRnI3SFZvYU1EQzVvX1lDZGJpeUFqOHJVQ051Zm4zUW1adHB0M0w1eTMyaU1ZbEotal9zZ3VQblRhNWlrYnExR2o3clJRNjN2WU4xam0xc05XSEZlY0R3MnhZT2tOTEhwdEh6bzU5YTEyUkRtM1VKVFNmaHEzQUJhSTBWc19CSVlGUXdZS21pamNYZHBHc2wyUm94amdpLUVVZ3U4enBBSFBGQVJhU3YtWFNpSUlfWDd2UmxVNzgwX3QwZ3lOdFRPSXdNU0VDaGRzVndnSnlhMg?oc=5",
-        "source": "ND Mais",
-        "published": "2026-11-02T18:31:51+00:00"
+        "title": "Black Friday exige integração entre dados, tecnologia e experiência para transformar tráfego em vendas",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMGRvaEEzZ3g1LS1rOGc1bksyeHNkak9wNkJzN0RyVGNFQXEzeXFGWTA5cGE2akh4TGdkYjRkLVJ4UlBTLXo1V1poeGFXZnBPQWxSYTZGYVZldVppZHdPVEpxNlZkVW5qVEpuUHJhQmFnNWRPdFJqLTN2cFJXLVdDZ3pLX0lIMDVrbmxMLWs3cDRPSGVuNXhRaV9nUVRaZmRpSG9nNkk1UTYtM0lQUUN0ODlKMjlIVEZnRnRMZmpqUEdybHdRaXRudGFGLVRNTzkxYm0zdGdFWGFncmhY?oc=5",
+        "source": "E-Commerce Brasil",
+        "published": "2026-11-03T12:00:00+00:00"
       }
     ],
     "Política": [
       {
-        "title": "Eleitores dos Estados Unidos escolhem novo Congresso amanhã",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaTJHQWU1RU4tQTZmVVdaQk9fVlJ2V01zSzFJMmZiT0tBSVFTU2pUQzZDSEhPbXdzNzhKRHRoeTlnWEJfOGFoRU1ycUFuZktqMFllMHZzRVFsZHVwYU9icnFDbTEtU1lkaUdHdklKSl9DLXBPXzBfMUVkbnFta1BtLWpyQkVGSGtvX2hOWEpJWFhuTGNsNGYwU0lvQ2NVSkxkWDlHRFUtLTVIU1A0WUFFMVpLS1YtSDZnb0FyRFZSVzI3WlBLYmVKZW90M21WSmJyekw3blg1WVl3QQ?oc=5",
+        "title": "Audiência pública no STF discute impactos da medida provisória que proibiu bets no Brasil",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPajZFWi1VMnVQMFZsWTlwMHd0bUw3Wk5MRGh1Ym5FZml3VTNkY0FIcU5BNDByUzdqM09HVUhqdzhQUkZqcm9CX2tJV1N0MGtjY1VKeXpoNGlwdmhOMEEtblg0VXc3d05ORUZkWnVpMENuUFEwcHQzZ0RJZks0SmpzMEwzbHAtbW5neTc5MXZDdTQ2SjJfSWQ2bE90dTdrMjlaSGkyQjlvaWV3Ullnb0dDWEJJbzRXdWhqR0h2NmNTbXB6VTh0dC1NUl91WTY?oc=5",
+        "source": "stf noticias",
+        "published": "2026-11-03T15:47:00+00:00"
+      },
+      {
+        "title": "Governo quer enviar MP do Imposto Seletivo ainda hoje ao Congresso",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaFRnTklQZVlCRjVFNjJaY2FDTTVVblVhbVcxbEhlUEs4ZnRGdjY5OXFmTTg3SHZyUkpWUTNnNUpxeUN2ZXBMUnFISVljblVGSWNlUDFMSlhjVFY3bkRNdDVtYUhId0lKTFQtVE9vUjdybXlIcW1LSkhiMGZTN1p6el9BLW44LWFyOVhvRVFHS0hBN0EyemNkbG84a3hYU0RHY3gzM3JOMUozM1NmNmQ5aU1nNEI1RHAtdU8zNXY3b0Zhdw?oc=5",
         "source": "Agência Brasil",
-        "published": "2026-11-02T19:03:00+00:00"
+        "published": "2026-11-03T14:42:00+00:00"
       },
       {
-        "title": "Lucas do Rio Verde participa com stand do 3º Congresso de Turismo em Cuiabá",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE93VzdvRl9aNUE3NTlpUC14UXVINlJqNjQzcl9kVU5CcFBPZl9mM2hmdUlEZ0RBeUlfYmxRSHNsVk9fYlRZMTkzcFMzTThXU0R5ekFuM0ttVVVLOUlTSDA4cFJR?oc=5",
-        "source": "Prefeitura de Lucas do Rio Verde",
-        "published": "2026-11-02T15:02:53+00:00"
+        "title": "STF debate proibição das bets em audiência pública",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYXFfcVVPMGprenJUOWFJaWIxMktlWU5KSmNuZ3lneng2dDFCb0stVTJBck5jUUtTdHhhV2FzeEo2QkVFbVNEb1FlcWVHYXFfeW9qYWVFZHNydGxfT0swS25Tc2h4ZkVSUm13SEFWZVp2eEJFcXNSeTl3VWhCMlh1X29yUk1wOEJKbXNMaER3SWh0VTVYX2VfUQ?oc=5",
+        "source": "Migalhas",
+        "published": "2026-11-03T12:59:06+00:00"
       },
       {
-        "title": "Por que o Planalto está tão atento às eleições legislativas dos EUA",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbEVISHAya2V5QkZZSy1wb0xHTUo0SHRsSzFDWVZxWmEwNklNRGtjbTV3cXdaeUozM1lXc1paQ01SbENRT1lmSmJFQVl4cVdUWEl0M1M5RFlycVRzWDVMVXhnSEtpZnNreTRPbGJ0VFFzZHplaGRsang5YXh5VExKbjB2R0pWUF9HWTNiSXZLUGFPeHUyYVBabzBudVFGRmZydVdCRzNR?oc=5",
-        "source": "VEJA",
-        "published": "2026-11-02T18:00:38+00:00"
+        "title": "Fux cita críticas nas redes e diz que STF já discutiu consequências nocivas das bets",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxObzM0eTdZOFRtNVlYN3NDSEwyYnlIMXZkNFlhc2RqNDBBcW5CWnZ0T2l6cWRqZXc1RkVpZlZGdjlIOVFLbGFmMkg1Tl9aUmk3NTNVVUhyZWlWajJzdUlRTUtOZURtcUFnLUEyaVNJWXpKY29NUFBYbThaemJZV09JeUNZSVRjTDRBSHJYQm5sb0Ixd3lKcHVxYkgxN0JNa0tyblY1bmI1eU9sWDBBUS1GTkRrRlA5QVJmRjZubXdhNnJMbXNZeGRDQ3FWN3BPWlJVdHE5S3pR0gHkAUFVX3lxTFBkdGVkTHAxd3hJOTdkd2V3cFMtc0xWNHBneElCRFE1UW5EdEZsODZ4UUdVeTFHTDNJdUNLZ3FKU1ZTeXA0RFNYSTVIY1hsMVVZNkFQUWNaOFF5ZXoycUJHLUx0eTNhTUlpdjNwTE1oQjByeTdHNE5NMDdWbkFoOW1WSDg3eEhUQ3VGZUtrazBNdFBDTUFhdE5qYWVUXzBPQlFDd0c3c255M0RTb19Jd0s5bURpUlRZb1hLOEFwUkhBcVRqUGU0T004STNvTnpnSjZOdHlVRnZ2V1QxQ2FLelZsMXMzWg?oc=5",
+        "source": "G1",
+        "published": "2026-11-03T13:33:30+00:00"
       },
       {
-        "title": "Propostas de Lula para reforma do Judiciário são centradas no STF",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPME5OVktWMldkakF4NjBQeXdDeGIwc25SOE14TTJXNFFGWkhHMGs5eWx1NkZ4bjBFLVNLTlUtMmZBVmRxNUFzc1dzVlNfQmZQSlNtNDNjN2ExMldCbUdZZnhhNzN5S0RaSW5kWWI4V0ZvTzRoaFg2VG9QazE3NllZX2Jfc3hkS0hhVW82QTNBZkItbmFtQ3JZRE1ralE1LXBWbW5Fa2Y0b09URTM0VEFadGZNajVaQlk0QmVQYmNEeGg?oc=5",
-        "source": "Consultor Jurídico",
-        "published": "2026-11-02T11:51:21+00:00"
+        "title": "Fux prioriza convidados pró-bets em audiência no STF; governo defenderá proibição das apostas",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRUFITGh5RzF3cDI1aXVYc2ZQT1FRWTl4STNRUExlWVRWaXRjTEhaaWtocFkxUWdJa0wzQU5PUWl2YjgxUVMxZ1RBTXRYZG5Sb2liTkl0VHdzcENSd0ZvYTNVYzE2c09JakJoenN0QWZCSjZFX2RER1hfdmR0THdqQWxhUEpTTWJvRXlCWTRuRjh5RmdnNmxnTTFxZ3cwODhYUzNXTVB4ZjRFVDlMMzBJNUVDRjR0Q3lOTjlGREVDNFZnaHpkVlYtMl91bzJLaFdfeC1la3VsLTVKQQ?oc=5",
+        "source": "Brasil de Fato",
+        "published": "2026-11-03T11:29:00+00:00"
       },
       {
-        "title": "Derrota no Congresso pode travar ainda mais agenda econômica de Trump",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeHV1RTJRUDFNTV9LSXRYcWtIZk80N1dveV95NXQyU3A2YVNwVk9oR0VlQjJFZzNIVFUwUEhON2c1NENHQ2NMNWFWNXd6NW1jUjNsekFITkNtRXpNVGQwZWJtaGhMbl9xMm1kd2czZ2Q5UVJVYU1oNURXZzVad0JaNFpKQTRtX0pVX0xWNDVUaHRiSTM1aHFtYllrbWpYZ2l0S0N2dnRoeEVJN19YdWFCcjY0M1NTQ0dIU1Q4bllxb1ZEZXM2Q2h6YWM4SVJYRjRl?oc=5",
+        "title": "No STF, ministros de Lula defendem que regulação das bets foi insuficiente",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaDZ5Vk43dXJVYWZlVEs2R0p3U0ZtdVN6YjUtYXlWb3ZZdFlzaTcxN1ZiY0tGNTFhZVpWT0ZhYmg0UFR2RVJGazBaX2VvejZBV2VmNEFNbVJsbVpPZEJmQnBQY3hHc1NFRFlPdFZ6LVMtdUNQSUxrRmUtTzFjVlkxQ1RZS042cjJrWmtGV0IyZlpKd2FKYlNzcUNWMkZCT3ZSUjJqckZpbTNueHdKbmQwcGR3?oc=5",
         "source": "CNN Brasil",
-        "published": "2026-11-02T10:56:11+00:00"
-      },
-      {
-        "title": "EDITORIAL | A margem de manobra de Lula no Congresso – “Reeleito para um quarto mandato, o presidente Luiz Inácio Lula da Silva tem pela frente o desafio de reconstruir sua relação com o Congresso. Não será tarefa simples, diante da avalanche da dir",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9XZmc2ek1QTXZRclFVdnd3SXpXWVJqSkE0cTZPTzBsNS1Ec0wwSE9zeVJ5V2MxQ0lTWDAzbTc4MDRIREM3Y3lhZW9kWEc3VE41Z3c?oc=5",
-        "source": "Instagram",
-        "published": "2026-11-02T15:48:37+00:00"
+        "published": "2026-11-03T16:09:47+00:00"
       }
     ],
     "Economia Brasileira": [
       {
-        "title": "Economista de Plano Real acusa BC de causar rombo fiscal via juros",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORklUNEVaYzJ2WFFkVUZkRVFTdFgtREVrRnFrOFppSlpaYWlxZnR5QzRHYjQ1emcxVjg3NUtVVThrTFRvRGlLazZjaVZhb0tIVTBuUjdFV1phS3lfRU1BbWFoMjllM1lRWHNWVG1fNXlvYmNjZkNkTVljdHNVT3gtNEhiVkNpTzZfSm1zQVl5eGYtWTVSQVkwT2pxX2RhY3FtUDd1dE5hSFZKNFFReEUySEpxdnJpRlJWMmNEWA?oc=5",
+        "title": "Mercado eleva projeção para inflação, juros e dólar em 2026",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTG9BTnRFOTh0Vmx2eEtEOGRYUGNOZFlncHBwUXJ3NXhqbGNpN1JpVk81UG5ENUdaNjYtbDByU1JtaTNpc0plWVJONV95SGVyLTN2dVBOX2QxWDhuT2FWQjRmVDJCcTdxaTVUUW5OeFFaVVlaVlM4WUczWWxsQzVHYVFxSUsxMWtkZ3hBZm1aS09WMUtzNzJvaUhsSkdmbXpuc1hKQWVhTVZpbHhPUTUxeVRMMGRxaWM?oc=5",
         "source": "Agência Brasil",
-        "published": "2026-11-02T17:09:00+00:00"
+        "published": "2026-11-03T13:43:00+00:00"
       },
       {
-        "title": "Mercado chega à semana do Copom com expectativa por fim do corte de juros",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYVJsajR2QVc3dUVYTTE4MnU0Y3F0d1pOdEVRSmdESmEzZ2pseU14YVZHbkFTZXhzWVpkRkgzTXJhUUJpdHBsTE5DWWtDM1JYUE9nQW12dUZGa25HVm1yNDlfMkI5RU1jb0phVTdXOXE3N2plbTdSMW9IVHVwcldqTW11NFl2WlBuUE54WTBVRG56RzJqNUJ6SkFSWHNpbWpjU2tDcHFTcnh5UVpCZE9YUmhrR3pBRGNaTFJMQ0dHTnZjMWV1N3BtREgxUmQ?oc=5",
-        "source": "CNN Brasil",
-        "published": "2026-11-02T07:10:46+00:00"
+        "title": "O Copom vai mexer na taxa Selic? Veja as apostas sobre a decisão de amanhã",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVWpwanFJaEFhLTFoM01QMmNta3djOG9XOXk5MDJJZ19XdTRrSmtVTktra3JBWktYbXpSam1jTTFwM2hrY1o3UlpQTmphUk9VMGNmbW5IeU90QjcxNENkVXBuTnpTTnRhdzVYRGFYUkplckw5dXc3aGFDdTNYTWgxLWUzT2NCcVdYdWd4dVd1S2RqbV9HcGtBTGkxNm9mZjNRWUtVVUFaZUNPY2Z5QWZoTG0wMTdDODVSWHBN?oc=5",
+        "source": "InvesTalk",
+        "published": "2026-11-03T14:57:00+00:00"
       },
       {
-        "title": "Banco Central deve manter Selic em 13,75% após turbulência nos mercados",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONG9xRUpGUVNaYzNyV1FZTHh0U0hIU0x5TGtFNzNyU3FQYmQtNEhvZ05JdlVuTHhKN1A2Ql9YblpTQmhnMjJLdmxTWlRxcFpDbHk2RkVDZmdXc2djMkdUZnBEYVE1N2ZZU2FPNTlwMmdTNGNJRzQ0bzY1TEhWZWxzNzlOVGc2eGxUMGRRLU55X2NacDNBcm5yM0hScG90TGk0eUNZZVpIQQ?oc=5",
-        "source": "Vero Notícias",
-        "published": "2026-11-02T18:10:00+00:00"
+        "title": "Mercado eleva projeções do IPCA e da Selic de 2026, 2027 e 2028, aponta Focus",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeG5pY3lUMmdFTkdGLThCU3Q5OWEtUHM2MFBrUTFyVk1uVFdCdG04OXgzeUtTR242MHhLNDZTWjNBajUyX1dVZjVXOFZ2NjVEd3dOZS0xN050STJWaTF2akJVeEV0eFROc3hBQ3d0anZreUEzOEFNeU1IS3gwaWs0Zl95VE5GbjBMTDZzUFllbEF3dWY2U01kb19IZ0FwM0laMDZCWFRVUFRpdWc2Q29NZ283NlBvRm4wY21fTldjSWRUQ2lCdEJXbS1USdIB2gFBVV95cUxNRDlSSlFfbHo5MnZ3REZNY1dod3R0dHY2UXhDWW1TX29nQ3V2TC12R2F3U2xuZm1sTnp6a1IwTVZ5bUFtVi1xaHhQbElOOFVqVUpyeEFzb2RJRm1CVlRzV2QxWUo1TTVVbWtjbVV2RTM4ZFRMMEdsVGtQUGFkRmVhM01pU243LTZKLVd1VjVZRWlTcG5mdUVNR092RC03NTVGV0dfbVQzS0hHVWlzbjlaSjA4V3BEdzFoZ0lLcTI0TjBUdXdwWF9pc3V2a3RQczJpaFhYLWpqa2VZZw?oc=5",
+        "source": "Valor Econômico",
+        "published": "2026-11-03T11:47:37+00:00"
       },
       {
-        "title": "Por que um dos criadores do Plano Real quer limitar os juros no Brasil",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMzc5OHBjdkY0aUdyb0xzZkkyMHR2WVJvN3hWR2VxeG9YWnpmR1VINy0zeThSTTJRNVZzWmF6OUVxaGt4cUdOZGpHdnRwLVJwd0dHejNfc2ZPcGpPYzBsQ1FwczVzMFdha0I2WWNsNmw4MjFSSnpTVm1UcXpZTlBnWFEzNV9Uem5pV3h2ek1ocFViVmE4U1BvSXUtVURhT0t2NkVob1pXdnZJUQ?oc=5",
-        "source": "VEJA",
-        "published": "2026-11-02T14:41:27+00:00"
+        "title": "Risco fiscal após reeleição de Lula ameaça ciclo de corte da taxa de juros",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRmpMUU4tVzhoUFo3YlVkOHJ2UGNLV2FGaFpLcHRKYXdBNDE5S3g3cnQ3dFBYNVQ5UExwNUloYVNSSGpIVVc4b1laVXJsem14bFZZUzVZX3NHU2FtVjI5QlczN2FRUER6aE1kendGSXRoOWQ4T0FVTUszd25zemd1MG9oSWo?oc=5",
+        "source": "UOL Economia",
+        "published": "2026-11-03T13:30:00+00:00"
       },
       {
-        "title": "André Lara Resende quer conselho para levar Selic a 7,5%",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYXlwdE9hZWU4X2pOVFhydG5sSmlHUVlHOVhnYVI1OEtHMERLSmxrVXh1S29mdDVQWk9tOG1DeEpzMjdqSUpVY2ZTbDhtMXplUlZZdGlUaWtKOGkxT1h3RmhJWC1ReGJzcVRHbjBtUjd4Z3JLcVN6TjZYNnBja2N5b1lJdGxEd3N1OTdGdWd2aXcyRlVxdEVOX2RRN2lOV2s?oc=5",
-        "source": "Poder360",
-        "published": "2026-11-02T17:51:06+00:00"
+        "title": "Tabela Selic Novembro/2026",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJaEZxV0Y5UE4xZ3F2Q1dscjlwOTFUdG03WEhkRmVZSEVMZEVqSXZPRGdCSmF4bFNMbl9nUW1Pd1NmNFNUUUtaVGhseXFKdDcwNDFxc1prT3dndVlyb29zMFZLMjM1YU5JNTJxSU5Qc2VrUHdK?oc=5",
+        "source": "Governo do Estado do Ceará",
+        "published": "2026-11-03T12:06:15+00:00"
       },
       {
-        "title": "Sâmia Bomfim propõe reajuste do Bolsa Família pela inflação e pelo PIB",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWFpFWUlDTmNGZ3d2Z24ybElDbEVfNFFMc2tFTXM2eHhHVDhfd21pbnA3S3AtRjhyVGNhV2FuSlAxSE1NejdpZmMxZE9fajcyYlJLT2Q3YmVBQkN0ZW1WXzlOMURGY0lFRS1odkhJMWV4Y21sRnNnX19YZEd0bVMwUm1UdFJSWUtCVm9KQTYxbklHZWIxQmx5X2MzeThmYmxSVGRYQnVVMHl5dHdXUEV5YllJaGFiaEwtdGMzRjBINmVPUQ?oc=5",
-        "source": "Congresso em Foco",
-        "published": "2026-11-02T16:02:59+00:00"
+        "title": "Mercado eleva projeções de Selic, inflação e dólar para 2026",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNaEZKRzFlVnpSRm11X3UtRUEzblhNNlBlT0pvWnJ6SWpqdFNyQmFQVDdLVzVMaWRucEhVbWRfRUVoMXI1MHkzakl4QlFaUGhJY1NnTWpZWW80V1lJY2k2X3c5OG5USnNReHAwNnEybGR5S3VhcDYwLU9TNTRTVmlyUEw1SlZBTnBFSDVsSFNpeldROUVtMG1uR0FQa0phZEhNbWZv?oc=5",
+        "source": "CartaCapital",
+        "published": "2026-11-03T15:42:00+00:00"
       }
     ],
     "Fintechs": [
       {
-        "title": "Pix de até R$ 5 mil priorizará mulheres e MEIs de menor faturamento, diz ministro",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBhMTdlUmRPZ2Vld09PbE40NjFlR1A0eVR2cV9IU2xkVG5kcVVnUXJ4N0Z0Rkc0WTlBLVpYbmxNbzdDQVUxdWNRNlhFS1lkZmhvenFtT2ppektCd3NBWlozdkNMRjZtQ1NJU1d0VzB4NWdqb3MwWXBEXzZmRU55Zw?oc=5",
-        "source": "Claudio Dantas",
-        "published": "2026-11-02T12:49:00+00:00"
+        "title": "BC do Paraguai intervém em banco digital e aciona fundo garantidor",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVFFHZjBCVnY1cEJpRVhibENQNHY4WmlOMHRUYTh1eU1jeUozdU9kUHlfRk1GMS13ZE9EZ0tkdk1qdnNxTm9FLWxSV2NGRzA2UXR4WW9NY1VTS0w1dTVkSzRHVkpicWg4dE5EUDgycW5tSmN6NnVWUjlGUWJRYTI4aVp6d2s3UTkzWGJOYlFtbGczekxqU2NxNDZDdGFfX1Rzc2VlcWdHQ21TUDFkS1RHc0pJSWItOEx3X0lOTUdFa1bSAc8BQVVfeXFMUGhJcm4wZ2drbjhlOHJacWZiNExZbDZST3lkeWo3RjN2RFpiZFpQTGxHdTRKbE9EY1dYWTBBaUdXOG1Dd1VsNFM0bjNFMjZzYjlYaEJud3FINDVKTDRmNXpqajVNWVhjZEsxbTNhVU5qMEk1R3Y5cDRzUjZveVJZTXlISTFtLXJ2SGdxOElDN3NYcjZvekJ6MExpcWxEY3JNYnluNkVqSWhzUlJBTGktWmJWUFZad1p6RFJPOHprWGtNVndvakd0dGgzak9wbm84?oc=5",
+        "source": "Valor Econômico",
+        "published": "2026-11-03T15:43:33+00:00"
       },
       {
-        "title": "Bancos Fechados no Feriado: Pix, canais digitais e vencimentos de contas durante o finados",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNMDZqdy1ycGhRLWtYamFCLTF6WHhLWkZQMVZ6ZTd5ZFl5ckJDYWRLWkRzS19CenJNcHY5YzJsNm1LUXJDQkl4RXBLdzczODF2emRIa0lVNW1mQnNpay1ld3V1b25YMjlzaVBwSDM2dnFhY0hTV2hkMlVlSGFGcjJ4XzF6TlFmRjRpb3F3dHU5OWZoRWtuVERFWWxmak9oZldyeTVhR01QNXBxZ2g0aUtxQl9nVWRnS21scGxTcjJQUlF0dFh4cVNJWGg4cTFVYUwwdklDOFJkVDdCV3VxMzB6eV9aVm41RzBoZWpOX2JZYnBuWGJGYmhLVC1zM0lYa2pRZndlY25XWWpPOXh5VE90UdIBkAJBVV95cUxNMDZqdy1ycGhRLWtYamFCLTF6WHhLWkZQMVZ6ZTd5ZFl5ckJDYWRLWkRzS19CenJNcHY5YzJsNm1LUXJDQkl4RXBLdzczODF2emRIa0lVNW1mQnNpay1ld3V1b25YMjlzaVBwSDM2dnFhY0hTV2hkMlVlSGFGcjJ4XzF6TlFmRjRpb3F3dHU5OWZoRWtuVERFWWxmak9oZldyeTVhR01QNXBxZ2g0aUtxQl9nVWRnS21scGxTcjJQUlF0dFh4cVNJWGg4cTFVYUwwdklDOFJkVDdCV3VxMzB6eV9aVm41RzBoZWpOX2JZYnBuWGJGYmhLVC1zM0lYa2pRZndlY25XWWpPOXh5VE90UQ?oc=5",
-        "source": "G1",
-        "published": "2026-11-02T13:18:45+00:00"
+        "title": "ICMS/RJ: Secretaria de Fazenda passa a aceitar pagamento via Pix para a GRE",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByRVdoX1JraXAxbzM4ckE1MVZXUjZMVC1LZEtLb1FObUJMd3BZcUtIUE5BMzNMaU54YUlfSUdWMHdYNFRrNWR4M0VwNnRoZ0dId2V3akNMNDQ?oc=5",
+        "source": "LegisWeb",
+        "published": "2026-11-03T14:13:14+00:00"
       },
       {
-        "title": "Pix de R$ 5 mil será depositado na conta de 1 milhão de MEIs e Governo Federal divulga data de pagamento",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQlRjNnV6bjB0NGlEcGxnSXZQOUl0YTVNeHhBWVQzRFlpeVlYU2hIZGdiSUg2dE9nUGhWUi1xNWpnMjUzSEtTUXJMVU5mci1vaXJSYjd0YS1TNHlfWEYxaVhQRGxMVFRMeVl2QnB5SW9xTFJkZEhZZktiRkNqU2lYV2RPNFlPMzBaa2JId2dSWXM0TjFPZ2dYWkI1OA?oc=5",
-        "source": "Portal Tempo Novo",
-        "published": "2026-11-02T16:06:00+00:00"
+        "title": "Falso advogado: Mulher que ignorou aviso de risco não será indenizada",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ2NmTWZNamtzZWU0Snd6RlpnN1d0TVIwQ2ZvT1Z4WnRTWDctcmltZnNGallIcVV2Y1BhYUt6Yk5aV1Nsb0lRZHQzWlFiQ2I5M09udFNuNmxVVjBtY0kzcE1iRnMwdTQ5c0JKTGd2M2tqdVc1NjByRzFwS3NhYnhPVkkwbldfblVPVVpoTkpUaElmaUV0V1FnQW51c3hoRWRGaGJrQXdCTVVPYjljTjhXVQ?oc=5",
+        "source": "Migalhas",
+        "published": "2026-11-03T11:35:00+00:00"
       },
       {
-        "title": "Pix caiu na conta de um desconhecido por engano e o banco diz que não pode estornar: o caminho para pedir o dinheiro de volta",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYWRNWjVtSDBCNm1oSDdRYW1HTkJrV0hOVHo3T1plQ3VOMEpEcVpFdUxCWjZtQ3JxaWJ2LW5WUERMQUYtVFVZT3lPQ3VtMGJNalJVSlRuYmp4bklCZnVXb0VtMUdiTllBVmtMaFI4S3ozREZWMS0xcXg3UE1MZ05ZdWJSUHAyQmhueWZGS1Z2WEJvWUx5TjI0TzBjNm0yZw?oc=5",
-        "source": "Jornal do Brasil",
-        "published": "2026-11-02T11:20:00+00:00"
+        "title": "Fintechs vão lucrar mais no 3T26, mas mercado já vê problemas para 2027",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbmRYT2l0V1RYT3NlZzVpTU9xcUI3QVdTU3U0YS1mS1cwaUxfZzJyLWZZeXdxaUdIT2JJeGJwVXZ1VGRNZUFYVWNZT01UR1VPbUlqMDgtVFJHMnZkNUI0MG5IeUo5cndzOFhzZ0tINFFyb3pIbEpDeEotejA1MkNnbGVKTHEwZWdmdmhQTnZnYkhPVW9Sb0pJM2pxUm9NMGxMdnRQTGpncHBjTmxKNjBLcUE2MUJFelVIa2NUdnVraWpqd19xVkM5VVYzaVIxMGw1T0hkTHN5WmcwdFhhSEZiZWQyMA?oc=5",
+        "source": "Finsiders Brasil",
+        "published": "2026-11-03T16:19:04+00:00"
       },
       {
-        "title": "Black Friday: vale mais a pena pagar no Pix à vista, parcelado ou no cartão de crédito?",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeFZFblJyVnNwb2o0MTBlQ3JKd1l5eTFqSWxMaFI3UFFkQ2gxVXdkUVNQUXdaNWhTZnl6YkUtUHpycXViV3pUOWl5eUtIaDM1dlJLMmxhSDJBbkJnV0pnZG9NTEs4NU05YU9OTGNPb2REOG0tSHBZUXFlOWU3S01DM3ZwcmQ1c0h0dHNid3NFYTZHZE9QS3pDYlpXWEl6RGxTc3EzYXBsRkwybVRSVnhQdWR1YktVSUI0ZGN1MXhTdktwdVVtSndBZg?oc=5",
-        "source": "O TEMPO",
-        "published": "2026-11-02T16:48:53+00:00"
+        "title": "Banco do Brasil e Pix enfrentam instabilidade na manhã desta terça-feira",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbVdIWkZKWFI0Y1loSmdVMlZxMVNpSVBxRFlhZDJjbWIxX1RGNHJLMzNPTHRiSmdCaW1vOXVDS3l4MWRWU3QzNXBnbGlRVjktdUw1RXF5ZnktR18wMVJ5TDlqcU16N0V3bTRvVkxDcW4zX2pjeTd6Qnh1V0hLYTlZa2xlWG96VXBiVHBJUTJ6czFiT0tZUkJLWHJMVHF0ZWRES1ExNVhGNnFiZ01paFdocUlMeFJVdzBRY0FFT01SQU9NY3EyUFlZ?oc=5",
+        "source": "CNN Brasil",
+        "published": "2026-11-03T15:16:56+00:00"
       },
       {
-        "title": "Cash App de Jack Dorsey tenta virar banco digital após escândalos, fraude e desconfiança",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSWhkTjRuZ0JIMlgtbFBoUFFWc2lqMktEX3NXWlRtT3ppVmY5TW1PODBpX0FmQkV1ZU5xWUY1Uk16a080eHBoZGFUR2ZVeGMwcXUzUkRyOXcyYXJCVGhJLUk3RzdwME9vWnFDYzN4OE11VDFRZkxiVDlJYXZ0TGF1ZEI4ZURITnpqSV96MThvMnA1SjFuN3pFa3R1QkJKcDgzTXh3RHJnRnZ5dWFiVDhYUlc0eGQ5MFR5UklCMk9Pd2oyVmJ3U3A1MnRMLW9DQdIB4gFBVV95cUxOSV9FVUpfYjlrbDlpREZxQzNCci00bTcxTWw5Yk91UFdqZXRZV0ZWeVZxOVlRYzNCQkVaZEhIWU5Lc0VyZ0hmZTNjdkVzNVdvc0JDMWdRM1RLaHpPdFVGZTVNMHdzcmFPcWxPcjN0LWVYSy14a3FIRlFraS1HR3BiMmlSZ2pfemFFMFlpN2RxaGQ2LThIdno3ZzNIQXd3cEZ1SXJNSFpVRnVvXzlWU2J2M0F0NXlTU0hoWlZOc0RUQXBOdGt4X0U0a1BqbWZGQXlDXzlscGticWRiM2hRMU5pX1l3?oc=5",
-        "source": "Bloomberg Línea Brasil",
-        "published": "2026-11-01T11:20:29+00:00"
+        "title": "O que mudou no Pix? Veja as novas regras e o que passa a valer em 2027",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQ0dZRW1XVEh6a1ZEeENGc3psdGtLc1plNF9HUWZneThMZVJZbm1Mam5LOTFmTjN5LWZ4cjN3VmZETkNMRDJ1Qkt5OC1tNURUNjVLWkF5VHZneHFGbFJBQW1BTFMtc1o5b3FZVDJHd0dlc3RoclVVcHhaN3BKWF9FaHlIaDQ5TEhlV3JGVWFXanNyb1ROVzFFQ282SFVzSGNjYjk4QzFCSGEtVTA0UzB1UEYtSE1MUDFqQ0lrc0ttRjI2R1FOclhtX0pBdzBmZnlsaWFRVXNZTlZNMTI0eXVZMkJCVQ?oc=5",
+        "source": "Terra",
+        "published": "2026-11-03T13:05:00+00:00"
       }
     ],
     "Jiu-Jitsu": [
       {
-        "title": "Mundo Melhor: Brasileiro invisual que conquistou a faixa azul no jiu-jitsu",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMl91SFpJWDBBUHdtU3FqSHBhNzFyaHhHeWVlaHhxV1YweFNLMzhCWjFwWE9rcXBDTlZfTzQyLWZrMGttRmxZcWZobm9FSlJsbEoxN0hDeF9Bd0ktVHVUaGxhaUpNa0ZJcXFmbXhCa0l1LTNDT0RoUzcwZWVEMHRlS1BsaVFWYmlTYnQyS3B3RzR4eHE3MHlGR28xblZOcU12cVZSSDMycC1UcDZKSXBlby01dFRmTVNIWXBNbnhJd3oxckdpSjhqS0ozUktWdw?oc=5",
-        "source": "R7",
-        "published": "2026-11-02T14:27:15+00:00"
+        "title": "Sheizi Ribeiro conquista ouro e bronze no Europeu de Jiu-Jitsu na Itália",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZThLZE1Tc2tQSmxFNEhyaUdieWQ0dGxrMnAyZ05DYUJGQmJ6bTZjLXNHS0h6NkRMdW9WNWloTlJpdnVVdWVOZXR0cTNIM3hjc1VuUXpvZ0FBeDc2Zk1NNWhSOHd5SFMtTjdvdDB1T3YxRWpDXzBjYUlrblZEQkJPWGNfa2R5cFNGeExtVjZUTmNyRmJQdEg3Rkg0dHFvZDJZYTA4cTdnVEdqczBacXhsbFFaTFVFa1FYM0RsNTBR0gHMAUFVX3lxTE9ucVRlR0hLeU13VkdTSnEtUzFUODNaRGw5Sk1mb2xPbWh4cGxNMVhkS3ljUXJBb00xNkVrd19GaUVDNnhSMWpXTGl1YnpyN182ZHcxalF1b0xQbUZnLUxlRUYzNDY3d0t1MVplLXR1eEVFUHBWNHNURXh5SEliX3NRY21Ca3ZEUVFJUXRnLVBhUkFnMDNHeUgxLVFVakZjb2FoemlrLTFpMFo0MDYxZndWUlY2X3hoaFJFQmVPTm5SUlBhZWN3cHZfM3hSNQ?oc=5",
+        "source": "ge",
+        "published": "2026-11-03T13:23:41+00:00"
       },
       {
-        "title": "Muito além do tatame: jiu-jitsu transforma rotina e relações dentro da escola",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPaG9UeG1lY2NhOVZ1XzVIRW9FSUpGaTBOZU5JZ0xqUFJzNndMelFrbENGbURrUXZ6dm90STMzRHJXOUNNSkhzNkFuNTdmb25lR3ZHWlhWTEFRTVpETjA0ME9EZ2czWVpMNm53VFRfcUpGVVQ2TFRsUjVUWDNYMGloZ0lSSm11VTlLWWdid0VBWVkwLXJPMFVMaU9VRmR4QkZUaUdpSlBpVnMxZ2RTTEJ4enh1bjNhUU5yMUhvdmZpUGcydw?oc=5",
-        "source": "Jornal Mais Expressão - Indaiatuba",
-        "published": "2026-11-02T12:00:00+00:00"
+        "title": "Jiu-jitsu: Aos oito anos, atleta teresopolitana coleciona medalhas e sonha com o Mundial",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNY0Z3di14NmdwY1ZSMGNzdXZRVzNjQXRzWWJTQXQ1ZGd0Qk5VSkFYcV9EODZnNHZuWFdJTXJUNE1LR1o4eFl2VHhENkNCQUkzbXdoSy1tRmgtdEVxNjNwVUVBOFIya0FmbUNKSkZYYVAwU1BsV1U0ekVPM2lfT3dXSVJuLVYtaGx0TlRNbF9qbEVXN3pXZUlRWl80RmhLMDhvRndYcXdROGxKNlhvX1NYNW9jM1MyQkdsT1BVblRR?oc=5",
+        "source": "O Diário de Teresópolis",
+        "published": "2026-11-03T12:45:16+00:00"
       },
       {
-        "title": "Livro resgata história do jiu-jitsu em Mato Grosso e destaca Chapada dos Guimarães",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUURydXgwSXozSG5XcWpVZEtNQWN0YkFFVWxFYTNwSHFnb00xTElSRURLRHRGY3hnTmloZlJyNEdveXUxYTFiUFhvVTZhYzdGSVJaYmd3cHlMN2M5allMRXQxcE15bDZBWGllS2QtTVRzWWlSLWRFRncwcmZmZ2ExMVpSZlpFczRhZWtTc0xGN3dKbm1BeDI0SGlGcjF1b2xvb050Ul81V2ZnTmZpanZMN0FibVlsSHo1T28zeHBDdS1jR012M1ROQWkxR0FobVdwRVdV?oc=5",
-        "source": "Notícias de Chapada",
-        "published": "2026-11-02T15:33:00+00:00"
+        "title": "A memória coletiva da comunidade do jiu-jitsu amazonense mantém viva nomes que deixaram legado",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTGE2aUhZUkR2eTQ0UmNRb3lkazFqVnYwbmFMQ0NpX2NhbFB6ZFFzcmxfaTh6aXBzbDlkSFRYUzFnR0dMZDFaUm4wVFVJWHhsdjdiOTBCNFlvNkV0YjRvREZGZ3NjcHhneFcwX0JTdnJBQlY2bWVaZzZlWXBjbERPa2R0ODRBelhidmFoLWk3bE9DVFJuT3ZDMGdmUjllWHIwUE1sSTAwNWFSdTFnNWlVWVNxMjg3aHRsTXJwODRFZDBjOGgxeWZTSDRMb2VHeUlaSDlXeVZzSGFaNHBwdjZCUUtISE5uQ291?oc=5",
+        "source": "A Crítica",
+        "published": "2026-11-03T16:28:32+00:00"
       },
       {
-        "title": "Projeto social conquista 18 medalhas em regional de jiu-jitsu",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQmFTSVFnR0FQUWZOSHNsY2dBMHhxVjBLZlI0eUR6UTRXODlWUGxuQ2tLVGlfdnpwVUtaLWlDZXJaQ2thc3hOYUQtelh6aTZOVnpWbVZjcVF3ZVBSQ2ZUNWlzN2RSNE4xdWxuNmQtNDlneEVsbFdhY3pMbTBudzdYTWZIMzVkb0ROYVQ1cGtoR3I3OEZOYVVEQ2N3?oc=5",
-        "source": "Tribuna de Itapira",
-        "published": "2026-11-02T13:02:07+00:00"
+        "title": "Atleta do Amapá vence ouro e bronze no Europeu de Jiu-Jitsu na Itália",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTjFuYnNwZmVfSlJiSlZia1NsemdqSkw0YUl1YmMxaTJrRlBtUVFFVnJDbXZ5RzRkTERXa045ZE9VWnVGTXFhSnF4ckZENm40ZjZCMV9SVWpocGc4RkhUU194aDRjLWY1RWRaWk5DWk9lM0hsNkY4MFhFay1HSjlINUduczNBYmZqMHdxUDYxWXZqY1BSNklTQ0RUaGJkY3VUZUFGZFl2WldPc0ZSZ1E?oc=5",
+        "source": "Agora Litoral",
+        "published": "2026-11-03T13:56:15+00:00"
       },
       {
-        "title": "Campeonato Interno da D32 Jiu-Jitsu fortalece o esporte e valoriza atletas em Araioses",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcGE1UlpDLTd1VThDTURDS21oVUc5VnBGemFCTFdhSjBQZ2RwTTVKR2pzUGFZcTAySEJlUzZZc2pHM3ZMazJqUnMzNDhwdUR2dldlSUhFaGtUVC0tRzhxOFRNX0R2WHBLOXBjUGhHY09YWTB5b1ZPaW1CdHZKSFJac2hzUlJISnlKOE5FX0NhRl9jajNOekFGWUNFRWdWYlNtc2hCM3c2eDZoQjM0Q0ctajN3X2xFYk9INmlSVEc4ZHViVVhsdkI0?oc=5",
-        "source": "Cidadesnanet.com",
-        "published": "2026-11-02T15:01:01+00:00"
+        "title": "Gêmeos de Botucatu estreiam no jiu-jitsu e conquistam primeiro pódio em campeonato em São Carlos",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQWjFCMUtvQWM1T3JaMV90eDNLZXhOdzN5SmU0TnRDUXhzd3AxX003NU5NNE5MR09WaHV0bzVTdGx2RE9XTl9PVE90TUdXYUdIWUk1cFZWRkNzZUtiZEVoNlBWd0pUMUhsaDlnamptWGRpSEc1eFFfSTlPT0ktM1NvSVNySFo4TEpsbjJWUUlKZGpfWG1mdmZBZEhUTWdLcnNFdWhxWW9uMXFIQmNhQ1JDbG5KZHFScHBHNU9aOEs0b01iQzMtZVdzMmhnZ0NRb2NaZ1FlcQ?oc=5",
+        "source": "Acontece Botucatu",
+        "published": "2026-11-03T12:24:36+00:00"
       },
       {
-        "title": "Atletas de Capinzal destacam-se na 5ª Etapa do Campeonato Catarinense de Jiu-Jitsu em Chapecó",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYzgyeUJXc1RXWjJMZnJpWGNYNEpZbWhpNFYyM3BYSGpWcW15TnhLclNGcWJkOWl5bnFSTjd5bmk0amZuYmxfWWhIbms0bGVUNFBOUWZKckNRWEtvWWt1THhTSkZRZ0VUZmZLbEVFenJQZnVaYVlKSnRvb0NJRm1IaFlwWWhtaUZiNGRjcHp5X0VtRlBJdnV4azJqaUtONkUxbVkwLUpHWWQ4amlfQ212d1dlczNDaFNpZm5TZzI0aEdra1FGRkE?oc=5",
-        "source": "Rádio Capinzal",
-        "published": "2026-11-02T13:39:00+00:00"
+        "title": "BJJ Clubes GP e Lutas Casadas promovem confrontos entre tradicionais equipes do jiu-jitsu",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNDVIZ1ZhdDlSX2Z2ZUZqaUpkLVp6MUF1MDNqOFJhcDBwNlVLSlhtZGJLTnRwd25WeS0tc0hYUnpYSEVFWGRtOXpaSFRHTG5vTlVkUE51ZjFndnh6VXVxTFNWNmxSVlV4WFdqYTVCU1V5Ymt6T1Jwb3F2Y3RvQTBLdENBZkY0Z28wNWx5WkttQmdvLWpnZXg5TlU1MnU1MjdqdjJrNVM5N2k0NlNaaHd4ZjlkVy0yV2E0YXJWR1BGWUpsMk1fS2p4OUg3Um1NeTY5d1E?oc=5",
+        "source": "SportBuzz",
+        "published": "2026-11-03T16:01:44+00:00"
       }
     ],
     "Campeonatos de Jiu-Jitsu SP": [
@@ -364,28 +364,22 @@
         "published": "2026-10-18T07:00:00+00:00"
       },
       {
-        "title": "Atleta de 12 anos conquista título no Campeonato Brasileiro Sul Feminino de Jiu-Jitsu",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcG9vSkVRY1R6ZmsxLUNLWnBURXJHQ1RHSWJJcnNpQ2tKS1N3dnN4cjRZTWVPMjBWN1RsSGk4OWNHYll2WlZKNWV6QWpKTUVtVnFNVlRSNjV6dkpRVEVXVXNpX2pnZW93bGFtZE11X1NRUmJmcTV6OU9DLVNQZjhLTDJZYTQxdTB3cjgxbm5mOGpuUWF1QUVJLXFQRmxDVmpoUVRhVGJVVG93ZUdYT3d6Qi1BdDMyME02S1MtTl9CV3NCbkhC?oc=5",
-        "source": "Rádio Ipiranga",
-        "published": "2026-10-15T11:50:00+00:00"
-      },
-      {
         "title": "Notícias",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRjdYVjlPVmNPdG5QV3ZPVlAxSEN5ZE4tczVYdEY4UmxuVDF0b2dZeVo5QnBjYjlTWGZhbno5TkRGdzJENjFUOWJyeE1jMjZrV2otOUNRMTIwNEtJMXVMYWdwWEV3N1M5b25ZZU1URE16eDgtU1NQd3hSWGZJa2lIRHVidWpmb2xHbGQtWDhYdkdQUUtOWWlrSGUwcTFCdTNyT3hJczRRMVcwaVpvaDlPNFVGQnBZbjlVX3NoNA?oc=5",
         "source": "Jornal de Barretos",
         "published": "2026-10-20T07:00:00+00:00"
       },
       {
-        "title": "São Paulo International Cup de Jiu-Jitsu terá premiação em dinheiro e vagas para Mundial de 2027",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQOGN2bEFuRXFMYUFFT3dXVkxmTnZ1M1lIMVJiSmZzTGRhMHd4WS1EdWFaVm5RdGZEWGhmUGZ0MUg3OFVkbXZHdWhqVnUtdjF6Vzg5a2NjQXFySHI4VDJhZ293SWdFbE5lR0N0Ql9CWGd5TXU2bkw4cUIwQm01ZG9JRVphbFRfaFlldmlTZlhCdVdzSmVieEFKdk0zOFBOUnlsSTZSREdNX0x2eTlWMVNrRjg0T0pGRTBaZ0tNZDF0REFfMlFzREcwM0pVTVp0emZCOWd4VE5FYW01dG1ZbDZXeTlJSdIB8gFBVV95cUxNV215N0UtUGRRM3FRT1J0S2ppVU1sWHpnSTh1SWRKMnZHQWlaWUtCYTVrWFZOem9DOUN0SUZ5N0g0ZzlkUmtWaGNSVWgtT19qaEkxRE5RWDFyZFNYMVVETGJQMFgwcktPZmk5LWl1OFlXM3ZNb2IwanJ4dDY4blhjR255clVLWGZsTjZ0a0FlTFotR3M4ZlkxdUJBUkJQTHE2OW0zOWE1VWdPMmM4b0pycGVTZFRMZ25Wbmtkc0NBbGdwOURxRTRUbV9PRHRSMXJCRl9tUmFSekhYcWRFYkFCUlJyZi1BLUVGaG5xbUcyVk45dw?oc=5",
-        "source": "Extra online",
-        "published": "2026-10-28T13:35:51+00:00"
+        "title": "Maranhenses se destacam no Campeonato Sul-Americano de Jiu-Jitsu",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdkNBd0s2V3RyQTU0Q1BrczZkS0NsOGF4Q05JcUJoUmRfd2xLSlk4eS1BS3BuNXZDOUhJRVVHQVZSc1VBRUNhWDFFSUNGNEFPRTVOSkNMbXM5azJFSnZ4ZU9TV2VtZVFoMG1sNUVORk5pT0V4RW9TZWpJdTJkcGhtVmNXbldJLW9qRXVvMFlHYmNZcm9zdGctZFN2M0VYSlB1LU5KMXpzN0stVU1lY2JNdTFIY3djdmYxMnM2VkF5YjhPdFlVQ2EtZnZZRHI1dHhQSnZRWFFCX2nSAecBQVVfeXFMTkNKVkZqNTd6d21Bdmg5VkZIUEtIeFJkOHpRazhLUEkzcDlQSTY1ZG1NWlprSGJfdXp1ck9YZTBmWWFsR0RRUnRBY2k3TVo1OE5XeEk2V3pPc3I1Mm9VQnRFY0dqMTI4NmhtX1ZZQjRNRDBVd0lORF9oSmpBQ3VhTmNwRmd6dGp5WFhibDhCdld4Zmx6ZjFkWElfQ3pBUlo2RTBfOHJyR1h5aXRoV290WFNWM3l6b0l2X2wxVGVZRXYxaHhNUWVmTXJQeHhhT05lLXN2dVJzczZYODh1N0ZuV2lHa3AyRlFN?oc=5",
+        "source": "G1",
+        "published": "2026-10-23T07:00:00+00:00"
       },
       {
-        "title": "Pietro Causo é vice-campeão paulista de Jiu-Jitsu representando Salto",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZU5VZmVDaUNGbGFMSHhzN3dhc3VjTlREMGM5Q2lDc1lPa1NTMG9xbUo2QzctRVBHTlpUcXZtc1RFZkpxU19kWHc1TXV3cVZXSzdzdnlJOElsc0VXYUFWMjc0dERwSmJfa0FydFZWdzdxUF84UzVHanlNQ3piNWtTYjZiZ0tUWTNmY09YVkYxUFZRTi02QTFRRmt3dWZxOVVMS0FRVl9GWQ?oc=5",
-        "source": "Blog do Nelson Lisboa",
-        "published": "2026-10-23T17:23:12+00:00"
+        "title": "São Paulo International Cup de Jiu-Jitsu terá premiação em dinheiro e vagas para Mundial de 2027",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQd0ZTVDNzQW9zTmg2YlZrcDdEbkllQkhVdjc0c3MzMktsZjBjdUtScmthYU5GNXBYNWNDZWhvb2tKUWpSa1VIdWFYWmVYaFlHTHFFQlliMGh3cnc4V3JGZ3NFLVEzWXBhdllJUU9IZkNtckV2bGRPUjNQSW9YZXRTTVYwRk5oZEZSaDVsTUh3LU0tWmpXNWlrbjliN0VYNFJlZnoyYk1ZZTBwal9FQndkTmVfa1FKUWVBR3NRYUJTNnlVMmJjWWxDY1ZBWC1sWElWT2Q0Uzc0cHpfVTNG?oc=5",
+        "source": "RedeTV!",
+        "published": "2026-10-28T13:35:00+00:00"
       },
       {
         "title": "Agente de trânsito de São Vicente conquista título de jiu-jitsu em Portugal",
@@ -404,6 +398,12 @@
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNGlXSWw3dlVNM0NsT1FSNXE5WjZsNTZWb0Rxal8xd1o4ZzJwLTZxcUg1aG9UTmc5cFNaakhLNmloa250ak5Za19ESlc4aXMzd2FfRjFjb0s0TG1jYXdUMVJWRmpXOU45ZkF6Z0xwYUZ5cHlsTDc2X0M5cURkWm9UQkYzOXdpVF8tYW5ES3lVX1cwTU5sMWw5d2tYVmdMcW5EWldFM2F1VEpja003WWVF?oc=5",
         "source": "bra1.com.br",
         "published": "2026-10-22T21:14:00+00:00"
+      },
+      {
+        "title": "Hortolandense campeão paulista de jiu-jitsu comemora conquista",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS3hmSW5JeHBjUWJnQ0ZFclV4b0ExTnBfQlUyRThpYnVkZEF2bDE5TFhuOUw0aE5jQUR0THhtQ0dMTUlFODl6ZTN3cGstem1TU2F4eDBiV3R5ZFJWLW4tckRhRlNZUFd1VEtjUzhPRU41WE5sUExYWVBlYUx5TkZub3RtOVhXRHQzblI0cml5bE5qX25Ma094V1FJaGFqcW1SbmxTRjNRMGc?oc=5",
+        "source": "Tribuna Liberal",
+        "published": "2026-10-25T10:34:00+00:00"
       }
     ]
   }
