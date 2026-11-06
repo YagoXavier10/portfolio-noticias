@@ -125,7 +125,7 @@
     },
     {
       keys: ["contato", "instagram", "linkedin", "github", "rede social", "redes sociais", "falar com"],
-      answer: () => `Você encontra o Yago no ${link("https://www.instagram.com/yag0.xs/", "Instagram")}, no ${link("https://www.linkedin.com/in/yago-dos-santos-20157a25a/", "LinkedIn")} e no ${link("https://github.com/YagoXavier10", "GitHub")}.`,
+      answer: () => `Você encontra o Yago no ${link("https://www.instagram.com/yag0.xs/", "Instagram")}, no ${link("https://www.linkedin.com/in/yagodossantosxavier/", "LinkedIn")} e no ${link("https://github.com/YagoXavier10", "GitHub")}.`,
     },
     {
       keys: ["como funciona", "atualiza", "atualizado", "feito com", "site"],
