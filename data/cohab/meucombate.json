@@ -6,96 +6,7 @@
 "first_day": 1789822800000,
 "city": "São Bernardo do Campo",
 "state": "SP",
-"teams": [
-{
-"division": "Geral",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 43,
-"silver": 15,
-"bronze": 8
-},
-{
-"division": "Geral Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 18,
-"silver": 10,
-"bronze": 7
-},
-{
-"division": "Geral Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 25,
-"silver": 5,
-"bronze": 1
-},
-{
-"division": "Adulto NOGI",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 5,
-"silver": 1,
-"bronze": 0
-},
-{
-"division": "Adulto GI",
-"pos": 3,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 2,
-"silver": 3,
-"bronze": 2
-},
-{
-"division": "Master Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 8,
-"silver": 2,
-"bronze": 0
-},
-{
-"division": "Master NOGI",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 10,
-"silver": 0,
-"bronze": 0
-},
-{
-"division": "Juvenil GI",
-"pos": 2,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 3,
-"silver": 1,
-"bronze": 2
-},
-{
-"division": "Juvenil NOGI",
-"pos": 2,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 5,
-"silver": 1,
-"bronze": 0
-},
-{
-"division": "Kids GI",
-"pos": 3,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 5,
-"silver": 4,
-"bronze": 3
-},
-{
-"division": "Kids NOGI",
-"pos": 3,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 10,
-"silver": 7,
-"bronze": 4
-}
-],
+"teams": [],
 "medals": [
 {
 "place": 2,
@@ -173,6 +84,17 @@
 "weight": "Meio Pesado",
 "age": "Adulto",
 "belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "Guilherme Silva Souza",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Super Pesado",
+"age": "Adulto",
+"belt": "Marrom"
 },
 {
 "place": 1,
@@ -275,6 +197,17 @@
 },
 {
 "place": 1,
+"athlete": "Antonio Alves de Souza Junior",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Master 5",
+"belt": "Branca"
+},
+{
+"place": 1,
 "athlete": "Cesar Luis da Silva",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "masc",
@@ -283,6 +216,17 @@
 "weight": "Super Pesado",
 "age": "Master 6",
 "belt": "Preta"
+},
+{
+"place": 1,
+"athlete": "Arthur Antonio Mota da Silva",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
 },
 {
 "place": 2,
@@ -294,6 +238,17 @@
 "weight": "Super Pesado",
 "age": "Infanto Juvenil A",
 "belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Charles Daniel Punhagui Lopes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil B",
+"belt": "Laranja"
 },
 {
 "place": 2,
@@ -314,6 +269,17 @@
 "gi_nogi": "nogi",
 "absolute": false,
 "weight": "Pena",
+"age": "Adulto",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "ighor mota dos santos",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
 "age": "Adulto",
 "belt": "Branca"
 },
@@ -391,6 +357,17 @@
 "gi_nogi": "gi",
 "absolute": false,
 "weight": "Pesadíssimo",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Emily Menezes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Extra Pesadíssimo 2",
 "age": "Infanto Juvenil A",
 "belt": "Cinza, Amarela"
 },
@@ -491,6 +468,39 @@
 "absolute": false,
 "weight": "Pluma",
 "age": "Adulto",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "maria clara marques de oliveira",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Adulto",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "Renata cupertino dos santos de moraes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Master 2",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "Tatiane Alves da mota",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Master 5",
 "belt": "Azul"
 },
 {
@@ -681,6 +691,17 @@
 "belt": "Azul"
 },
 {
+"place": 1,
+"athlete": "Gabriella Correia Candido",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Super Pesado",
+"age": "Adulto",
+"belt": "Roxa"
+},
+{
 "place": 2,
 "athlete": "Rebeca Portela Pereira",
 "team": "COHAB TEAM BRAZILIAN JJ",
@@ -700,6 +721,17 @@
 "absolute": false,
 "weight": "Médio",
 "age": "Adulto",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "Renata cupertino dos santos de moraes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pena",
+"age": "Master 1, Master 2",
 "belt": "Branca"
 },
 {
@@ -759,6 +791,17 @@
 },
 {
 "place": 1,
+"athlete": "Tatiane Alves da mota",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Master 5, Master 6",
+"belt": "Azul"
+},
+{
+"place": 1,
 "athlete": "Cesar Luis da Silva",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "masc",
@@ -781,6 +824,17 @@
 },
 {
 "place": 1,
+"athlete": "Fernanda Fernandes Camboim de Lima",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesadíssimo",
+"age": "Master 3, Master 4",
+"belt": "Branca"
+},
+{
+"place": 1,
 "athlete": "Jackson Carvalho de Souza",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "masc",
@@ -789,6 +843,17 @@
 "weight": "Pesado",
 "age": "Master 1, Master 2",
 "belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "Rafael de Souza Silva",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Master 1, Master 2",
+"belt": "Preta"
 },
 {
 "place": 1,
@@ -822,6 +887,17 @@
 "weight": "Super Pesado",
 "age": "Adulto",
 "belt": "Roxa"
+},
+{
+"place": 1,
+"athlete": "Fernanda Fernandes Camboim de Lima",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesadíssimo",
+"age": "Master 4",
+"belt": "Branca"
 }
 ]
 },
@@ -842,96 +918,7 @@
 "first_day": 1788008400000,
 "city": "São Paulo",
 "state": "SP",
-"teams": [
-{
-"division": "Geral (GI + NOGI)",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 49,
-"silver": 19,
-"bronze": 14
-},
-{
-"division": "Geral Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 18,
-"silver": 11,
-"bronze": 11
-},
-{
-"division": "Geral Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 31,
-"silver": 8,
-"bronze": 3
-},
-{
-"division": "Adulto NOGI",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 6,
-"silver": 3,
-"bronze": 0
-},
-{
-"division": "Adulto GI",
-"pos": 4,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 4,
-"silver": 1,
-"bronze": 2
-},
-{
-"division": "Master Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 6,
-"silver": 4,
-"bronze": 1
-},
-{
-"division": "Master NOGI",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 10,
-"silver": 0,
-"bronze": 0
-},
-{
-"division": "Juvenil GI",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 4,
-"silver": 2,
-"bronze": 2
-},
-{
-"division": "Juvenil NOGI",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 6,
-"silver": 1,
-"bronze": 2
-},
-{
-"division": "Kids GI",
-"pos": 3,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 4,
-"silver": 4,
-"bronze": 6
-},
-{
-"division": "Kids NOGI",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 9,
-"silver": 4,
-"bronze": 1
-}
-],
+"teams": [],
 "medals": [
 {
 "place": 3,
@@ -1844,96 +1831,7 @@
 "first_day": 1785585600000,
 "city": "São Paulo",
 "state": "SP",
-"teams": [
-{
-"division": "Geral",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 44,
-"silver": 16,
-"bronze": 10
-},
-{
-"division": "Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 19,
-"silver": 8,
-"bronze": 10
-},
-{
-"division": "Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 25,
-"silver": 8,
-"bronze": 0
-},
-{
-"division": "Adulto Gi",
-"pos": 8,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 1,
-"silver": 3,
-"bronze": 5
-},
-{
-"division": "Adulto Nogi",
-"pos": 3,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 5,
-"silver": 2,
-"bronze": 0
-},
-{
-"division": "Master Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 7,
-"silver": 0,
-"bronze": 1
-},
-{
-"division": "Master Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 6,
-"silver": 0,
-"bronze": 0
-},
-{
-"division": "Juvenil Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 4,
-"silver": 2,
-"bronze": 1
-},
-{
-"division": "Juvenil Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 4,
-"silver": 2,
-"bronze": 0
-},
-{
-"division": "Kids Gi",
-"pos": 2,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 7,
-"silver": 3,
-"bronze": 3
-},
-{
-"division": "Kids Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 10,
-"silver": 4,
-"bronze": 0
-}
-],
+"teams": [],
 "medals": [
 {
 "place": 3,
@@ -2714,96 +2612,7 @@
 "first_day": 1782388800000,
 "city": "São Paulo",
 "state": "SP",
-"teams": [
-{
-"division": "Geral",
-"pos": 7,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 22,
-"silver": 13,
-"bronze": 17
-},
-{
-"division": "Gi",
-"pos": 12,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 9,
-"silver": 5,
-"bronze": 9
-},
-{
-"division": "Nogi",
-"pos": 3,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 13,
-"silver": 8,
-"bronze": 8
-},
-{
-"division": "Adulto Gi",
-"pos": 25,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 1,
-"silver": 0,
-"bronze": 2
-},
-{
-"division": "Adulto Nogi",
-"pos": 7,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 2,
-"silver": 1,
-"bronze": 0
-},
-{
-"division": "Master Gi",
-"pos": 11,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 4,
-"silver": 0,
-"bronze": 1
-},
-{
-"division": "Master Nogi",
-"pos": 6,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 2,
-"silver": 1,
-"bronze": 1
-},
-{
-"division": "Juvenil Gi",
-"pos": 4,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 2,
-"silver": 2,
-"bronze": 1
-},
-{
-"division": "Juvenil Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 5,
-"silver": 2,
-"bronze": 2
-},
-{
-"division": "Kids Gi",
-"pos": 16,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 2,
-"silver": 3,
-"bronze": 5
-},
-{
-"division": "Kids Nogi",
-"pos": 7,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 4,
-"silver": 4,
-"bronze": 5
-}
-],
+"teams": [],
 "medals": [
 {
 "place": 3,
@@ -3396,80 +3205,7 @@
 "first_day": 1780142400000,
 "city": "São Paulo",
 "state": "SP",
-"teams": [
-{
-"division": "Geral",
-"pos": 2,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 37,
-"silver": 25,
-"bronze": 12
-},
-{
-"division": "Gi",
-"pos": 2,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 16,
-"silver": 11,
-"bronze": 10
-},
-{
-"division": "Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 21,
-"silver": 14,
-"bronze": 2
-},
-{
-"division": "Master Gi",
-"pos": 49,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 1,
-"silver": 0,
-"bronze": 0
-},
-{
-"division": "Master Nogi",
-"pos": 33,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 0,
-"silver": 1,
-"bronze": 0
-},
-{
-"division": "Juvenil Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 6,
-"silver": 1,
-"bronze": 3
-},
-{
-"division": "Juvenil Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 6,
-"silver": 3,
-"bronze": 0
-},
-{
-"division": "Kids Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 9,
-"silver": 10,
-"bronze": 7
-},
-{
-"division": "Kids Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 15,
-"silver": 10,
-"bronze": 2
-}
-],
+"teams": [],
 "medals": [
 {
 "place": 1,
@@ -3484,7 +3220,7 @@
 },
 {
 "place": 3,
-"athlete": "GABRIEL DO NASCIMENTO FEITOZA",
+"athlete": "Gabriel do Nascimento Feitoza",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "masc",
 "gi_nogi": "gi",
@@ -3594,7 +3330,7 @@
 },
 {
 "place": 3,
-"athlete": "ISABELA BRITO CAVALCANTI",
+"athlete": "Isabela Brito Cavalcanti",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "fem",
 "gi_nogi": "gi",
@@ -3627,7 +3363,7 @@
 },
 {
 "place": 3,
-"athlete": "SAMIRA BRITO CAVALCANTI",
+"athlete": "Samira Brito Cavalcanti",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "fem",
 "gi_nogi": "gi",
@@ -3704,7 +3440,7 @@
 },
 {
 "place": 2,
-"athlete": "JULIANA ALVES RIBEIRO",
+"athlete": "Juliana Alves Ribeiro",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "fem",
 "gi_nogi": "gi",
@@ -3715,7 +3451,7 @@
 },
 {
 "place": 2,
-"athlete": "CATARINA SANTANA VALERIO",
+"athlete": "Catarina Santana Valerio",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "fem",
 "gi_nogi": "nogi",
@@ -3726,7 +3462,7 @@
 },
 {
 "place": 2,
-"athlete": "CATARINA SANTANA VALERIO",
+"athlete": "Catarina Santana Valerio",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "fem",
 "gi_nogi": "gi",
@@ -3847,7 +3583,7 @@
 },
 {
 "place": 1,
-"athlete": "SAMIRA BRITO CAVALCANTI",
+"athlete": "Samira Brito Cavalcanti",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "fem",
 "gi_nogi": "nogi",
@@ -4023,7 +3759,7 @@
 },
 {
 "place": 1,
-"athlete": "ISABELA BRITO CAVALCANTI",
+"athlete": "Isabela Brito Cavalcanti",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "fem",
 "gi_nogi": "nogi",
@@ -4078,7 +3814,7 @@
 },
 {
 "place": 1,
-"athlete": "JULIANA ALVES RIBEIRO",
+"athlete": "Juliana Alves Ribeiro",
 "team": "COHAB TEAM BRAZILIAN JJ",
 "gender": "fem",
 "gi_nogi": "nogi",
@@ -4305,7 +4041,679 @@
 "city": "",
 "state": "",
 "teams": [],
-"medals": []
+"medals": [
+{
+"place": 1,
+"athlete": "MANUELLA MONTENEGRO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infantil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "Lívia Santos Soares",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Emily Satie Takaki Mizukami",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "Emily Menezes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "Beatriz Nunes Leal",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesadíssimo",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "MARIA MIZUKAMI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "MARIANA PERICO PRETI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "ISABELLA RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Extra Pesadíssimo",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "Catarina Santana Valerio",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil B",
+"belt": "Verde"
+},
+{
+"place": 2,
+"athlete": "MANUELLA MONTENEGRO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infantil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "Lívia Santos Soares",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Emily Satie Takaki Mizukami",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Emily Menezes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Super Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Beatriz Nunes Leal",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesadíssimo",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "MARIA MIZUKAMI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "MARIANA PERICO PRETI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "ISABELLA RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Extra Pesadíssimo",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Catarina Santana Valerio",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil B",
+"belt": "Verde"
+},
+{
+"place": 1,
+"athlete": "MARIO SANTOS",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infantil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "LUCCA SARAIVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infantil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "EDUARDO SOLIMAN",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Extra Pesadíssimo 2",
+"age": "Infantil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "ARTHUR SILVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "SAMUEL RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "RAFAEL D'OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "GUILHERME SILVA DE MATOS",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "LUCCA SARAIVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infantil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "PEDRO SARAIVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pluma",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "ARTHUR SILVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "SAMUEL RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "RAFAEL D'OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "GUILHERME SILVA DE MATOS",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Ingrid de Souza Ribeiro Galdino",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pluma",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "MICKAELLY SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 3,
+"athlete": "DEBORA MARTINS COIMBRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "GABRIELA MENESES",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 2,
+"athlete": "Beatriz Fernandes Camboim Gomes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Super Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "Ingrid de Souza Ribeiro Galdino",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pluma",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "MICKAELLY SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pena",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 2,
+"athlete": "DEBORA MARTINS COIMBRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "Beatriz Fernandes Camboim Gomes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Super Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "GUILHERME SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "MATHEUS SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 3,
+"athlete": "GUILHERME RIBEIRO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Super Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "GUILHERME SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "MATHEUS SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 2,
+"athlete": "GUILHERME RIBEIRO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 2,
+"athlete": "LIDIO SOARES",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Master 4",
+"belt": "Branca"
+},
+{
+"place": 3,
+"athlete": "ARTHUR MAFRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Adulto",
+"belt": "Azul"
+},
+{
+"place": 3,
+"athlete": "WILLIAN COSTA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesadíssimo",
+"age": "Master 1",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "MATEO VALENTIN MANSILLA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Adulto",
+"belt": "Marrom"
+},
+{
+"place": 3,
+"athlete": "GUILHERME SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Adulto",
+"belt": "Marrom"
+},
+{
+"place": 1,
+"athlete": "FERNANDO OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Master 2",
+"belt": "Marrom"
+},
+{
+"place": 1,
+"athlete": "MATEO VALENTIN MANSILLA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Adulto",
+"belt": "Marrom"
+},
+{
+"place": 2,
+"athlete": "GUILHERME SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Adulto",
+"belt": "Marrom"
+},
+{
+"place": 2,
+"athlete": "FERNANDO OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Master 1, Master 2",
+"belt": "Marrom"
+},
+{
+"place": 1,
+"athlete": "IZABELLY SILVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Adulto",
+"belt": "Azul"
+},
+{
+"place": 3,
+"athlete": "MARIA OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Adulto",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "ANTONIA CYNTHIA DOS REIS SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Master 3",
+"belt": "Preta"
+},
+{
+"place": 1,
+"athlete": "IZABELLY SILVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pena",
+"age": "Adulto",
+"belt": "Azul"
+},
+{
+"place": 3,
+"athlete": "MARIA OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Adulto",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "ANTONIA CYNTHIA DOS REIS SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Master 3, Master 4",
+"belt": "Preta"
+}
+]
 },
 "43": {
 "id": 43,
@@ -4325,7 +4733,547 @@
 "city": "",
 "state": "",
 "teams": [],
-"medals": []
+"medals": [
+{
+"place": 1,
+"athlete": "MANUELLA MONTENEGRO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infantil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "Lívia Santos Soares",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "Emily Satie Takaki Mizukami",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "Emily Menezes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "SAMIRA CAVALCANTI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "Beatriz Nunes Leal",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesadíssimo",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "MARIANA PERICO PRETI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "ISABELLA RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Extra Pesadíssimo",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "Catarina Santana Valerio",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil B",
+"belt": "Verde"
+},
+{
+"place": 1,
+"athlete": "MANUELLA MONTENEGRO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infantil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Emily Satie Takaki Mizukami",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "SAMIRA CAVALCANTI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "MARIA MIZUKAMI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "MARIANA PERICO PRETI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "ISABELLA RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Extra Pesadíssimo",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "Catarina Santana Valerio",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil B",
+"belt": "Verde"
+},
+{
+"place": 1,
+"athlete": "MATEUS SILVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Mirim",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "MIGUEL FELIX",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infantil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "MARIO SANTOS",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infantil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "PEDRO SARAIVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pluma",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "SAMUEL RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "RAFAEL D'OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "GUILHERME SILVA DE MATOS",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "ARTHUR SILVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pena",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "SAMUEL RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "RAFAEL D'OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "GUILHERME SILVA DE MATOS",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Ingrid de Souza Ribeiro Galdino",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pluma",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 2,
+"athlete": "SOPHIA RIBEIRO SANTANA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "GIOVANA FERRARI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "MICKAELLY SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "GABRIELA MENESES",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "ISABELA CAVALCANTI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 3,
+"athlete": "Beatriz Fernandes Camboim Gomes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "Ingrid de Souza Ribeiro Galdino",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pluma",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "SOPHIA RIBEIRO SANTANA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "GIOVANA FERRARI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "MICKAELLY SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pena",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "DEBORA MARTINS COIMBRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "GABRIELA MENESES",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "ISABELA CAVALCANTI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "Beatriz Fernandes Camboim Gomes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "GUILHERME SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "MATHEUS SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 3,
+"athlete": "GUILHERME RIBEIRO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Super Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "GUILHERME SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Leve",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "MATHEUS SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Médio",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 3,
+"athlete": "Gabriel do Nascimento Feitoza",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "nogi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 3,
+"athlete": "GUSTAVO MELO DE SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pluma",
+"age": "Adulto",
+"belt": "Branca"
+}
+]
 },
 "100": {
 "id": 100,
@@ -4334,48 +5282,7 @@
 "first_day": 1769774400000,
 "city": "",
 "state": "",
-"teams": [
-{
-"division": "Geral Nogi",
-"pos": 8,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 8,
-"silver": 4,
-"bronze": 11
-},
-{
-"division": "Master Nogi",
-"pos": 10,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 4,
-"silver": 0,
-"bronze": 2
-},
-{
-"division": "Adulto Nogi",
-"pos": 60,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 0,
-"silver": 1,
-"bronze": 1
-},
-{
-"division": "Juvenil Nogi",
-"pos": 5,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 1,
-"silver": 1,
-"bronze": 5
-},
-{
-"division": "Kids Nogi",
-"pos": 8,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 3,
-"silver": 2,
-"bronze": 3
-}
-],
+"teams": [],
 "medals": [
 {
 "place": 3,
@@ -4640,7 +5547,272 @@
 "city": "",
 "state": "",
 "teams": [],
-"medals": []
+"medals": [
+{
+"place": 1,
+"athlete": "MATEUS SILVA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Mirim",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "MURILO COLLA DE OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Branca"
+},
+{
+"place": 3,
+"athlete": "Arthur Antonio Mota da Silva",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "SAMUEL RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Rafael Lucena D'Oliveira",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "FERNANDO COSTA DE OLIVEIRA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Master 2",
+"belt": "Marrom"
+},
+{
+"place": 3,
+"athlete": "RODRIGO CEBALLOS TOFANO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Super Pesado",
+"age": "Master 2",
+"belt": "Preta"
+},
+{
+"place": 3,
+"athlete": "Cesar Luis da Silva",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "masc",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Master 5",
+"belt": "Preta"
+},
+{
+"place": 1,
+"athlete": "MANUELLA CAMBOIM GOMES MONTENEGRO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Infantil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "Samira Brito Cavalcanti",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil A",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "Maria Eduarda Takaki Mizukami",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 1,
+"athlete": "MARIANA PERICO PRETI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 2,
+"athlete": "ISABELLA RELVAS ESTEVAO",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Extra Pesadíssimo",
+"age": "Infanto Juvenil B",
+"belt": "Cinza, Amarela"
+},
+{
+"place": 3,
+"athlete": "Catarina Santana Valerio",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Infanto Juvenil B",
+"belt": "Verde"
+},
+{
+"place": 1,
+"athlete": "Ingrid de Souza Ribeiro Galdino",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pluma",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "SOPHIA RIBEIRO SANTANA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 3,
+"athlete": "GIOVANA FERRARI",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Juvenil",
+"belt": "Branca"
+},
+{
+"place": 1,
+"athlete": "Mickaelly Ferreira de Souza",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "Gabriela Arroio Meneses",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 1,
+"athlete": "Isabela Brito Cavalcanti",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Meio Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 2,
+"athlete": "Beatriz Fernandes Camboim Gomes",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pesado",
+"age": "Juvenil",
+"belt": "Azul"
+},
+{
+"place": 2,
+"athlete": "PATRICIA BARBOSA DE SOUSA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Pena",
+"age": "Adulto",
+"belt": "Preta"
+},
+{
+"place": 1,
+"athlete": "ANTONIA CYNTHIA DOS REIS SOUZA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Médio",
+"age": "Master 3",
+"belt": "Preta"
+},
+{
+"place": 1,
+"athlete": "TATIANE ALVES DA MOTA",
+"team": "COHAB TEAM BRAZILIAN JJ",
+"gender": "fem",
+"gi_nogi": "gi",
+"absolute": false,
+"weight": "Leve",
+"age": "Master 5",
+"belt": "Azul"
+}
+]
 },
 "94": {
 "id": 94,
@@ -4649,80 +5821,7 @@
 "first_day": 1792758600000,
 "city": "São Paulo",
 "state": "SP",
-"teams": [
-{
-"division": "Geral",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 32,
-"silver": 13,
-"bronze": 16
-},
-{
-"division": "Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 14,
-"silver": 7,
-"bronze": 13
-},
-{
-"division": "Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 18,
-"silver": 6,
-"bronze": 3
-},
-{
-"division": "Master Gi",
-"pos": 3,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 5,
-"silver": 3,
-"bronze": 4
-},
-{
-"division": "Master Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 8,
-"silver": 0,
-"bronze": 3
-},
-{
-"division": "Juvenil Gi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 3,
-"silver": 2,
-"bronze": 2
-},
-{
-"division": "Juvenil Nogi",
-"pos": 1,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 4,
-"silver": 1,
-"bronze": 0
-},
-{
-"division": "Kids Gi",
-"pos": 3,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 6,
-"silver": 2,
-"bronze": 7
-},
-{
-"division": "Kids Nogi",
-"pos": 2,
-"team": "COHAB TEAM BRAZILIAN JJ",
-"gold": 12,
-"silver": 7,
-"bronze": 7
-}
-],
+"teams": [],
 "medals": [
 {
 "place": 3,

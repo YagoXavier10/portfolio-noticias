@@ -1,5 +1,18 @@
 [
 {
+"id": 33598,
+"title": "ADCC Brazilian Nationals - São José dos Campos",
+"cover_image": "https://smoothcomp.com/pictures/t/9783110-4o48/adcc-brazilian-nationals-sao-jose-dos-campos-2026.jpg",
+"start_date": "2026-11-07T12:00:00+00:00",
+"city": "SÃO JOSÉ DOS CAMPOS",
+"medals": {
+"gold": 0,
+"silver": 0,
+"bronze": 0
+},
+"wins": 2
+},
+{
 "id": 31448,
 "title": "Seletiva Nacional GAMMA Brasil 2026",
 "cover_image": "https://smoothcomp.com/pictures/t/9834913-gsu1/seletiva-nacional-gamma-brasil-2026.jpg",
